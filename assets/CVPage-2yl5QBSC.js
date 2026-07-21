@@ -77,17 +77,17 @@ const D = c.forwardRef(({
 D.displayName = "CardFooter";
 const n = "https://ibrahimkayyis.github.io",
     R = [{
-        label: "Experience",
-        stat: m[3]
-    }, {
-        label: "Users Reached",
+        label: "GPA",
         stat: m[0]
     }, {
-        label: "Production Releases",
+        label: "Certifications",
         stat: m[1]
     }, {
-        label: "PRs Reviewed",
-        stat: m[5]
+        label: "Internship",
+        stat: m[2]
+    }, {
+        label: "Platforms",
+        stat: m[3]
     }],
     E = () => {
         const {
