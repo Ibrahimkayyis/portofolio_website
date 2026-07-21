@@ -23,7 +23,7 @@ import "./SectionHeader-DxtSrYkL.js";
 import "./layers-eW4bPV4A.js";
 import "./arrow-up-right-DTBoS46a.js";
 const t = "https://ibrahimkayyis.github.io/case-studies/",
-    a = "In-depth case studies on shipped mobile products — the problem, the architecture, the performance work, and the results. Starting with [Perusahaan Anda], an EdTech app used by 5M+ learners.";
+    a = "In-depth case studies on shipped mobile applications — architecture, performance, offline-first sync, and machine learning models for MyHalaqoh, LensaKulitku, OurStory, Report, and EventApp.";
 
 function C() {
     const {

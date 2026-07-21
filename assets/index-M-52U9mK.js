@@ -10671,10 +10671,10 @@ function by({
         "aria-label": "Ibrahim Kayyis — home",
         children: [i.jsx("span", {
             className: "grid h-8 w-8 place-items-center bg-primary text-primary-foreground font-heading text-base font-medium rounded-lg transition-all duration-300 group-hover:-translate-y-0.5 group-hover:shadow-[0_4px_16px_-2px_hsl(var(--primary)/0.5)]",
-            children: "A"
+            children: "IK"
         }), i.jsx("span", {
             className: "font-heading font-medium text-lg leading-none tracking-tight",
-            children: "saed"
+            children: "kayyis"
         })]
     })
 }
@@ -10729,17 +10729,7 @@ function yy({
                 })
             }), i.jsxs("div", {
                 className: "flex items-center gap-1.5 ml-auto lg:ml-0",
-                children: [i.jsxs("button", {
-                    type: "button",
-                    onClick: () => d("header_desktop"),
-                    className: "hidden lg:flex items-center gap-1.5 whitespace-nowrap rounded-full border border-primary/40 bg-primary/5 px-4 py-1.5 text-sm font-medium text-primary transition-all duration-300 hover:border-primary hover:bg-primary/15 hover:shadow-[0_4px_16px_-4px_hsl(var(--primary)/0.5)]",
-                    children: [i.jsx(Xn, {
-                        className: "h-3.5 w-3.5"
-                    }), "Book a call"]
-                }), i.jsx("span", {
-                    className: "hidden xl:block h-5 w-px bg-border mx-1",
-                    "aria-hidden": "true"
-                }), i.jsx(Ze, {
+                children: [i.jsx(Ze, {
                     variant: "ghost",
                     size: "icon",
                     asChild: !0,
@@ -10841,19 +10831,6 @@ function yy({
                                     }), i.jsx("span", {
                                         className: "font-heading text-xl",
                                         children: "CV"
-                                    })]
-                                })
-                            }), i.jsx(Da, {
-                                asChild: !0,
-                                children: i.jsxs("button", {
-                                    type: "button",
-                                    onClick: () => d("header_mobile"),
-                                    className: "group mt-4 flex items-center justify-center gap-2 rounded-full border border-primary/40 py-3 text-primary transition-colors hover:border-primary hover:bg-primary/10",
-                                    children: [i.jsx(Xn, {
-                                        className: "h-4 w-4"
-                                    }), i.jsx("span", {
-                                        className: "font-heading text-xl",
-                                        children: "Book a call"
                                     })]
                                 })
                             })]
