@@ -12122,7 +12122,7 @@ function Ky() {
                                 children: uy.label
                             }), i.jsx("span", {
                                 className: "text-xs text-emerald-700/70 dark:text-emerald-300/60 hidden sm:inline",
-                                children: "Full-time · Fractional · Contract"
+                                children: "Full-time · Intern · Contract"
                             })]
                         }), i.jsx("p", {
                             className: "kicker text-primary mb-5 opacity-0 animate-fade-in",
@@ -12131,7 +12131,7 @@ function Ky() {
                             },
                             children: Ve.subtitle
                         }), i.jsxs("h1", {
-                            className: "font-heading font-extrabold uppercase leading-[0.88] tracking-[-0.02em] text-[clamp(2.5rem,8vw,5.5rem)] opacity-0 animate-reveal-clip text-balance",
+                            className: "font-heading font-extrabold uppercase leading-[0.88] tracking-[-0.02em] text-[clamp(3.2rem,10vw,6.5rem)] opacity-0 animate-reveal-clip text-balance",
                             style: {
                                 animationDelay: "0.25s"
                             },
@@ -12391,16 +12391,8 @@ function Ky() {
                                             className: "h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse shrink-0"
                                         }), i.jsxs("span", {
                                             className: "text-sm text-muted-foreground truncate",
-                                            children: [Ve.currentTitle, i.jsx("span", {
-                                                className: "text-muted-foreground/50",
-                                                children: " @ "
-                                            }), i.jsx("a", {
-                                                href: Ve.companyUrl,
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "text-foreground hover:text-primary transition-colors",
-                                                children: Ve.company
-                                            })]
+                                            children: Ve.currentTitle
+                                        })]
                                         })]
                                     })]
                                 })]

@@ -1,4 +1,2 @@
-import React from 'react';
-export default function DummyComponent() {
-  return null;
-}
+// Stub module - page not available in downloaded build
+export default function() { return null; }
