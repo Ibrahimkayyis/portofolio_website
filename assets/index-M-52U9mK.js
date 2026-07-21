@@ -12131,11 +12131,11 @@ function Ky() {
                             },
                             children: Ve.subtitle
                         }), i.jsxs("h1", {
-                            className: "font-heading font-extrabold uppercase leading-[0.88] tracking-[-0.02em] text-[clamp(4.2rem,13vw,8.5rem)] opacity-0 animate-reveal-clip text-balance",
+                            className: "font-heading font-extrabold uppercase leading-[0.88] tracking-[-0.02em] text-[clamp(3.2rem,9.5vw,6.5rem)] opacity-0 animate-reveal-clip text-balance",
                             style: {
                                 animationDelay: "0.25s"
                             },
-                            children: ["Mobile", " ", i.jsx("span", {
+                            children: ["Mobile", i.jsx("br", {}), i.jsx("span", {
                                 className: "text-primary",
                                 children: "Developer"
                             })]
