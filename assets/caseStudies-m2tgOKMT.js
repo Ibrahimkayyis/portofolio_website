@@ -82,22 +82,47 @@ const c = ["my-halaqoh", "lensa-kulitku", "our-story", "detectify"],
 - **ID Strategy**: Deterministic client keys ({halaqohId}_{timestampMs}_{sesi}) guarantee stability across offline/online states.
 - **Push Notifications**: Firestore writes trigger Firebase Cloud Functions (sendAbsensiNotification & sendHafalanNotification) to dispatch FCM push notifications to parents.
 `,
-        architecture: `\`\`\`dart
-// Presentation -> Domain -> Data Layer flow
-class HafalanRepositoryImpl implements HafalanRepository {
-  final HafalanLocalDataSource localDataSource;
-  final HafalanRemoteDataSource remoteDataSource;
+        architecture: `MyHalaqoh follows **Clean Architecture** principles with three distinct layers per feature module (Presentation, Domain, Data):
 
-  @override
-  Future<Either<Failure, Unit>> submitHafalan(HafalanModel record) async {
-    await localDataSource.saveHafalan(record);
-    if (await networkInfo.isConnected) {
-      await remoteDataSource.syncHafalan(record);
+![Clean Architecture Layers](/project-images/architecture_my_halaqoh.png)
+
+### Code Structure & Data Flow
+
+    // Data Layer: Repository implementation handling local Hive cache & Firestore remote sync
+    class HafalanRepositoryImpl implements HafalanRepository {
+      final HafalanLocalDataSource localDataSource;
+      final HafalanRemoteDataSource remoteDataSource;
+      final NetworkInfo networkInfo;
+
+      HafalanRepositoryImpl({
+        required this.localDataSource,
+        required this.remoteDataSource,
+        required this.networkInfo,
+      });
+
+      @override
+      Future<Either<Failure, Unit>> submitHafalan(HafalanModel record) async {
+        try {
+          // 1. Instant local write to Hive NoSQL box
+          await localDataSource.saveHafalan(record.copyWith(isSynced: false));
+
+          // 2. Async push to Firestore if online
+          if (await networkInfo.isConnected) {
+            await remoteDataSource.syncHafalan(record);
+            await localDataSource.markSynced(record.id);
+          }
+          return right(unit);
+        } catch (e) {
+          return left(CacheFailure());
+        }
+      }
     }
-    return right(unit);
-  }
-}
-\`\`\``,
+
+### Key Modules & Tech Stack
+- **Framework & State**: Flutter 3.35.4, Dart ^3.9.2, flutter_bloc (Cubit), freezed, get_it DI, dartz (Either).
+- **Backend & Offline**: Firebase Firestore, Firebase Auth, FCM, hive_flutter (8 TypeAdapters), connectivity_plus.
+- **UI & i18n**: flutter_screenutil (360x690 base), google_fonts (Poppins), mobile_scanner, slang (type-safe i18n).
+`,
         performance: `Offline writes execute instantaneously (<5ms) to Hive cache. Background sync reconciles records with Firestore within 1.2s of network reconnection.`,
         results: `Adopted for daily Qur'an memorization tracking, handling multi-session attendance across 5 daily prayer times with 100% data preservation during offline operation.`,
         lessons: `Building an offline-first architecture with Hive + Firestore requires strict local-first state mutation rules to ensure zero data loss when multiple sessions write concurrently.`
