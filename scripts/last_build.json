@@ -1,0 +1,23 @@
+{
+  "name": "Ibrahim Kayyis",
+  "firstName": "Ibrahim",
+  "title": "Mobile Developer (Flutter)",
+  "location": "Indonesia",
+  "countryCode": "ID",
+  "email": "your.email@example.com",
+  "language": "Indonesian",
+  "socials": {
+    "github": "https://github.com/Ibrahimkayyis",
+    "githubUsername": "Ibrahimkayyis",
+    "linkedin": "https://www.linkedin.com/in/ibrahimkayyis",
+    "linkedinUsername": "ibrahimkayyis",
+    "twitterUsername": "Ibrahimkayyis",
+    "youtube": "https://www.youtube.com/@Ibrahimkayyis",
+    "youtubeUsername": "Ibrahimkayyis",
+    "stackoverflow": "https://stackoverflow.com/users/1234567/ibrahim-kayyis",
+    "pubdev": "https://pub.dev/publishers/ibrahimkayyis.dev/packages"
+  },
+  "currentCompany": "[Perusahaan Anda]",
+  "currentCompanyUrl": "https://example.com",
+  "domain": "ibrahimkayyis.github.io"
+}
