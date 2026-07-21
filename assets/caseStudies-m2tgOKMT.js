@@ -73,23 +73,7 @@ const c = ["my-halaqoh", "lensa-kulitku", "our-story", "detectify"],
 
 ### Offline-First Sync Flow Architecture
 
-Attendance (Absensi) and memorization (Hafalan) data follow an offline-first write strategy:
-
-    Guru Input ---> Write to Hive ---> Hive Local Box (isSynced: false)
-                                               |
-                                           Is Online?
-                                          /         |
-                                     (Yes)          (No)
-                                      /             |
-                                     v              v
-                              Firestore       Sync Queue
-                                     |              |
-                                     |              | Auto-sync when online
-                                     v              v
-                              Mark Synced (isSynced: true)
-                                             |
-                                             v (Cloud Function Trigger)
-                              FCM Push to Wali Santri
+![Offline-First Sync Flow Architecture](/project-images/offline_first_sync_myhalaqoh.png)
 
 **Key Sync Mechanics:**
 - **Write Path**: Instant save to local Hive box (<5ms UI response) -> async background push to Firestore.
