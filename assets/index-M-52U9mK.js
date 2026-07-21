@@ -12131,7 +12131,7 @@ function Ky() {
                             },
                             children: Ve.subtitle
                         }), i.jsxs("h1", {
-                            className: "font-heading font-extrabold uppercase leading-[0.88] tracking-[-0.02em] text-[clamp(3.2rem,10vw,6.5rem)] opacity-0 animate-reveal-clip text-balance",
+                            className: "font-heading font-extrabold uppercase leading-[0.88] tracking-[-0.02em] text-[clamp(4.2rem,13vw,8.5rem)] opacity-0 animate-reveal-clip text-balance",
                             style: {
                                 animationDelay: "0.25s"
                             },
@@ -12178,11 +12178,9 @@ function Ky() {
                             },
                             children: [i.jsxs("div", {
                                 className: "flex flex-wrap gap-3",
-                                children: [i.jsxs(Ze, {
-                                    variant: "hero",
-                                    size: "lg",
-                                    onClick: v,
-                                    className: "group",
+                                children: [i.jsxs("a", {
+                                    href: "mailto:kaykid369@gmail.com",
+                                    className: "inline-flex items-center gap-1.5 bg-primary text-primary-foreground font-medium px-6 py-3 rounded-full hover:opacity-90 transition-opacity",
                                     children: ["Book a 20-min call", i.jsx(Yn, {
                                         className: "ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5"
                                     })]
@@ -12191,12 +12189,9 @@ function Ky() {
                                     size: "lg",
                                     asChild: !0,
                                     className: "group",
-                                    children: i.jsxs(Pt, {
-                                        to: "/case-studies/",
-                                        onClick: () => n == null ? void 0 : n.capture("case_studies_cta_clicked", {
-                                            source: "hero"
-                                        }),
-                                        children: ["View Case Studies", i.jsx(Yn, {
+                                    children: i.jsxs("a", {
+                                        href: "#projects",
+                                        children: ["View Projects & Case Studies", i.jsx(Yn, {
                                             className: "ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5"
                                         })]
                                     })
@@ -12205,18 +12200,17 @@ function Ky() {
                                     size: "lg",
                                     asChild: !0,
                                     className: "group border border-border",
-                                    children: i.jsxs(Pt, {
-                                        to: "/CV",
-                                        onClick: () => n == null ? void 0 : n.capture("cv_clicked", {
-                                            source: "hero"
-                                        }),
+                                    children: i.jsxs("a", {
+                                        href: "/CV/Ibrahim_Kayyis_cv_flutter.pdf",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
                                         children: [i.jsx(Oo, {
                                             className: "h-4 w-4"
                                         }), "CV / Resume"]
                                     })
                                 })]
-                            }), i.jsxs(Pt, {
-                                to: "/hire",
+                            }), i.jsxs("a", {
+                                href: "#work-with-me",
                                 onClick: () => n == null ? void 0 : n.capture("hire_cta_clicked", {
                                     source: "hero"
                                 }),
