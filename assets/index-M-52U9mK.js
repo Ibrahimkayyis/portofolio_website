@@ -10053,15 +10053,15 @@ async function On(e) {
 }
 const Ve = {
         name: "Ibrahim Kayyis",
-        role: "Senior Mobile Engineer",
-        currentTitle: "Lead Mobile Engineer",
-        subtitle: "Mobile Architecture · Platform · Scale",
-        company: "[Perusahaan Anda]",
-        companyUrl: "https://example.com/en",
-        location: "Indonesia / Remote",
-        email: "your.email@example.com",
-        avatarUrl: "https://avatars.githubusercontent.com/u/33700292?v=4",
-        tagline: "I own mobile architecture, release governance, and delivery for a 5M-user app — leading a squad across a 50+ module Flutter codebase. 7 years building production iOS & Android, from offline-first data to release engineering."
+        role: "Mobile Developer",
+        currentTitle: "Mobile Developer (Flutter)",
+        subtitle: "Flutter · Clean Architecture · BLoC",
+        company: "PT Neural Technologies Indonesia",
+        companyUrl: "https://neuraltechnologies.id",
+        location: "Surabaya, Indonesia",
+        email: "kaykid369@gmail.com",
+        avatarUrl: "/avatar.png",
+        tagline: "Information Systems student specializing in Flutter & Dart — building production apps with Clean Architecture, BLoC state management, and REST API integration. Open to internship and entry-level Flutter roles."
     },
     uy = {
         status: "open",
@@ -10107,31 +10107,25 @@ const Ve = {
         linkedin: "https://www.linkedin.com/in/ibrahimkayyis/",
         linkedinRecommendations: "https://www.linkedin.com/in/ibrahimkayyis/details/recommendations/",
         youtube: "https://www.youtube.com/@Ibrahimkayyis",
-        stackoverflow: "https://stackoverflow.com/users/11001850/abdelrahman-saed",
-        pubdev: "https://pub.dev/publishers/ibrahimkayyis.github.io/packages",
-        cv: "https://ibrahimkayyis.github.io/CV/cv.pdf",
-        email: "mailto:your.email@example.com",
-        calendly: "https://calendly.com/bnsaed/meet"
+        stackoverflow: "https://stackoverflow.com/users/1234567/ibrahim-kayyis",
+        pubdev: "https://pub.dev/publishers/ibrahimkayyis.dev/packages",
+        cv: "/CV/Ibrahim_Kayyis_cv_flutter.pdf",
+        email: "mailto:kaykid369@gmail.com",
+        calendly: "https://calendly.com/ibrahimkayyis/meet"
     },
     Iv = ["I build mobile systems that hold at scale. 7 years shipping production iOS and Android to 5M+ users — and the throughline is always the same: architecture that doesn't rot under growth, releases that ship on schedule, and teams that get sharper every sprint.", "Today I lead a 4-engineer mobile squad at [Perusahaan Anda]. I own the architecture, the release pipeline, and the engineering culture. We cut our release cycle from four weeks to one, held a 99.9% crash-free rate across 350+ releases, and built a platform where four engineers out-ship teams twice their size.", "What I care about: making the right thing the default. Offline-first reads so no learner stares at a spinner. Failures as values so the app never crashes on an error path. Feature flags so deploy and release are separate decisions. The technology is the easy part — the hard part is building systems and teams where good decisions compound instead of decay."],
     La = [{
-        value: "5M+",
-        label: "Users reached"
+        value: "3.85",
+        label: "GPA / 4.00"
     }, {
-        value: "350+",
-        label: "Production releases"
+        value: "9+",
+        label: "Certifications earned"
     }, {
-        value: "99.9%",
-        label: "Crash-free rate"
+        value: "5 Mo",
+        label: "Flutter internship"
     }, {
-        value: "7+",
-        label: "Years shipping mobile"
-    }, {
-        value: "7+",
-        label: "Open-source packages"
-    }, {
-        value: "900+",
-        label: "PRs reviewed"
+        value: "2",
+        label: "Platforms mastered"
     }],
     Dv = [{
         role: "Lead Mobile Engineer",
@@ -14086,10 +14080,10 @@ const Hw = c.lazy(() => ce(() =>
             className: "min-h-screen bg-background",
             children: [i.jsxs(Yg, {
                 children: [i.jsx("title", {
-                    children: "Ibrahim Kayyis | Senior Mobile Engineer (Flutter)"
+                    children: "Ibrahim Kayyis | Mobile Developer (Flutter)"
                 }), i.jsx("meta", {
                     name: "description",
-                    content: "Senior Mobile Engineer (Flutter) — 7 years shipping iOS & Android apps to 5M+ users. Owns mobile architecture, offline-first systems, and release engineering."
+                    content: "Mobile Developer specializing in Flutter & Dart — building production apps with Clean Architecture, BLoC state management, and REST API integration. Open to internship and entry-level Flutter roles."
                 }), i.jsx("link", {
                     rel: "canonical",
                     href: "https://ibrahimkayyis.github.io/"
@@ -14101,10 +14095,10 @@ const Hw = c.lazy(() => ce(() =>
                     content: "https://ibrahimkayyis.github.io/"
                 }), i.jsx("meta", {
                     property: "og:title",
-                    content: "Ibrahim Kayyis | Senior Mobile Engineer (Flutter)"
+                    content: "Ibrahim Kayyis | Mobile Developer (Flutter)"
                 }), i.jsx("meta", {
                     property: "og:description",
-                    content: "Senior Mobile Engineer (Flutter) — 7 years shipping iOS & Android apps to 5M+ users. Owns mobile architecture, offline-first systems, and release engineering."
+                    content: "Mobile Developer specializing in Flutter & Dart — building production apps with Clean Architecture, BLoC state management, and REST API integration."
                 }), i.jsx("meta", {
                     property: "og:image",
                     content: "https://ibrahimkayyis.github.io/og.png"
@@ -14116,7 +14110,7 @@ const Hw = c.lazy(() => ce(() =>
                     content: "630"
                 }), i.jsx("meta", {
                     property: "og:image:alt",
-                    content: "Ibrahim Kayyis — Senior Mobile Engineer & Architect (Flutter). 5M+ users, 99.9% crash-free, 350+ releases."
+                    content: "Ibrahim Kayyis — Mobile Developer (Flutter). GPA 3.85, 9+ Certifications, Flutter Intern at PT Neural Technologies."
                 }), i.jsx("meta", {
                     property: "og:site_name",
                     content: "Ibrahim Kayyis Portfolio"
@@ -14128,16 +14122,16 @@ const Hw = c.lazy(() => ce(() =>
                     content: "https://ibrahimkayyis.github.io/"
                 }), i.jsx("meta", {
                     name: "twitter:title",
-                    content: "Ibrahim Kayyis | Senior Mobile Engineer (Flutter)"
+                    content: "Ibrahim Kayyis | Mobile Developer (Flutter)"
                 }), i.jsx("meta", {
                     name: "twitter:description",
-                    content: "Senior Mobile Engineer & Flutter architect — 7 years shipping production iOS & Android apps to 5M+ users. Available for hire — full-time, fractional, contract, or advisory."
+                    content: "Mobile Developer & Flutter specialist — building production apps with Clean Architecture, BLoC, and REST API integration. Open to internship and entry-level roles."
                 }), i.jsx("meta", {
                     name: "twitter:image",
                     content: "https://ibrahimkayyis.github.io/og.png"
                 }), i.jsx("meta", {
                     name: "twitter:image:alt",
-                    content: "Ibrahim Kayyis — Senior Mobile Engineer & Architect (Flutter). 5M+ users, 99.9% crash-free, 350+ releases."
+                    content: "Ibrahim Kayyis — Mobile Developer (Flutter). GPA 3.85, 9+ Certifications, Flutter Intern at PT Neural Technologies."
                 })]
             }), i.jsx(tw, {}), i.jsx(yy, {
                 theme: e,
@@ -17866,7 +17860,7 @@ const Xd = "Ibrahim Kayyis",
             addressCountry: "ID"
         },
         knowsLanguage: ["English", "Indonesian"],
-        sameAs: ["https://github.com/Ibrahimkayyis", "https://www.linkedin.com/in/ibrahimkayyis/", "https://www.youtube.com/@Ibrahimkayyis", "https://stackoverflow.com/users/11001850/abdelrahman-saed", "https://pub.dev/publishers/ibrahimkayyis.github.io/packages"]
+        sameAs: ["https://github.com/Ibrahimkayyis", "https://www.linkedin.com/in/ibrahimkayyis/", "https://www.youtube.com/@Ibrahimkayyis", "https://stackoverflow.com/users/1234567/ibrahim-kayyis", "https://pub.dev/publishers/ibrahimkayyis.dev/packages"]
     },
     av = {
         "@type": "Organization",
@@ -17879,7 +17873,7 @@ const Xd = "Ibrahim Kayyis",
             width: 512,
             height: 512
         },
-        sameAs: ["https://github.com/Ibrahimkayyis", "https://www.linkedin.com/in/ibrahimkayyis/", "https://www.youtube.com/@Ibrahimkayyis", "https://stackoverflow.com/users/11001850/abdelrahman-saed", "https://pub.dev/publishers/ibrahimkayyis.github.io/packages"]
+        sameAs: ["https://github.com/Ibrahimkayyis", "https://www.linkedin.com/in/ibrahimkayyis/", "https://www.youtube.com/@Ibrahimkayyis", "https://stackoverflow.com/users/1234567/ibrahim-kayyis", "https://pub.dev/publishers/ibrahimkayyis.dev/packages"]
     },
     _i = {
         Flutter: "https://www.wikidata.org/wiki/Q39072787",

@@ -2,9 +2,9 @@
   "name": "Ibrahim Kayyis",
   "firstName": "Ibrahim",
   "title": "Mobile Developer (Flutter)",
-  "location": "Indonesia",
+  "location": "Surabaya, Indonesia",
   "countryCode": "ID",
-  "email": "your.email@example.com",
+  "email": "kaykid369@gmail.com",
   "language": "Indonesian",
   "socials": {
     "github": "https://github.com/Ibrahimkayyis",
@@ -17,7 +17,7 @@
     "stackoverflow": "https://stackoverflow.com/users/1234567/ibrahim-kayyis",
     "pubdev": "https://pub.dev/publishers/ibrahimkayyis.dev/packages"
   },
-  "currentCompany": "[Perusahaan Anda]",
-  "currentCompanyUrl": "https://example.com",
+  "currentCompany": "PT Neural Technologies Indonesia",
+  "currentCompanyUrl": "https://neuraltechnologies.id",
   "domain": "ibrahimkayyis.github.io"
 }

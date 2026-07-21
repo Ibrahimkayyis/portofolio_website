@@ -11,9 +11,9 @@ export const portfolioData = {
   name: "Ibrahim Kayyis",
   firstName: "Ibrahim",
   title: "Mobile Developer (Flutter)",
-  location: "Indonesia",
-  countryCode: "ID", // e.g. ID, EG, US
-  email: "your.email@example.com",
+  location: "Surabaya, Indonesia",
+  countryCode: "ID",
+  email: "kaykid369@gmail.com",
   language: "Indonesian",
   
   // Social media handles and links
@@ -30,8 +30,8 @@ export const portfolioData = {
   },
   
   // Professional details
-  currentCompany: "[Perusahaan Anda]",
-  currentCompanyUrl: "https://example.com",
+  currentCompany: "PT Neural Technologies Indonesia",
+  currentCompanyUrl: "https://neuraltechnologies.id",
   
   // Domain config (where you deploy your website)
   domain: "ibrahimkayyis.github.io"
