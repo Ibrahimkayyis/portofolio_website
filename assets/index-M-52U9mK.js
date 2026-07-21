@@ -12178,13 +12178,7 @@ function Ky() {
                             },
                             children: [i.jsxs("div", {
                                 className: "flex flex-wrap gap-3",
-                                children: [i.jsxs("a", {
-                                    href: "mailto:kaykid369@gmail.com",
-                                    className: "inline-flex items-center gap-1.5 bg-primary text-primary-foreground font-medium px-6 py-3 rounded-full hover:opacity-90 transition-opacity",
-                                    children: ["Book a 20-min call", i.jsx(Yn, {
-                                        className: "ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5"
-                                    })]
-                                }), i.jsx(Ze, {
+                                children: [i.jsx(Ze, {
                                     variant: "heroOutline",
                                     size: "lg",
                                     asChild: !0,
