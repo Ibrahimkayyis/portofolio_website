@@ -3960,7 +3960,7 @@ calc\(100vw-2rem\)\)\] {
 .text-\[clamp\(2\.5rem\,
 8vw\,
 5\.5rem\)\] {
-    font-size: clamp(4.5rem, 14vw, 10.5rem)
+    font-size: clamp(3.2rem, 8vw, 5.8rem)
 }
 
 .text-base {
