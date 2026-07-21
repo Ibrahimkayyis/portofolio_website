@@ -3,7 +3,7 @@ import {
     q as t
 } from "./index-M-52U9mK.js";
 
-const c = ["my-halaqoh", "lensa-kulitku", "our-story", "report-system", "event-app"],
+const c = ["my-halaqoh", "lensa-kulitku", "our-story", "detectify"],
     r = "https://ibrahimkayyis.github.io",
     h = "https://avatars.githubusercontent.com/u/33700292?v=4&s=512",
     g = [{
@@ -36,7 +36,7 @@ const c = ["my-halaqoh", "lensa-kulitku", "our-story", "report-system", "event-a
         date: "2026-06-15",
         readTime: "6 min read",
         tags: ["Flutter", "Dart", "Clean Architecture", "Cubit / BLoC", "Hive", "Firestore"],
-        heroImage: "/project-images/my_halaqoh.webp",
+        heroImage: "/project-images/my_halaqoh.png",
         role: "Lead Mobile Developer",
         timeline: "2024 — Present",
         platforms: ["Android", "iOS"],
@@ -233,53 +233,6 @@ class ReportRemoteDataSource {
         performance: `Compressed image payloads reduce upload bandwidth consumption by up to 60%.`,
         results: `Provides an efficient, transparent mobile interface for issue tracking and status monitoring.`,
         lessons: `Using Dio interceptors simplifies auth token refreshes and error handling across multipart upload requests.`
-    }, {
-        slug: "event-app",
-        title: "EventApp — Event Discovery & Reminder System",
-        subtitle: "Seamless event discovery, bookmarking, and background notification reminders",
-        description: "Native Android app for discovering upcoming and past events, bookmarking favorites, and scheduling background reminders via WorkManager and system notifications.",
-        date: "2026-02-15",
-        readTime: "4 min read",
-        tags: ["Kotlin", "Android Native", "MVVM", "WorkManager", "LiveData", "Retrofit"],
-        heroImage: "/project-images/event_app.webp",
-        role: "Android Developer",
-        timeline: "2024",
-        platforms: ["Android"],
-        links: [{
-            label: "View Repository on GitHub",
-            url: "https://github.com/Ibrahimkayyis/EventApp"
-        }],
-        metrics: [{
-            value: "WorkManager",
-            label: "Background Jobs"
-        }, {
-            value: "MVVM",
-            label: "LiveData Arc"
-        }, {
-            value: "Retrofit",
-            label: "REST Integration"
-        }],
-        problem: `Users frequently miss community and educational events due to lack of background reminders and fragmented event discovery platforms.`,
-        constraints: `- **Background Scheduling**: Executing notification tasks reliably across Android OS battery optimization rules.
-- **Offline Bookmarking**: Saving favorite events locally so users can review details offline.`,
-        solution: `Built in **Kotlin Native** using **MVVM Architecture**, **LiveData**, **Retrofit**, and **WorkManager**.
-
-Features:
-- **Upcoming & Past Event Tabbed Interface**: Filter events by status, category, and date.
-- **Event Bookmarking**: Save events locally for quick offline access.
-- **WorkManager Reminders**: Daily background notification checks for upcoming bookmarked events.`,
-        architecture: `\`\`\`kotlin
-// WorkManager Periodic Event Reminder
-class EventReminderWorker(context: Context, params: WorkerParameters) : CoroutineWorker(context, params) {
-    override suspend fun doWork(): Result {
-        showUpcomingEventNotification()
-        return Result.success()
-    }
-}
-\`\`\``,
-        performance: `WorkManager executes scheduled tasks with minimal battery footprint (<1% daily background usage).`,
-        results: `Delivered a smooth event browsing and reminder experience with offline bookmarking support.`,
-        lessons: `Using WorkManager ensures reliable background notification triggers regardless of Android app standby states.`
     }];
 
 function m(e) {
