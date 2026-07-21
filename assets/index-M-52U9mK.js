@@ -12189,9 +12189,9 @@ function Ky() {
                                     size: "lg",
                                     asChild: !0,
                                     className: "group",
-                                    children: i.jsxs("a", {
-                                        href: "#projects",
-                                        children: ["View Projects & Case Studies", i.jsx(Yn, {
+                                    children: i.jsxs(Pt, {
+                                        to: "/case-studies",
+                                        children: ["View Case Studies", i.jsx(Yn, {
                                             className: "ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5"
                                         })]
                                     })
@@ -12200,20 +12200,15 @@ function Ky() {
                                     size: "lg",
                                     asChild: !0,
                                     className: "group border border-border",
-                                    children: i.jsxs("a", {
-                                        href: "/CV/Ibrahim_Kayyis_cv_flutter.pdf",
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
+                                    children: i.jsxs(Pt, {
+                                        to: "/CV",
                                         children: [i.jsx(Oo, {
                                             className: "h-4 w-4"
                                         }), "CV / Resume"]
                                     })
                                 })]
-                            }), i.jsxs("a", {
-                                href: "#work-with-me",
-                                onClick: () => n == null ? void 0 : n.capture("hire_cta_clicked", {
-                                    source: "hero"
-                                }),
+                            }), i.jsxs(Pt, {
+                                to: "/hire",
                                 className: "group mt-4 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-primary",
                                 children: ["How we can work together", i.jsx(Yn, {
                                     className: "h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5"
