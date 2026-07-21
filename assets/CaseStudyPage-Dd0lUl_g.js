@@ -599,13 +599,13 @@ function ge() {
                             })
                         }, r.url))
                     }), t.heroImage && e.jsx("div", {
-                        className: "mt-10 grid place-items-center overflow-hidden border border-border bg-card bg-dotgrid p-8",
+                        className: "mt-10 overflow-hidden border border-border bg-card rounded-2xl shadow-md",
                         children: e.jsx("img", {
                             src: t.heroImage,
                             alt: `${t.title} — ${t.subtitle}`,
                             loading: "eager",
                             decoding: "async",
-                            className: "h-auto max-h-[320px] w-auto max-w-full object-contain"
+                            className: "w-full h-auto max-h-[650px] object-cover"
                         })
                     })]
                 }), e.jsx("div", {
