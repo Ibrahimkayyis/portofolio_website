@@ -62,12 +62,42 @@ const c = ["my-halaqoh", "lensa-kulitku", "our-story", "detectify"],
 - **Offline-First Sync**: Teachers need to record attendance and memorization progress in areas with unstable internet connectivity. Data must write locally to Hive and automatically sync with Cloud Firestore when connected.
 - **Role-Based Access Control**: Strict route guards and permissions enforced across 4 user roles (Super Admin, Admin, Guru, Wali Santri).
 - **Comprehensive Quran Metadata**: Accurate per-surah (114 surahs) and per-juz memorization tracking with kelancaran and tajwid ratings.`,
-        solution: `MyHalaqoh is built on **Clean Architecture** principles with **Cubit/BLoC** state management, separated into Presentation, Domain, and Data layers.
+        solution: `MyHalaqoh employs an **offline-first architecture** with **Clean Architecture** principles, featuring role-based dashboards for Super Admin, Admin, Guru, and Wali Santri.
 
-Core highlights:
-- **Offline-First Sync Engine**: Local Hive storage queues attendance and hafalan records with \`isSynced\` flags, resolving conflicts automatically upon network restoration.
-- **Role-Based Dashboards**: Customized UI flows for Super Admin (audit logs, impersonation), Admin (guru/santri management), Guru (attendance & hafalan input with barcode scanning), and Wali Santri (real-time progress monitoring & push notifications).
-- **Internationalization & Theme**: Type-safe bilingual support (Indonesian & English) via \`slang\` with full light/dark theme adaptability.`,
+### Key Features
+- **Super Admin**: Role impersonation for testing, complete activity audit log, full system access.
+- **Admin**: Guru & Santri profile management, Halaqoh study circle setup, Target Hafalan (SPI) semester progress indicators, user account management via Cloud Functions.
+- **Guru**: Multi-session attendance (Shubuh, Dhuha, Siang, Ashar, Maghrib) with barcode scanning, Hafalan input (surah, ayah range, juz, kelancaran & tajwid ratings), mutaba'ah progress analytics, PDF/CSV report exports.
+- **Wali Santri**: Parent overview dashboard, memorization history, per-juz & per-surah analytics, instant FCM push notifications upon attendance or hafalan submissions.
+- **Cross-Cutting**: Bilingual support (Indonesian & English via slang i18n), Dark/Light themes, responsive design via flutter_screenutil (360x690 base), and strict role-based access control.
+
+### Offline-First Sync Flow Architecture
+
+Attendance (Absensi) and memorization (Hafalan) data follow an offline-first write strategy:
+
+    Guru Input ---> Write to Hive ---> Hive Local Box (isSynced: false)
+                                               |
+                                           Is Online?
+                                          /         |
+                                     (Yes)          (No)
+                                      /             |
+                                     v              v
+                              Firestore       Sync Queue
+                                     |              |
+                                     |              | Auto-sync when online
+                                     v              v
+                              Mark Synced (isSynced: true)
+                                             |
+                                             v (Cloud Function Trigger)
+                              FCM Push to Wali Santri
+
+**Key Sync Mechanics:**
+- **Write Path**: Instant save to local Hive box (<5ms UI response) -> async background push to Firestore.
+- **Read Path**: Stream directly from Hive boxes; Firestore accessed only for initial seed (seedFromRemoteIfEmpty).
+- **Sync Trigger**: connectivity_plus stream listener automatically triggers sync queue upon network restoration.
+- **ID Strategy**: Deterministic client keys ({halaqohId}_{timestampMs}_{sesi}) guarantee stability across offline/online states.
+- **Push Notifications**: Firestore writes trigger Firebase Cloud Functions (sendAbsensiNotification & sendHafalanNotification) to dispatch FCM push notifications to parents.
+`,
         architecture: `\`\`\`dart
 // Presentation -> Domain -> Data Layer flow
 class HafalanRepositoryImpl implements HafalanRepository {
