@@ -12135,9 +12135,9 @@ function Ky() {
                             style: {
                                 animationDelay: "0.25s"
                             },
-                            children: ["Senior", " ", i.jsx("span", {
+                            children: ["Mobile", " ", i.jsx("span", {
                                 className: "text-primary",
-                                children: "Mobile Engineer"
+                                children: "Developer"
                             })]
                         }), i.jsx("p", {
                             className: "mt-7 max-w-xl text-lg md:text-xl leading-relaxed text-muted-foreground text-pretty opacity-0 animate-fade-in",
@@ -12354,7 +12354,7 @@ function Ky() {
                                 children: [i.jsxs("div", {
                                     className: "relative",
                                     children: [i.jsx("img", {
-                                        src: "/avatar-256.webp",
+                                        src: "/avatar.png",
                                         alt: Ve.name,
                                         width: 256,
                                         height: 256,

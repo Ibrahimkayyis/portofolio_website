@@ -156,10 +156,6 @@ const w = i("WifiOff", [
         label: "Location",
         value: r.location
     }, {
-        label: "Company",
-        value: r.company,
-        href: r.companyUrl
-    }, {
         label: "Role",
         value: r.currentTitle
     }, {

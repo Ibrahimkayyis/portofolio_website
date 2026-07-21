@@ -721,7 +721,7 @@
     <!-- Preload LCP image for faster discovery. Same-origin WebP, matching the
          <img> in HeroSection (and the prerender fallback avatar) byte-for-byte so
          the preload is actually used. -->
-    <link rel="preload" as="image" type="image/webp" href="/avatar-256.webp" fetchpriority="high" />
+    <link rel="preload" as="image" type="image/png" href="/avatar.png" fetchpriority="high" />
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
@@ -945,7 +945,7 @@
     <div id="root">
         <div class="prerender-content" data-prerender="home">
             <div class="pr-wrap">
-                <img class="pr-avatar" src="/avatar-256.webp" alt="Ibrahim Kayyis — Senior Mobile Engineer" width="120" height="120" loading="eager" />
+                <img class="pr-avatar" src="/avatar.png" alt="Ibrahim Kayyis — Mobile Developer (Flutter)" width="120" height="120" loading="eager" />
                 <h1>Ibrahim Kayyis — Senior Mobile Engineer</h1>
                 <p class="pr-muted">Lead Mobile Engineer <a href="https://example.com/en" target="_blank" rel="noopener">@[Perusahaan Anda]</a> · Mobile Architecture · Platform · Scale — I own mobile architecture, release governance, and delivery for a 5M-user app — leading a squad
                     across a 50+ module Flutter codebase. 7 years building production iOS &amp; Android, from offline-first data to release engineering.</p>
