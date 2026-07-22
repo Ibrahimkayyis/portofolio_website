@@ -137,7 +137,7 @@ function v({
     as: i = "h3"
 }) {
     return e.jsx("div", {
-        className: "grid gap-4 sm:grid-cols-2 xl:grid-cols-4",
+        className: "grid gap-4 sm:grid-cols-3",
         children: r.engagements.map((a, t) => {
             const d = u[a.icon] ?? c;
             return e.jsxs("div", {

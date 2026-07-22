@@ -226,7 +226,7 @@ function G() {
                     })]
                 }), e.jsxs("section", {
                     "aria-labelledby": "engagements-heading",
-                    className: "mb-16",
+                    className: "mb-16 max-w-3xl",
                     children: [e.jsx("h2", {
                         id: "engagements-heading",
                         className: "sr-only",
@@ -245,17 +245,28 @@ function G() {
                         children: "Proof, not promises"
                     }), e.jsxs("p", {
                         className: "text-muted-foreground text-pretty mb-6",
-                        children: ["I have built real projects you can explore: an offline-first Flutter app for Qur'an memorization management, an AI-powered skin disease detection Android app, a geolocation-based social app, and more. Read the ", e.jsx(c, {
-                            to: "/case-studies",
-                            className: "text-primary hover:underline",
-                            children: "case studies"
-                        }), " for the full breakdown, or browse my ", e.jsx("a", {
-                            href: m.github,
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            className: "text-primary hover:underline",
-                            children: "GitHub repositories"
-                        }), " to see the code directly."]
+                        children: "I have built real projects you can explore: an offline-first Flutter app for Qur'an memorization management, an AI-powered skin disease detection Android app, a geolocation-based social app, and more."
+                    }), e.jsxs("div", {
+                        className: "flex flex-wrap gap-3 mt-4",
+                        children: [e.jsx(o, {
+                            variant: "outline",
+                            size: "sm",
+                            asChild: !0,
+                            children: e.jsx(c, {
+                                to: "/case-studies",
+                                children: "View Case Studies"
+                            })
+                        }), e.jsx(o, {
+                            variant: "outline",
+                            size: "sm",
+                            asChild: !0,
+                            children: e.jsx("a", {
+                                href: m.github,
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                children: "Browse GitHub"
+                            })
+                        })]
                     })]
                 }), e.jsxs("section", {
                     "aria-labelledby": "hire-faq-heading",
