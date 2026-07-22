@@ -10065,41 +10065,34 @@ const Ve = {
     },
     uy = {
         status: "open",
-        label: "Available for hire",
-        summary: "Open to Senior Mobile Engineering roles — full-time, fractional leadership, contract, or technical advisory. Remote worldwide, or hybrid / on-site across the Gulf & Indonesia.",
+        label: "Open to internship & entry-level roles",
+        summary: "Actively seeking internship or entry-level Flutter / Mobile Developer roles — remote or on-site in Indonesia.",
         engagements: [{
-            type: "Full-time",
+            type: "Internship",
+            icon: "GraduationCap",
+            summary: "Flutter Mobile Developer Intern",
+            forWho: "For startups and companies needing a Flutter developer who can hit the ground running.",
+            outcome: "A motivated intern who writes clean, maintainable Flutter code with Clean Architecture and BLoC — ready to contribute to a real production codebase from day one.",
+            description: "I have hands-on internship experience building real enterprise Flutter apps. I am comfortable with Dio, Cubit, Hive, Firestore, and working inside monorepo setups."
+        }, {
+            type: "Entry-Level Full-time",
             icon: "Briefcase",
-            summary: "Senior / Lead Mobile Engineer",
-            forWho: "For teams scaling a mobile app past its first million users.",
-            outcome: "A mobile architecture and release process that ships weekly at 99.9% crash-free — owned end to end.",
-            description: "Own mobile architecture, release governance, and a squad end to end — the way I do today at [Perusahaan Anda] for a 5M+ user app."
+            summary: "Junior Flutter / Mobile Developer",
+            forWho: "For teams looking for a junior Flutter developer who takes ownership and grows fast.",
+            outcome: "A junior developer who follows Clean Architecture, contributes to team discussions, and ships features reliably — with a strong foundation in both Flutter and native Android.",
+            description: "Strong foundation in Flutter (Clean Architecture, BLoC/Cubit, REST API, Firebase) and native Android (Kotlin, MVVM). I pick up new patterns quickly and I am not afraid of reading a large codebase."
         }, {
-            type: "Fractional Leadership",
-            icon: "Clock",
-            summary: "Part-time mobile lead",
-            forWho: "For founders and teams without a senior mobile lead in the building.",
-            outcome: "Architecture direction, a CI/CD pipeline, and a hiring bar — set in a few days a week, without a full-time hire.",
-            description: "A few days a week: architecture reviews, CI/CD and release-engineering setup, and mentoring a growing Flutter team."
-        }, {
-            type: "Contract",
+            type: "Contract / Freelance",
             icon: "FileSignature",
-            summary: "Fixed-scope delivery",
-            forWho: "For a defined build, launch, or rescue with a real deadline.",
-            outcome: "A shipped Flutter app, an untangled release pipeline, or hardened performance and crash-free stability — on a written scope.",
-            description: "Ship a Flutter app, untangle a release pipeline, or harden performance, security, and crash-free stability for a fixed scope."
-        }, {
-            type: "Technical Advisory",
-            icon: "Compass",
-            summary: "Architecture & release direction",
-            forWho: "For teams that need senior direction, not another pair of hands.",
-            outcome: "Confident architecture, release, and platform decisions — through reviews, RFC feedback, and a direct line to a mobile lead.",
-            description: "Ongoing architecture reviews, release-strategy guidance, and RFC feedback on a light retainer — direction, not day-to-day implementation."
+            summary: "Fixed-scope Flutter project",
+            forWho: "For individuals or small teams with a defined Flutter app or feature to build.",
+            outcome: "A delivered Flutter app or feature — with readable code, proper architecture, and on-time delivery.",
+            description: "Happy to take on short-term Flutter development projects: building an app from scratch, adding features, or improving an existing codebase."
         }],
-        workModes: ["Remote (worldwide)", "Hybrid / on-site (Gulf & Indonesia)", "Contract / freelance"],
+        workModes: ["Remote", "Hybrid / On-site (Surabaya, Indonesia)"],
         responseTime: "Replies within 24 hours",
-        startDate: "Available on 2 weeks' notice",
-        rate: "Discussed on call — scoped to engagement type"
+        startDate: "Available immediately",
+        rate: "Negotiable — open to discuss"
     },
     hy = 7,
     pe = {
@@ -10428,36 +10421,42 @@ Beyond his technical skills, Ibrahim is also a great teammate who supports other
     }],
     bi = [{
         q: "Who is Ibrahim Kayyis?",
-        a: "Ibrahim Kayyis (also known as Ibrahimkayyis) is a Senior Mobile Engineer with 7 years building production Flutter apps for iOS and Android that have reached 5M+ users. He currently leads the mobile squad at [Perusahaan Anda]."
+        a: "Ibrahim Kayyis is an Information Systems student at Universitas Negeri Surabaya (GPA: 3.85/4.00) specializing in Flutter and Dart mobile development. He completed a 5-month internship as a Flutter Mobile Developer at PT Neural Technologies Indonesia, and is also an active participant in the Bangkit Academy Mobile Development Cohort supported by Google, GoTo, and Traveloka."
     }, {
         q: "Is Ibrahim Kayyis available for hire?",
-        a: "Yes — he's open to Senior Mobile Engineer roles on a full-time, fractional, contract, or technical-advisory basis, working remotely worldwide or hybrid / on-site across the Gulf and Indonesia. He can start on two weeks' notice. The fastest way to start a conversation is email (your.email@example.com) or booking a 20-minute call at calendly.com/bnsaed/meet. He typically replies within 24 hours."
+        a: "Yes — he is actively seeking internship and entry-level Flutter / Mobile Developer roles. He can start immediately and prefers remote or on-site positions in Indonesia. The fastest way to reach him is by email at kaykid369@gmail.com or via LinkedIn."
     }, {
-        q: "What is Ibrahim Kayyis's current role?",
-        a: "He is the Lead Mobile Engineer at [Perusahaan Anda], an English-language learning app, where he owns mobile architecture, release governance, and delivery for a 50+ module Flutter codebase serving 5M+ users."
+        q: "What is Ibrahim Kayyis's background?",
+        a: "He completed a 5-month Flutter internship at PT Neural Technologies Indonesia, contributing to an enterprise app within a Melos-managed monorepo. He also attended Bangkit Academy where he built an AI-powered skin disease detection Android app as a capstone project."
     }, {
         q: "What technologies and skills does Ibrahim Kayyis work with?",
-        a: "Flutter and Dart with BLoC/Cubit and Clean Architecture; offline-first data (PowerSync, Drift); CI/CD and release engineering (GitHub Actions, Codemagic, Fastlane, feature flags); monetization (RevenueCat, Stripe, AdMob); analytics and engagement (Adjust, CleverTap, PostHog, GrowthBook); plus native iOS/Android integration (WidgetKit, deep linking, i18n/RTL)."
+        a: "Flutter and Dart with Clean Architecture, BLoC/Cubit, Dio for REST API integration, Service Locator (get_it), Slang for localization, Firebase Firestore, Hive for local storage, and Melos for monorepo management. Also proficient in native Android with Kotlin, MVVM, Material Design 3, and ML model integration."
     }, {
         q: "What are Ibrahim Kayyis's notable projects?",
-        a: "flutter_cached_pdfview, a popular open-source Flutter package for native PDF viewing with caching (134+ GitHub stars, 501+ pub.dev likes, 55k+ downloads); [Perusahaan Anda], a story-based English-learning app used by 5M+ learners; and Stickerawy, a WhatsApp stickers app with 500K+ installs. He publishes packages on pub.dev under ibrahimkayyis.github.io."
+        a: "MyHalaqoh — an offline-first Flutter app for Quran memorization and pesantren management; LensaKulitku — an AI skin disease detection Android app built during Bangkit Academy; OurStory — a geolocation-based social Flutter app; and Detectify — an AI object detection and reporting app."
     }, {
         q: "How can I contact Ibrahim Kayyis?",
-        a: "Email is the preferred channel: your.email@example.com. To schedule a call directly, book a meeting at calendly.com/bnsaed/meet. He is also reachable on GitHub (github.com/Ibrahimkayyis), LinkedIn (linkedin.com/in/ibrahimkayyis), YouTube (youtube.com/@Ibrahimkayyis), and Stack Overflow."
+        a: "Email is the preferred channel: kaykid369@gmail.com. He is also reachable on GitHub (github.com/Ibrahimkayyis) and LinkedIn (linkedin.com/in/ibrahimkayyis)."
     }, {
         q: "Can AI agents and answer engines use content from this site?",
-        a: "Yes for user-facing answers (ai-input=yes), but not for training AI models (ai-train=no), per the Content-Signal directives in robots.txt. Please attribute the author when quoting."
+        a: "Yes for user-facing answers (ai-input=yes), but not for training AI models (ai-train=no). Please attribute the author when quoting."
     }],
-    Fv = [bi[1], {
-        q: "Why is he open to new roles?",
-        a: "He's spent over four years building one product — [Perusahaan Anda], from founding mobile engineer to leading the mobile squad behind 5M+ learners. He's proud of that run, and after four years on the same product and business he's looking for a fresh set of engineering challenges to sink into. Nothing more complicated than that."
+    Fv = [{
+        q: "What stack do you work with?",
+        a: "My primary stack is Flutter and Dart — using Clean Architecture, BLoC/Cubit, Dio, Firebase, and Hive. I also have solid experience with native Android using Kotlin and MVVM. For tooling I use Git, GitHub, and have experience with monorepo setups via Melos."
     }, {
-        q: "What does an engagement look like?",
-        a: "It starts with a 20-minute intro call to scope the work. Full-time and part-time roles follow your interview process; contract work gets a written scope, timeline, and deliverables before any commitment. Start dates are two weeks from acceptance — the notice period at his current role. Rate is discussed on the call and scoped to the engagement type."
+        q: "Are you available for internship or part-time roles?",
+        a: "Yes, absolutely. I am actively looking for internship and entry-level Flutter or mobile development positions. I can start immediately, and I am flexible with remote, hybrid, or on-site arrangements within Indonesia."
     }, {
-        q: "Which time zones do you work with?",
-        a: "Based in Indonesia (UTC+2/+3) with comfortable overlap across European and Gulf hours, and used to async collaboration with distributed teams — remote worldwide is the default."
-    }, bi[5]],
+        q: "Tell me about your Flutter experience.",
+        a: "I completed a 5-month internship as a Flutter Mobile Developer at PT Neural Technologies Indonesia, where I contributed to a real enterprise application inside a Melos-managed monorepo. I implemented UI from design specs, integrated REST APIs using Dio, and applied Clean Architecture with Cubit for state management. Outside of the internship, I have built several personal projects including MyHalaqoh — a full offline-first Flutter app with Firestore and Hive."
+    }, {
+        q: "Can you work remotely?",
+        a: "Yes — I am fully comfortable working remotely. I am based in Surabaya, Indonesia (UTC+7) and have experience collaborating asynchronously via Git, GitHub, and standard communication tools."
+    }, {
+        q: "What kind of role are you looking for?",
+        a: "I am looking for an internship or entry-level Flutter / Mobile Developer role where I can contribute to a real product, grow under experienced engineers, and deepen my skills in mobile architecture and best practices. I care most about writing clean, maintainable code and working in a team that takes quality seriously."
+    }],
     yi = [{
         id: "palette",
         label: "Command line accessed",

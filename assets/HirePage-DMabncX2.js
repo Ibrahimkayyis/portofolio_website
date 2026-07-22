@@ -203,23 +203,16 @@ function G() {
                         })]
                     }), e.jsx("h1", {
                         className: "font-heading text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight leading-[1.05] mb-6 text-balance",
-                        children: "Hire a Senior Flutter Engineer & Mobile Architect"
+                        children: "Flutter Developer & Mobile Engineer — Open to Internship & Entry-Level Roles"
                     }), e.jsx("p", {
                         className: "text-xl text-muted-foreground text-pretty mb-4",
-                        children: "Full-time mobile lead or Flutter tech lead, fractional mobile lead a few days a week, a fixed-scope Flutter contract, or ongoing technical advisory — pick the engagement that fits."
+                        children: "Information Systems student specializing in Flutter & Dart, with hands-on internship experience in Clean Architecture and BLoC. Open to internship and entry-level Flutter / Mobile Developer roles."
                     }), e.jsx("p", {
                         className: "font-mono text-xs text-muted-foreground mb-8",
                         children: L.slice(0, 4).map(t => `${t.value} ${t.label.toLowerCase()}`).join(" · ")
                     }), e.jsxs("div", {
                         className: "flex flex-col sm:flex-row sm:items-center gap-3",
-                        children: [e.jsxs(o, {
-                            variant: "hero",
-                            size: "lg",
-                            onClick: () => l("hire_page_hero"),
-                            children: [e.jsx(g, {
-                                className: "mr-1 h-4 w-4"
-                            }), "Book a 20-min call"]
-                        }), e.jsx(o, {
+                        children: [e.jsx(o, {
                             variant: "heroOutline",
                             size: "lg",
                             asChild: !0,
@@ -252,26 +245,17 @@ function G() {
                         children: "Proof, not promises"
                     }), e.jsxs("p", {
                         className: "text-muted-foreground text-pretty mb-6",
-                        children: ["7 years of production Flutter — from founding-stage builds to leading the mobile squad behind a 5M+ user app. The work is public: read the", " ", e.jsx(c, {
+                        children: ["I have built real projects you can explore: an offline-first Flutter app for Qur'an memorization management, an AI-powered skin disease detection Android app, a geolocation-based social app, and more. Read the ", e.jsx(c, {
                             to: "/case-studies",
                             className: "text-primary hover:underline",
                             children: "case studies"
-                        }), ", browse the", " ", e.jsx(c, {
-                            to: "/projects",
+                        }), " for the full breakdown, or browse my ", e.jsx("a", {
+                            href: m.github,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
                             className: "text-primary hover:underline",
-                            children: "open-source projects"
-                        }), ", or see all", " ", e.jsxs(c, {
-                            to: "/recommendations",
-                            className: "text-primary hover:underline",
-                            children: [b.length, " LinkedIn recommendations"]
-                        }), "."]
-                    }), e.jsx("div", {
-                        className: "flex flex-col gap-6",
-                        children: f.map((t, p) => e.jsx(q, {
-                            rec: t,
-                            index: p,
-                            isLatest: p === M
-                        }, t.name))
+                            children: "GitHub repositories"
+                        }), " to see the code directly."]
                     })]
                 }), e.jsxs("section", {
                     "aria-labelledby": "hire-faq-heading",
@@ -299,18 +283,11 @@ function G() {
                         children: "Start the conversation"
                     }), e.jsxs("p", {
                         className: "text-muted-foreground text-pretty mb-6",
-                        children: [n.responseTime, ". ", n.startDate, ". The fastest path is a short call — bring the role or the scope, leave with a clear yes/no and next steps."]
+                        children: [n.responseTime, ". ", n.startDate, ". The easiest way to start is a short email — tell me about the role or the project, and I will reply within 24 hours with a clear yes or next steps."]
                     }), e.jsxs("div", {
                         className: "flex flex-col sm:flex-row sm:items-center gap-3",
-                        children: [e.jsxs(o, {
+                        children: [e.jsx(o, {
                             variant: "hero",
-                            size: "lg",
-                            onClick: () => l("hire_page_footer"),
-                            children: [e.jsx(g, {
-                                className: "mr-1 h-4 w-4"
-                            }), "Book a 20-min call"]
-                        }), e.jsx(o, {
-                            variant: "heroOutline",
                             size: "lg",
                             asChild: !0,
                             children: e.jsxs("a", {
