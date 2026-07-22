@@ -24,18 +24,6 @@ const p = [{
         label: "LinkedIn",
         href: r.linkedin,
         Icon: c
-    }, {
-        label: "YouTube",
-        href: r.youtube,
-        Icon: d
-    }, {
-        label: "pub.dev",
-        href: r.pubdev,
-        Icon: m
-    }, {
-        label: "Stack Overflow",
-        href: r.stackoverflow,
-        Icon: x
     }],
     b = [{
         label: "Articles",
@@ -110,13 +98,7 @@ function g() {
                     to: s,
                     className: "hover:text-primary transition-colors",
                     children: a
-                }, s)), e.jsx("a", {
-                    href: "/ar/",
-                    hrefLang: "ar",
-                    lang: "ar",
-                    className: "hover:text-primary transition-colors",
-                    children: "العربية"
-                })]
+                }, s)), e.jsx("span", { className: "hidden" })]
             }), e.jsxs("div", {
                 className: "mt-8 pt-6 border-t border-border/60 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between kicker text-muted-foreground normal-case tracking-normal",
                 children: [e.jsxs("span", {

@@ -203,7 +203,7 @@ const n = "https://ibrahimkayyis.github.io",
                             children: "My CV & Resume"
                         }), e.jsx("p", {
                             className: "mb-8 text-lg text-muted-foreground",
-                            children: "Senior Mobile Engineer with 7+ years shipping production apps to 5M+ users"
+                            children: "Mobile Developer specializing in Flutter & Dart — building production apps with Clean Architecture, BLoC, and REST API integration"
                         })]
                     }), e.jsx("div", {
                         className: "mb-12 flex justify-center",
@@ -252,26 +252,26 @@ const n = "https://ibrahimkayyis.github.io",
                                 children: [e.jsxs("div", {
                                     children: [e.jsx("h3", {
                                         className: "font-medium text-sm text-muted-foreground mb-2",
-                                        children: "Mobile"
+                                        children: "Flutter Development"
                                     }), e.jsx("p", {
                                         className: "text-sm",
-                                        children: "Flutter, Dart, Android, iOS, Clean Architecture, BLoC, MVVM, Cubit"
+                                        children: "Flutter, Dart, Clean Architecture, BLoC/Cubit, Dio, Service Locator, Slang, Firebase Firestore, Hive, Melos"
                                     })]
                                 }), e.jsxs("div", {
                                     children: [e.jsx("h3", {
                                         className: "font-medium text-sm text-muted-foreground mb-2",
-                                        children: "Backend & Infrastructure"
+                                        children: "Native Android"
                                     }), e.jsx("p", {
                                         className: "text-sm",
-                                        children: "GraphQL, REST, Firebase, Cloudflare, GitHub Actions, CI/CD"
+                                        children: "Kotlin, Java, MVVM, Material Design 3, RESTful APIs, ML Model Integration, DataStore, Retrofit"
                                     })]
                                 }), e.jsxs("div", {
                                     children: [e.jsx("h3", {
                                         className: "font-medium text-sm text-muted-foreground mb-2",
-                                        children: "Leadership & Quality"
+                                        children: "Tools & Practices"
                                     }), e.jsx("p", {
                                         className: "text-sm",
-                                        children: "Architecture, Code Review, Release Governance, Mentoring, Testing"
+                                        children: "Git, GitHub, Agile, REST API Integration, Offline-first Design, Dependency Injection"
                                     })]
                                 })]
                             })]
@@ -279,17 +279,31 @@ const n = "https://ibrahimkayyis.github.io",
                             className: "border-0 bg-muted/50 p-6",
                             children: [e.jsx("h2", {
                                 className: "mb-4 text-xl font-semibold",
-                                children: "Current Role"
+                                children: "Experience"
                             }), e.jsxs("div", {
-                                children: [e.jsx("h3", {
-                                    className: "font-semibold",
-                                    children: o.currentTitle
-                                }), e.jsxs("p", {
-                                    className: "text-sm text-muted-foreground",
-                                    children: [o.company, " (EdTech)"]
-                                }), e.jsx("p", {
-                                    className: "mt-2 text-sm",
-                                    children: "Leading a 4-engineer iOS/Android squad, defining architecture direction and cutting release cycles from 4 weeks to 1 week."
+                                className: "space-y-6",
+                                children: [e.jsxs("div", {
+                                    children: [e.jsx("h3", {
+                                        className: "font-semibold",
+                                        children: "Mobile Developer Intern (Flutter)"
+                                    }), e.jsx("p", {
+                                        className: "text-sm text-muted-foreground",
+                                        children: "PT Neural Technologies Indonesia · Feb 2025 – Jun 2025"
+                                    }), e.jsxs("ul", {
+                                        className: "mt-2 text-sm space-y-1 list-disc list-inside",
+                                        children: [e.jsx("li", { children: "Contributed to the development of an internal enterprise application using Flutter within a Melos-managed monorepo codebase." }), e.jsx("li", { children: "Implemented UI layouts based on design specifications and integrated RESTful APIs using Dio for data fetching." }), e.jsx("li", { children: "Applied Clean Architecture principles and Cubit (BLoC) for state management to build maintainable, scalable features." })]
+                                    })]
+                                }), e.jsxs("div", {
+                                    children: [e.jsx("h3", {
+                                        className: "font-semibold",
+                                        children: "Mobile Development Cohort"
+                                    }), e.jsx("p", {
+                                        className: "text-sm text-muted-foreground",
+                                        children: "Bangkit Academy (Google, GoTo, Traveloka) · Sep 2024 – Present"
+                                    }), e.jsxs("ul", {
+                                        className: "mt-2 text-sm space-y-1 list-disc list-inside",
+                                        children: [e.jsx("li", { children: "Acquired advanced Android development skills using Kotlin with Material Design 3 and MVVM architecture." }), e.jsx("li", { children: "Collaborated with ML and Cloud Computing tracks to integrate AI/ML features and cloud solutions into Android apps." }), e.jsx("li", { children: "Led development of an AI-powered skin disease detection app using CameraX, RESTful APIs, and DataStore." })]
+                                    })]
                                 })]
                             })]
                         }), e.jsxs(l, {
@@ -335,11 +349,10 @@ const n = "https://ibrahimkayyis.github.io",
                                     })
                                 })]
                             })]
-                        }), e.jsxs(l, {
-                            className: "border-0 bg-muted/50 p-6",
+                        }), e.jsx("div", { className: "hidden",
                             children: [e.jsx("h2", {
                                 className: "mb-4 text-xl font-semibold",
-                                children: "Versions Available"
+                                children: "Versions Available (hidden)"
                             }), e.jsxs("div", {
                                 className: "space-y-3",
                                 children: [e.jsxs("div", {
@@ -402,22 +415,6 @@ const n = "https://ibrahimkayyis.github.io",
                                         })
                                     })]
                                 })]
-                            })]
-                        }), e.jsxs("div", {
-                            className: "rounded-lg border border-border bg-gradient-to-br from-primary/5 to-primary/10 p-8 text-center",
-                            children: [e.jsx("h2", {
-                                className: "mb-2 text-2xl font-bold",
-                                children: "Ready to Work Together?"
-                            }), e.jsx("p", {
-                                className: "mb-6 text-muted-foreground",
-                                children: "Available for full-time, part-time, and contract opportunities"
-                            }), e.jsx("a", {
-                                href: r.calendly,
-                                target: "_blank",
-                                rel: "noopener noreferrer",
-                                children: e.jsx(i, {
-                                    children: "Book a Meeting"
-                                })
                             })]
                         })]
                     })]

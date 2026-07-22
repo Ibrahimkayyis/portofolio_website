@@ -1,0 +1,74 @@
+﻿IBRAHIM KAYYIS 
+kaykid369@gmail.com | +6281334885528 | linkedin.com/in/ibrahim-kayyis-43b362311 | https://github.com/Ibrahimkayyis 
+ 
+SUMMARY 
+Mobile Developer and Information Systems student specializing in Flutter and Dart, with hands-on experience building 
+production applications using Clean Architecture and Cubit (BLoC) state management. Completed a 5-month internship 
+as a Flutter Mobile Developer at PT Neural Technologies Indonesia, contributing to an internal enterprise application 
+within a Melos-managed monorepo. Proficient in REST API integration with Dio, dependency injection via Service 
+Locator, localization with Slang, cloud data storage with Firebase Firestore, and local persistence with Hive. Also holds a 
+foundation in native Android development (Kotlin, MVVM) from Bangkit Academy, supported by Google, GoTo, and 
+Traveloka. Certified in Android development, machine learning, and programming fundamentals through Dicoding 
+Indonesia. Seeking an internship or entry-level role to contribute to impactful Flutter mobile development projects. 
+ 
+EDUCATION 
+Universitas Negeri Surabaya 
+2022 ÔÇô Present 
+BachelorÔÇÖs Degree in Information Systems | GPA: 3.85 / 4.00 
+ 
+EXPERIENCE 
+Mobile Development Cohort, Bangkit Academy 
+Sep 2024 ÔÇô Present 
+´éÀ 
+Acquired advanced skills in Android app development using Kotlin, adhering to industry standards such as Material 
+Design 3 and implementing modern architectural patterns like MVVM for scalable and maintainable applications. 
+´éÀ 
+Collaborated with teams from Machine Learning and Cloud Computing tracks to integrate AI/ML features and cloud 
+solutions into Android applications, fostering a multi-disciplinary approach to app development. 
+´éÀ 
+Currently leading the development of an innovative Android application for skin disease detection. Leveraging camera 
+integration for real-time image analysis, RESTful APIs for backend communication, and DataStore for efficient user 
+data management, the app aims to provide accurate and accessible healthcare solutions. 
+Mobile Developer Intern (Flutter), PT Neural Technologies Indonesia 
+Feb 2025 ÔÇô Jun 2025 
+´éÀ 
+Contributed to the development of an internal enterprise application for the company using Flutter, working within a 
+Melos-managed monorepo codebase. 
+´éÀ 
+Implemented UI layouts based on design specifications and integrated RESTful APIs using Dio for data fetching. 
+´éÀ 
+Applied Clean Architecture principles and Cubit (BLoC) for state management to build maintainable, scalable 
+features. 
+ 
+COURSE & CERTIFICATION 
+´éÀ 
+Intermediate Android App Development, Dicoding Indonesia, December 2024 
+´éÀ 
+Machine Learning Implementation for Android, Dicoding Indonesia, November 2024 
+´éÀ 
+Basics of AI, Dicoding Indonesia, October 2024 
+´éÀ 
+Android Application Fundamentals, Dicoding Indonesia, October 2024 
+´éÀ 
+Basic Android Application Development, Dicoding Indonesia. October 2024 
+´éÀ 
+Programming Basics to Become a Software Developer, Dicoding Indonesia, September 2024 
+´éÀ 
+Learn Git Basics with Github, Dicoding Indonesia, September 2024 
+´éÀ 
+Kotlin Programming Introduction, Dicoding Indonesia, September 2024 
+´éÀ 
+Programing Logics Introduction, Dicoding Indonesia, September 2024 
+ 
+SKILLS 
+´éÀ 
+Language: Bahasa Indonesia (Native), English (Intermediate) 
+´éÀ 
+Flutter: Flutter, Dart, Clean Architecture, BLoC/Cubit, Dio (REST API integration), Service Locator (Dependency 
+Injection), Slang (Localization), Firebase Firestore, Hive (Local Storage), Melos (Monorepo) 
+´éÀ 
+Native Android: Kotlin, Java, Git, RESTful APIs, Android App Development, Material Design, MVVM Architecture, 
+Agile Development, Machine Learning Model Integration in Android App, Cloud Solution Integration 
+´éÀ 
+Others: User Data Management, Communication, Teamwork 
+
