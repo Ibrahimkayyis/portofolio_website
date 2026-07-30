@@ -12222,19 +12222,6 @@ function Ky() {
                                         className: "h-4 w-4"
                                     }), " LinkedIn"]
                                 }), i.jsxs("a", {
-                                    href: pe.youtube,
-                                    target: "_blank",
-                                    rel: "noopener noreferrer",
-                                    "aria-label": "YouTube",
-                                    title: "YouTube",
-                                    className: "text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2",
-                                    onClick: () => n == null ? void 0 : n.capture("social_link_clicked", {
-                                        platform: "youtube"
-                                    }),
-                                    children: [i.jsx(Rl, {
-                                        className: "h-4 w-4"
-                                    }), " YouTube"]
-                                }), i.jsxs("a", {
                                     href: pe.email,
                                     "aria-label": "Email",
                                     title: "Email",
@@ -12245,32 +12232,6 @@ function Ky() {
                                     children: [i.jsx(Do, {
                                         className: "h-4 w-4"
                                     }), " Email"]
-                                }), i.jsxs("a", {
-                                    href: pe.pubdev,
-                                    target: "_blank",
-                                    rel: "noopener noreferrer",
-                                    "aria-label": "pub.dev packages",
-                                    title: "pub.dev packages",
-                                    className: "text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2",
-                                    onClick: () => n == null ? void 0 : n.capture("social_link_clicked", {
-                                        platform: "pubdev"
-                                    }),
-                                    children: [i.jsx(Ka, {
-                                        className: "h-4 w-4"
-                                    }), " pub.dev"]
-                                }), i.jsxs("a", {
-                                    href: pe.stackoverflow,
-                                    target: "_blank",
-                                    rel: "noopener noreferrer",
-                                    "aria-label": "Stack Overflow",
-                                    title: "Stack Overflow",
-                                    className: "text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2",
-                                    onClick: () => n == null ? void 0 : n.capture("social_link_clicked", {
-                                        platform: "stackoverflow"
-                                    }),
-                                    children: [i.jsx(Vy, {
-                                        className: "h-4 w-4"
-                                    }), " Stack Overflow"]
                                 }), t ? i.jsx(Mt, {
                                     className: "h-8 w-36 rounded-full"
                                 }) : (e == null ? void 0 : e.public_repos) !== void 0 && i.jsxs("button", {
