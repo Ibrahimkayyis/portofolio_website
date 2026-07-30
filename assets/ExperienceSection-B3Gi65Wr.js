@@ -122,12 +122,12 @@ function v() {
                 label: "Experience",
                 inView: t,
                 title: e.jsxs(e.Fragment, {
-                    children: ["7 years shipping ", e.jsx("span", {
+                    children: ["Hands-on experience in ", e.jsx("span", {
                         className: "bg-primary/20 text-foreground px-1.5 box-decoration-clone",
-                        children: "& leading."
+                        children: "mobile development."
                     })]
                 }),
-                description: "Most recently building and running [Perusahaan Anda]'s apps for 5M+ users — architecture, release governance, and delivery."
+                description: "Real-world internship experience at PT Neural Technologies Indonesia and Google-backed Bangkit Academy cohort."
             }), e.jsxs("div", {
                 className: "border-b border-border",
                 children: [r.map((a, o) => e.jsx(m, {

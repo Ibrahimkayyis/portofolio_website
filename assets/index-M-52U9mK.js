@@ -10121,50 +10121,31 @@ const Ve = {
         label: "Platforms mastered"
     }],
     Dv = [{
-        role: "Lead Mobile Engineer",
-        company: "[Perusahaan Anda]",
-        companyUrl: "https://example.com/en/",
-        context: "EdTech · English Language Learning",
-        location: "Riyadh, Saudi Arabia (Hybrid)",
-        period: "Jun 2025 – Present",
-        stack: ["Flutter", "Dart", "BLoC", "Cubit", "PowerSync", "Drift", "Firebase", "Sentry", "GitHub Actions", "GraphQL"],
-        highlights: ["Lead a 4-engineer iOS/Android squad — architecture direction, hiring bar, release governance, and quarterly roadmaps for a 5M+ user base.", "Cut the release cycle 75% (4 weeks → 1) via trunk-based development, feature flags, and end-to-end CI/CD ownership.", "Architected a modular Flutter codebase with 50+ feature modules and 140+ routes, enforced through CI quality gates and code review.", "Hardened production security end-to-end: PII masked in logs and Sentry, cleartext traffic disabled, and TLS certificate validation enforced."]
-    }, {
-        role: "Founding Mobile Engineer",
-        company: "[Perusahaan Anda]",
-        companyUrl: "https://example.com/en/",
-        context: "EdTech · English Language Learning",
-        location: "Riyadh, Saudi Arabia (Hybrid)",
-        period: "Jan 2022 – Jun 2025 · 3 yrs 6 mos",
-        stack: ["Flutter", "Dart", "BLoC", "Cubit", "PowerSync", "Drift", "Codemagic", "Firebase", "RevenueCat", "Adjust"],
-        highlights: ["Shipped flagship growth & AI features end-to-end: Leaderboard with social sharing, AI Read-with (speech recognition), and the iStro AI chat companion.", "Designed offline-first infrastructure (PowerSync + Drift) — selective per-key sync, conflict resolution, and schema migration for millions of accounts.", "Architected a cross-platform anti-piracy system (jailbreak/root/tamper detection + backend behavioral analysis) that auto-blocked 40,000+ abusive accounts.", "Drove a sustained performance program: ~35% cold-start reduction, ~60% rendering gains, and ~20% memory reduction."]
-    }, {
-        role: "Mobile Engineer",
-        company: "Happy Trip",
-        companyUrl: "https://www.linkedin.com/company/happytrip-ar",
-        context: "Travel / Tourism Tech",
-        location: "Indonesia",
-        period: "Oct 2020 – Jan 2022 · 1 yr 4 mos",
-        stack: ["Flutter", "Dart", "REST", "Firebase"],
-        highlights: ["Owned mobile delivery end-to-end across the Flutter team — task planning, code-review gates, and the release cadence for every ship.", "Architected a networking SDK with multi-layer caching, request queueing, auto-retry, token refresh, and background parsing — cutting networking code 60%.", "Delivered the company's first mobile platform (consumer booking, internal HR, POS) in 14 months, enabling a full business pivot."]
-    }, {
-        role: "Mobile Engineer (Part-time)",
-        company: "Tech Bay Portal",
+        role: "Mobile Developer Intern (Flutter)",
+        company: "PT Neural Technologies Indonesia",
         companyUrl: "",
-        context: "Ride-hailing",
-        location: "UAE (Remote)",
-        period: "Feb 2021 – Oct 2021 · 9 mos",
-        stack: ["Flutter", "Dart", "Socket.io", "Google Maps"],
-        highlights: ["Delivered real-time GPS tracking and live trip updates (Socket.io, Google Maps) across driver and rider apps.", "Hardened the live-tracking pipeline against intermittent connectivity — buffering location updates locally and replaying on reconnect."]
+        context: "Enterprise Software Development",
+        location: "Indonesia (Hybrid)",
+        period: "Feb 2025 – Jun 2025 · 5 mos",
+        stack: ["Flutter", "Dart", "Clean Architecture", "Cubit", "Dio", "Melos", "Hive", "REST API"],
+        highlights: [
+            "Contributed to an enterprise Flutter application inside a Melos-managed monorepo codebase.",
+            "Implemented UI layouts from design specs and integrated RESTful APIs using Dio.",
+            "Applied Clean Architecture and Cubit (BLoC) for state management to build scalable, maintainable features."
+        ]
     }, {
-        role: "Mobile Engineer",
-        company: "FekraSoft Co",
-        companyUrl: "https://www.linkedin.com/company/fekrasoft",
-        context: "Software House",
-        location: "Indonesia",
-        period: "Aug 2019 – Sep 2020 · 1 yr 2 mos",
-        stack: ["Flutter", "Dart", "RxDart", "Firebase"],
-        highlights: ["Led company-wide Flutter adoption as the first Flutter engineer, mentoring the Android team and authoring the shared coding standards still in use.", "Shipped production e-commerce and document-management apps with barcode scanning and file-level encryption."]
+        role: "Mobile Development Cohort",
+        company: "Bangkit Academy by Google, GoTo, Traveloka",
+        companyUrl: "https://grow.google/intl/id_id/bangkit/",
+        context: "Android & AI Integration",
+        location: "Indonesia (Remote)",
+        period: "Sep 2024 – Jan 2025 · 5 mos",
+        stack: ["Kotlin", "Android Studio", "MVVM", "Material Design 3", "REST API", "DataStore", "Machine Learning"],
+        highlights: [
+            "Acquired advanced Android skills using Kotlin, MVVM architecture, and Material Design 3 guidelines.",
+            "Collaborated in a multidisciplinary team to build LensaKulitku — an AI-powered skin disease detection Android app.",
+            "Integrated camera capabilities, REST APIs, and machine learning models for real-time analysis."
+        ]
     }],
     $v = [{
         category: "Architecture",
@@ -10200,64 +10181,38 @@ const Ve = {
         items: ["RevenueCat", "Stripe", "AdMob", "PostHog", "Adjust", "A/B Testing"]
     }],
     fy = [{
-        title: "[Perusahaan Anda]",
-        category: "commercial",
-        description: "Story-based English learning used by millions. A core mobile engineer since the founding — owning architecture, offline-first sync, and growth features.",
-        image: "/project-images/istoria.webp",
-        tags: ["Flutter", "Dart", "Firebase", "EdTech"],
-        demo: "https://example.com/en/",
-        users: 5e6,
-        caseStudySlug: "istoria"
+        title: "MyHalaqoh",
+        category: "featured",
+        description: "Digital backbone for Qur'an memorization tracking & halaqoh attendance management in pesantren. Built with Flutter, Clean Architecture, Cubit, Hive, and Firebase.",
+        image: "/project-images/my_halaqoh.png",
+        tags: ["Flutter", "Dart", "Clean Arch", "Cubit", "Firebase", "Hive"],
+        github: "https://github.com/Ibrahimkayyis/my_halaqoh",
+        caseStudySlug: "my_halaqoh"
     }, {
-        title: "Stickerawy",
-        category: "commercial",
-        description: "WhatsApp stickers app for Android, with 500K+ installs on Google Play.",
-        tags: ["Flutter", "Android", "WhatsApp"],
-        demo: "https://play.google.com/store/apps/details?id=com.stickerawy.stickers",
-        downloads: 5e5
+        title: "LensaKulitku",
+        category: "featured",
+        description: "AI-powered skin disease analysis & tracking app built during Bangkit Academy with Kotlin, MVVM, and TensorFlow Lite model integration.",
+        image: "/project-images/lensakulitku.png",
+        tags: ["Kotlin", "Android", "MVVM", "Machine Learning", "REST API"],
+        github: "https://github.com/Ibrahimkayyis/LensaKulitku",
+        caseStudySlug: "lensakulitku"
     }, {
-        title: "flutter_cached_pdfview",
+        title: "OurStory",
+        category: "featured",
+        description: "Interactive story sharing mobile app featuring photo uploads, geolocation mapping, and authentication.",
+        image: "/project-images/ourstory.png",
+        tags: ["Kotlin", "Android", "MVVM", "Google Maps", "CameraX"],
+        github: "https://github.com/Ibrahimkayyis/OurStory",
+        caseStudySlug: "ourstory"
+    }, {
+        title: "REPORT",
         category: "open-source",
-        description: "Native PDF viewer for iOS & Android with URL/asset/local caching, password-protected files, and gesture-based zoom.",
-        image: "/project-images/flutter-cached-pdfview.webp",
-        tags: ["Flutter", "Dart", "PDF", "iOS", "Android"],
-        github: "https://github.com/Ibrahimkayyis/flutter_cached_pdfview",
-        demo: "https://pub.dev/packages/flutter_cached_pdfview",
-        stars: 134,
-        likes: 501,
-        downloads: 55413,
-        caseStudySlug: "flutter-cached-pdfview"
-    }, {
-        title: "clipboard_plus",
-        category: "open-source",
-        description: "Flutter clipboard plugin with silent content-type detection on iOS — detects URLs, text, and images without triggering the paste permission dialog.",
-        tags: ["Flutter", "iOS", "Android", "Plugin"],
-        github: "https://github.com/Ibrahimkayyis/clipboard_plus",
-        demo: "https://pub.dev/packages/clipboard_plus"
-    }, {
-        title: "flutter_zoom_checker",
-        category: "open-source",
-        description: "iOS/Android display-zoom (UI scaling) detection plugin, working around a Flutter framework limitation (issue #95421).",
-        tags: ["Flutter", "iOS", "Android", "Plugin"],
-        github: "https://github.com/Ibrahimkayyis/flutter_zoom_checker",
-        demo: "https://pub.dev/packages/flutter_zoom_checker"
-    }, {
-        title: "dio_firebase_performance_plus",
-        category: "open-source",
-        description: "Dio interceptor that streams HTTP request metrics to Firebase Performance Monitoring.",
-        tags: ["Dart", "Dio", "Firebase"],
-        github: "https://github.com/Ibrahimkayyis/dio_firebase_performance_plus"
+        description: "Regional e-Portal for Operation & Request Tracking — an incident and infrastructure reporting mobile application.",
+        image: "/project-images/report.png",
+        tags: ["Flutter", "Dart", "Clean Arch", "REST API"],
+        github: "https://github.com/Ibrahimkayyis/Report"
     }],
-    Lv = [{
-        name: "youtube_explode_dart",
-        url: "https://github.com/Hexer10/youtube_explode_dart/pull/371"
-    }, {
-        name: "dio_smart_retry",
-        url: "https://github.com/rodion-m/dio_smart_retry/pull/36"
-    }, {
-        name: "growthbook-flutter",
-        url: "https://github.com/growthbook/growthbook-flutter/pulls?q=author:Ibrahimkayyis"
-    }],
+    Lv = [],
     py = [{
         name: "Flutter",
         users: "Clean Arch & BLoC"

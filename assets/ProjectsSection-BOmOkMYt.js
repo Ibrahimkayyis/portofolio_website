@@ -263,23 +263,23 @@ function I() {
                 label: "Projects",
                 inView: t,
                 title: e.jsxs(e.Fragment, {
-                    children: ["Published packages ", e.jsx("span", {
+                    children: ["Featured & open-source ", e.jsx("span", {
                         className: "italic text-primary",
-                        children: "& shipped apps."
+                        children: "projects."
                     })]
                 }),
-                description: "Commercial products shipped to millions, and open-source packages the Flutter ecosystem depends on.",
+                description: "Mobile applications built with Flutter, Clean Architecture, Cubit, and Kotlin.",
                 action: e.jsxs("a", {
-                    href: P.pubdev,
+                    href: P.github,
                     target: "_blank",
                     rel: "noopener noreferrer",
                     className: "hidden sm:inline-flex items-center gap-1.5 kicker text-muted-foreground hover:text-primary transition-colors",
-                    children: ["All packages", e.jsx(k, {
+                    children: ["GitHub Repos", e.jsx(k, {
                         className: "h-4 w-4"
                     })]
                 })
             }), i && e.jsx("div", {
-                className: "w-[70%]",
+                className: "w-full",
                 children: e.jsx(N, {
                     project: i,
                     index: 0
