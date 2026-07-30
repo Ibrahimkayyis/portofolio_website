@@ -121,6 +121,7 @@ function v() {
                 index: "02",
                 label: "Experience",
                 inView: t,
+                titleClassName: "text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.02]",
                 title: e.jsxs(e.Fragment, {
                     children: ["Hands-on experience in ", e.jsx("span", {
                         className: "bg-primary/20 text-foreground px-1.5 box-decoration-clone",
