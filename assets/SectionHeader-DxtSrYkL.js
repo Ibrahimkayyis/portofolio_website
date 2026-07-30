@@ -35,7 +35,7 @@ function c({
             className: r("mt-4 mb-7 h-px w-full origin-left bg-border", t && "animate-draw-rule"),
             "aria-hidden": "true"
         }), e.jsx("h2", {
-            className: r("font-heading text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-[1.05] tracking-tight text-balance", p),
+            className: r("font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.02] tracking-tight text-balance", p),
             children: i
         }), a && e.jsx("p", {
             className: "mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground text-pretty",
