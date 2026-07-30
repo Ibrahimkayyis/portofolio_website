@@ -106,6 +106,7 @@ function v() {
                 index: "04",
                 label: "Case Studies",
                 inView: s,
+                titleClassName: "text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.02]",
                 title: e.jsxs(e.Fragment, {
                     children: ["How the work ", e.jsx("span", {
                         className: "italic text-primary",
