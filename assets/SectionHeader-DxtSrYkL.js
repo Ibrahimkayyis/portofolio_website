@@ -10,7 +10,8 @@ function c({
     description: a,
     action: l,
     inView: t = !0,
-    className: m
+    className: m,
+    titleClassName: p
 }) {
     return e.jsxs("header", {
         className: r("mb-8 md:mb-12 reveal-hidden", t && "animate-fade-in-up", m),
@@ -34,7 +35,7 @@ function c({
             className: r("mt-4 mb-7 h-px w-full origin-left bg-border", t && "animate-draw-rule"),
             "aria-hidden": "true"
         }), e.jsx("h2", {
-            className: "font-heading text-[clamp(2.25rem,5.5vw,3.75rem)] font-medium leading-[1.02] tracking-tight text-balance",
+            className: r("font-heading text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-[1.05] tracking-tight text-balance", p),
             children: i
         }), a && e.jsx("p", {
             className: "mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground text-pretty",

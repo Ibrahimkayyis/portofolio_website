@@ -262,6 +262,7 @@ function I() {
                 index: "03",
                 label: "Projects",
                 inView: t,
+                titleClassName: "text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.02]",
                 title: e.jsxs(e.Fragment, {
                     children: ["Featured & open-source ", e.jsx("span", {
                         className: "italic text-primary",
