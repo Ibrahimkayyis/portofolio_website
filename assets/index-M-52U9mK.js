@@ -10206,7 +10206,7 @@ const Ve = {
         caseStudySlug: "ourstory"
     }, {
         title: "REPORT",
-        category: "open-source",
+        category: "featured",
         description: "Regional e-Portal for Operation & Request Tracking — an incident and infrastructure reporting mobile application.",
         image: "/project-images/report.png",
         tags: ["Flutter", "Dart", "Clean Arch", "REST API"],

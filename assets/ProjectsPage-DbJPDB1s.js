@@ -25,9 +25,8 @@ import {
 } from "./arrow-up-right-DTBoS46a.js";
 
 const pageUrl = "http://localhost:3000/projects/",
-    pageDesc = "Mobile applications built with Flutter, Clean Architecture, Cubit, and Kotlin — featured and open-source projects by Ibrahim Kayyis.",
-    featuredProjects = r.filter(s => s.category === "featured"),
-    openSourceProjects = r.filter(s => s.category === "open-source");
+    pageDesc = "Mobile applications built with Flutter, Clean Architecture, Cubit, and Kotlin by Ibrahim Kayyis.",
+    allProjects = r;
 
 function StatCard({ value, label, index }) {
     const { ref: o, isInView: n } = w({ margin: "-40px" });
@@ -50,8 +49,8 @@ function StatCard({ value, label, index }) {
 
 export default function ProjectsPage() {
     const { theme: s, toggleTheme: t } = f();
-    const heroProject = featuredProjects[0];
-    const otherFeatured = featuredProjects.slice(1);
+    const heroProject = allProjects[0];
+    const otherProjects = allProjects.slice(1);
 
     return e.jsxs("div", {
         className: "min-h-screen bg-background",
@@ -101,7 +100,7 @@ export default function ProjectsPage() {
                                 e.jsxs("p", {
                                     className: "text-xl text-muted-foreground text-pretty mb-6",
                                     children: [
-                                        "Featured mobile applications built with ",
+                                        "Mobile applications built with ",
                                         e.jsx("span", { className: "text-foreground", children: "Flutter" }),
                                         " and ",
                                         e.jsx("span", { className: "text-foreground", children: "Kotlin" }),
@@ -134,23 +133,23 @@ export default function ProjectsPage() {
                             })
                         }),
                         e.jsxs("section", {
-                            "aria-labelledby": "featured-heading",
+                            "aria-labelledby": "projects-heading",
                             className: "mb-20",
                             children: [
                                 e.jsxs("div", {
                                     className: "mb-8 flex items-baseline justify-between border-b border-border pb-3",
                                     children: [
                                         e.jsxs("h2", {
-                                            id: "featured-heading",
+                                            id: "projects-heading",
                                             className: "font-heading text-2xl tracking-tight",
                                             children: [
                                                 e.jsx("span", { className: "mr-2 font-mono text-lg text-primary/50", children: "01" }),
-                                                "Featured Projects"
+                                                "All Projects"
                                             ]
                                         }),
                                         e.jsxs("span", {
                                             className: "kicker text-muted-foreground",
-                                            children: [`${featuredProjects.length} projects`]
+                                            children: [`${allProjects.length} projects`]
                                         })
                                     ]
                                 }),
@@ -158,35 +157,9 @@ export default function ProjectsPage() {
                                     className: "mb-6",
                                     children: e.jsx(A, { project: heroProject, index: 0 })
                                 }),
-                                otherFeatured.length > 0 && e.jsx("div", {
+                                otherProjects.length > 0 && e.jsx("div", {
                                     className: "grid sm:grid-cols-2 gap-6",
-                                    children: otherFeatured.map((item, idx) => e.jsx(D, { project: item, index: idx + 1 }, item.title))
-                                })
-                            ]
-                        }),
-                        openSourceProjects.length > 0 && e.jsxs("section", {
-                            "aria-labelledby": "oss-heading",
-                            children: [
-                                e.jsxs("div", {
-                                    className: "mb-8 flex items-baseline justify-between border-b border-border pb-3",
-                                    children: [
-                                        e.jsxs("h2", {
-                                            id: "oss-heading",
-                                            className: "font-heading text-2xl tracking-tight",
-                                            children: [
-                                                e.jsx("span", { className: "mr-2 font-mono text-lg text-primary/50", children: "02" }),
-                                                "Open Source & Apps"
-                                            ]
-                                        }),
-                                        e.jsxs("span", {
-                                            className: "kicker text-muted-foreground",
-                                            children: [`${openSourceProjects.length} entry`]
-                                        })
-                                    ]
-                                }),
-                                e.jsx("div", {
-                                    className: "grid sm:grid-cols-2 gap-6",
-                                    children: openSourceProjects.map((item, idx) => e.jsx(D, { project: item, index: idx + 1 }, item.title))
+                                    children: otherProjects.map((item, idx) => e.jsx(D, { project: item, index: idx + 1 }, item.title))
                                 })
                             ]
                         })
