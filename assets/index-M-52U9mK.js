@@ -10129,9 +10129,9 @@ const Ve = {
         period: "Feb 2025 – Jun 2025 · 5 mos",
         stack: ["Flutter", "Dart", "Clean Architecture", "Cubit", "Dio", "Melos", "Hive", "REST API"],
         highlights: [
-            "Contributed to an enterprise Flutter application inside a Melos-managed monorepo codebase.",
-            "Implemented UI layouts from design specs and integrated RESTful APIs using Dio.",
-            "Applied Clean Architecture and Cubit (BLoC) for state management to build scalable, maintainable features."
+            "Contributed to the development of an internal enterprise application for the company using Flutter, working within a Melos-managed monorepo codebase.",
+            "Implemented UI layouts based on design specifications and integrated RESTful APIs using Dio for data fetching.",
+            "Applied Clean Architecture principles and Cubit (BLoC) for state management to build maintainable, scalable features."
         ]
     }, {
         role: "Mobile Development Cohort",
@@ -10139,12 +10139,12 @@ const Ve = {
         companyUrl: "https://grow.google/intl/id_id/bangkit/",
         context: "Android & AI Integration",
         location: "Indonesia (Remote)",
-        period: "Sep 2024 – Jan 2025 · 5 mos",
+        period: "Sep 2024 – Dec 2024 · 4 mos",
         stack: ["Kotlin", "Android Studio", "MVVM", "Material Design 3", "REST API", "DataStore", "Machine Learning"],
         highlights: [
-            "Acquired advanced Android skills using Kotlin, MVVM architecture, and Material Design 3 guidelines.",
-            "Collaborated in a multidisciplinary team to build LensaKulitku — an AI-powered skin disease detection Android app.",
-            "Integrated camera capabilities, REST APIs, and machine learning models for real-time analysis."
+            "Acquired advanced skills in Android app development using Kotlin, adhering to industry standards such as Material Design 3 and implementing modern architectural patterns like MVVM for scalable and maintainable applications.",
+            "Collaborated with teams from Machine Learning and Cloud Computing tracks to integrate AI/ML features and cloud solutions into Android applications, fostering a multi-disciplinary approach to app development.",
+            "Currently leading the development of an innovative Android application for skin disease detection. Leveraging camera integration for real-time image analysis, RESTful APIs for backend communication, and DataStore for efficient user data management, the app aims to provide accurate and accessible healthcare solutions."
         ]
     }],
     $v = [{
