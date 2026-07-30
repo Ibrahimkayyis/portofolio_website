@@ -10259,17 +10259,17 @@ const Ve = {
         url: "https://github.com/growthbook/growthbook-flutter/pulls?q=author:Ibrahimkayyis"
     }],
     py = [{
-        name: "[Perusahaan Anda]",
-        url: "https://example.com/en/",
-        users: "5M+ learners"
+        name: "Flutter",
+        users: "Clean Arch & BLoC"
     }, {
-        name: "Happy Trip",
-        url: "https://www.linkedin.com/company/happytrip-ar",
-        users: "Travel platform"
+        name: "Dart",
+        users: "Primary Language"
     }, {
-        name: "FekraSoft",
-        url: "https://www.linkedin.com/company/fekrasoft",
-        users: "Software house"
+        name: "Kotlin",
+        users: "Native Android & MVVM"
+    }, {
+        name: "Firebase",
+        users: "Firestore & Cloud Sync"
     }],
     gi = [{
         name: "Saber Son",
@@ -12370,7 +12370,6 @@ const Fd = fy.filter(e => e.category === "open-source"),
     Ei = Fd.reduce((e, t) => e + (t.likes ?? 0), 0);
 
 function Qy() {
-    var l;
     const {
         ref: e,
         isInView: t
@@ -12378,23 +12377,23 @@ function Qy() {
         margin: "-50px"
     }), {
         data: n
-    } = wd(), r = gi[0], o = ((l = r.quote.split(/\n\s*\n/)[0]) == null ? void 0 : l.replace(/\s*\n\s*/g, " ").trim()) ?? "", s = [(n == null ? void 0 : n.public_repos) !== void 0 && {
+    } = wd(), s = [{
         icon: Yr,
-        value: `${n.public_repos}`,
+        value: `${(n == null ? void 0 : n.public_repos) ?? 14}`,
         label: "Public repos"
     }, {
-        icon: Ka,
-        value: `${hy}`,
-        label: "pub.dev packages"
-    }, Si > 0 && {
-        icon: Ka,
-        value: Yy(Si),
-        label: "Package downloads"
-    }, Ei > 0 && {
-        icon: Lh,
-        value: `${Ei}+`,
-        label: "pub.dev likes"
-    }].filter(Boolean);
+        icon: _h,
+        value: "4+",
+        label: "Projects built"
+    }, {
+        icon: Oh,
+        value: "9",
+        label: "Certifications"
+    }, {
+        icon: wa,
+        value: "3.85",
+        label: "GPA / 4.00"
+    }];
     return i.jsx("section", {
         ref: e,
         className: "py-12 md:py-16 border-b border-border",
@@ -12404,13 +12403,10 @@ function Qy() {
                 className: `flex flex-col md:flex-row items-center gap-6 md:gap-10 reveal-hidden ${t?"animate-fade-in":""}`,
                 children: [i.jsx("span", {
                     className: "kicker text-muted-foreground/70 shrink-0",
-                    children: "Shipped production apps for"
+                    children: "Built with"
                 }), i.jsx("div", {
                     className: "flex flex-wrap items-center gap-6 md:gap-10",
-                    children: py.map(u => i.jsxs("a", {
-                        href: u.url,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
+                    children: py.map(u => i.jsxs("div", {
                         className: "group flex flex-col items-center",
                         children: [i.jsx("span", {
                             className: "font-heading text-lg md:text-xl font-bold tracking-tight text-muted-foreground transition-colors hover:text-foreground",
@@ -12428,23 +12424,17 @@ function Qy() {
                     style: {
                         animationDelay: "0.1s"
                     },
-                    children: [i.jsxs("p", {
+                    children: [i.jsx("p", {
                         className: "text-lg md:text-xl leading-relaxed text-foreground/90 text-pretty font-light",
-                        children: ["“", o, "”"]
+                        children: "“I build mobile apps with clean architecture and maintainable code. Every line I write is meant to be read by the next developer.”"
                     }), i.jsxs("footer", {
                         className: "mt-4 flex items-center gap-3",
-                        children: [i.jsxs("span", {
+                        children: [i.jsx("span", {
                             className: "font-mono text-sm text-primary",
-                            children: ["— ", r.name]
+                            children: "— Ibrahim Kayyis"
                         }), i.jsx("span", {
                             className: "text-sm text-muted-foreground",
-                            children: r.title
-                        }), i.jsxs("a", {
-                            href: pe.linkedinRecommendations,
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            className: "kicker text-[0.65rem] text-primary hover:underline ml-auto shrink-0",
-                            children: ["+ ", gi.length - 1, " more →"]
+                            children: "· Mobile Developer"
                         })]
                     })]
                 }), i.jsx("div", {
