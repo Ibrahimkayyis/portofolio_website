@@ -3,7 +3,7 @@ import {
     q as t
 } from "./index-M-52U9mK.js";
 
-const c = ["my-halaqoh", "lensa-kulitku", "our-story", "detectify"],
+const c = ["my-halaqoh", "lensa-kulitku", "our-story", "report"],
     r = "https://ibrahimkayyis.github.io",
     h = "https://avatars.githubusercontent.com/u/33700292?v=4&s=512",
     g = [{
@@ -227,53 +227,90 @@ override onMapReady(googleMap: GoogleMap) {
         results: `Successfully delivered as a comprehensive Dicoding Android project, featuring full location-based social interaction.`,
         lessons: `Combining Google Maps SDK with LiveData ensures reactive updates whenever new story locations are published.`
     }, {
-        slug: "detectify",
-        title: "Detectify — AI Object Detection & Reporting App",
-        subtitle: "Real-time AI object detection and mobile reporting system with photo analysis",
-        description: "Mobile issue reporting and AI object detection platform using TensorFlow Lite models, real-time image analysis, photo evidence attachments, and REST API synchronization.",
-        date: "2026-03-01",
-        readTime: "4 min read",
-        tags: ["Kotlin", "TensorFlow Lite", "CameraX", "Flutter", "REST API"],
-        heroImage: "/project-images/Detectify.jpg",
-        role: "Flutter Developer",
-        timeline: "2024",
-        platforms: ["Android", "iOS"],
+        slug: "report",
+        title: "REPORT — Regional e-Portal for Operation & Request Tracking",
+        subtitle: "Production-grade, cross-platform Flutter application for regional operations, work-order management, and real-time field reporting",
+        description: "Designed and engineered REPORT, an enterprise Flutter application built with Clean Architecture, BLoC/Cubit, offline-first data persistence, Retrofit + Dio REST API, Sentry error monitoring, Firebase Cloud Messaging, QR/barcode scanning, rich PDF export, and built-in real-time chat.",
+        date: "2026-07-01",
+        readTime: "6 min read",
+        tags: ["Flutter", "Dart", "Clean Architecture", "BLoC / Cubit", "Retrofit & Dio", "Hive & SQLite", "Sentry", "Firebase FCM", "slang i18n"],
+        heroImage: "/project-images/report.png",
+        role: "Lead Flutter Developer",
+        timeline: "2025",
+        platforms: ["Android", "iOS", "Web"],
         links: [{
             label: "View Repository on GitHub",
             url: "https://github.com/Ibrahimkayyis/Report"
         }],
         metrics: [{
-            value: "Real-time",
-            label: "Status Updates"
+            value: "Clean Arch",
+            label: "3-Layer Design"
         }, {
-            value: "Dio",
-            label: "HTTP Client"
+            value: "Offline-first",
+            label: "Hive & SQLite"
         }, {
-            value: "Flutter",
-            label: "Cross-Platform"
+            value: "Sentry",
+            label: "Error Monitoring"
+        }, {
+            value: "i18n",
+            label: "Slang (ID & EN)"
         }],
-        problem: `Organizations face delays and communication gaps when employees or citizens report infrastructure, operational, or maintenance issues manually.`,
-        constraints: `- **Multipart Media Upload**: Uploading photo evidence reliably over mobile data networks.
-- **Status Transparency**: Clear status tracking timeline from submission to resolution.`,
-        solution: `Developed in **Flutter** with **Clean Architecture** and **Dio REST client**.
+        problem: `Regional infrastructure management and field operations in large organizations often suffer from fragmented reporting methods, lack of offline support in remote field sites, untracked work-order lifecycles, and delayed resolution times.`,
+        constraints: `Key technical requirements:
+- **Clean Architecture & Scalability**: Modularized feature structure (Auth, Dashboard, Report, Chat, Scanner, Calendar, Profile, Notifications) with domain purity and pure Dart use cases.
+- **Offline Data & Sync**: Local storage using Hive NoSQL boxes and SQLite for offline work-order drafts, with Sentry exception streaming upon reconnect.
+- **Type-Safe Tooling**: Zero magic strings through code generators (auto_route v10, freezed, injectable, retrofit_generator, slang_build_runner, envied).`,
+        solution: `REPORT provides a unified mobile and web platform for field officers and administrators.
 
-Features:
-- **Instant Issue Submission**: Photo attachment, category selection, description, and location tagging.
-- **Live Status Timeline**: Clear visual tracking stages (Submitted, In Progress, Resolved).
-- **Responsive UI**: Optimized for smartphones and tablets.`,
-        architecture: `\`\`\`dart
-// Clean Architecture Data Source
-class ReportRemoteDataSource {
-  final Dio _dio;
-  Future<ReportResponse> submitReport(FormData formData) async {
-    final response = await _dio.post('/reports', data: formData);
-    return ReportResponse.fromJson(response.data);
+### Core Architectural Features:
+- **Feature Modules**: Independent vertical slices (\`features/report\`, \`features/chat\`, \`features/scanner\`, \`features/calendar\`, \`features/notification\`, \`features/dashboard\`).
+- **Networking & Resilience**: Retrofit REST client over Dio with custom interceptors (\`pretty_dio_logger\`), automatic Sentry error tracking, and environment security via \`envied\`.
+- **State Management**: BLoC / Cubit pattern with immutable \`freezed\` events/states and \`get_it\` + \`injectable\` dependency injection.
+- **QR / Barcode & Media**: Integrated \`mobile_scanner\` for inventory/asset scanning, photo attachments via \`image_picker\`, and PDF generation via \`pdf\`.
+- **Real-time Chat & Calendar**: In-app messaging via \`flutter_chat_ui\` and scheduling with \`table_calendar\`.
+- **Localization**: Bilingual support (Indonesian base locale + English) powered by \`slang\`.`,
+        architecture: `\`\`\`
+┌─────────────────────────────────────────────────────────┐
+│ Presentation Layer                                      │
+│ Widgets · Pages · BLoC / Cubit · auto_route v10         │
+├─────────────────────────────────────────────────────────┤
+│ Domain Layer                                            │
+│ Use Cases · Entities · Repository Contracts (Pure Dart) │
+├─────────────────────────────────────────────────────────┤
+│ Data Layer                                              │
+│ Repositories · DTOs · Retrofit · Dio · Hive · SQLite    │
+└─────────────────────────────────────────────────────────┘
+\`\`\`
+
+### Data Flow Example (Report Submission):
+\`\`\`dart
+// Data Layer: Repository Impl with Dio Retrofit Remote & Hive Local fallback
+class ReportRepositoryImpl implements ReportRepository {
+  final ReportRemoteDataSource remoteDataSource;
+  final ReportLocalDataSource localDataSource;
+
+  ReportRepositoryImpl({
+    required this.remoteDataSource,
+    required this.localDataSource,
+  });
+
+  @override
+  Future<Either<Failure, ReportEntity>> submitReport(ReportParams params) async {
+    try {
+      final dto = ReportDto.fromDomain(params);
+      final response = await remoteDataSource.createReport(dto);
+      await localDataSource.cacheReport(response);
+      return Right(response.toDomain());
+    } catch (e, stackTrace) {
+      await Sentry.captureException(e, stackTrace: stackTrace);
+      return Left(ServerFailure(e.toString()));
+    }
   }
 }
 \`\`\``,
-        performance: `Compressed image payloads reduce upload bandwidth consumption by up to 60%.`,
-        results: `Provides an efficient, transparent mobile interface for issue tracking and status monitoring.`,
-        lessons: `Using Dio interceptors simplifies auth token refreshes and error handling across multipart upload requests.`
+        performance: `On-device barcode scanning, PDF report generation, and type-safe i18n string switching execute under 60fps frame budgets with zero UI thread blocking.`,
+        results: `Delivered a complete, production-ready enterprise codebase with automated build pipelines, Sentry crash monitoring, and multi-platform support (Android, iOS, Web).`,
+        lessons: `Leveraging build_runner code generators (injectable, auto_route, freezed, slang) drastically reduces boilerplate code while enforcing compile-time safety across complex enterprise Flutter applications.`
     }];
 
 function m(e) {
