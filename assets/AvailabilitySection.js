@@ -59,16 +59,8 @@ function N() {
                 style: {
                     animationDelay: "0.6s"
                 },
-                children: [e.jsxs(i, {
+                children: [e.jsx(i, {
                     variant: "hero",
-                    size: "lg",
-                    onClick: r,
-                    className: "group",
-                    children: [e.jsx(m, {
-                        className: "mr-1 h-4 w-4"
-                    }), "Book a 20-min call"]
-                }), e.jsx(i, {
-                    variant: "heroOutline",
                     size: "lg",
                     asChild: !0,
                     className: "group",

@@ -2780,13 +2780,9 @@ const Ct = "/api/contact",
         value: "in/ibrahimkayyis",
         href: z.linkedin
     }, {
-        label: "YouTube",
-        value: "@Ibrahimkayyis",
-        href: z.youtube
-    }, {
-        label: "Stack Overflow",
-        value: "Ibrahim Kayyis",
-        href: z.stackoverflow
+        label: "Email",
+        value: "kaykid369@gmail.com",
+        href: z.email
     }],
     Ae = "h-12 rounded-none bg-muted/30 border-border font-mono text-sm transition-colors placeholder:text-muted-foreground/50 focus-visible:border-primary focus-visible:ring-1 focus-visible:ring-primary/40";
 
@@ -2815,9 +2811,9 @@ function Et() {
             [w]: ""
         }))
     }, Ve = async A => {
-        var Y, V;
+        var Y;
         if (A.preventDefault(), h({}), (Y = T.current) != null && Y.value) {
-            t == null || t.capture("contact_form_honeypot_tripped"), G.success("Message sent successfully! I'll get back to you soon."), i({
+            t == null || t.capture("contact_form_honeypot_tripped"), G.success("Message processed!"), i({
                 name: "",
                 email: "",
                 message: ""
@@ -2832,38 +2828,19 @@ function Et() {
             }), h(j);
             return
         }
-        if (Nt && !m) {
-            G.error("Please complete the verification challenge.");
-            return
-        }
         a(!0);
         try {
-            const j = await fetch(Ct, {
-                    method: "POST",
-                    headers: {
-                        "content-type": "application/json"
-                    },
-                    body: JSON.stringify({
-                        name: w.data.name,
-                        email: w.data.email,
-                        message: w.data.message,
-                        token: m ?? "",
-                        company: ((V = T.current) == null ? void 0 : V.value) ?? ""
-                    })
-                }),
-                P = await j.json().catch(() => ({
-                    ok: j.ok
-                }));
-            if (!j.ok || !P.ok) throw new Error(P.error || "Delivery failed");
+            const mailtoUrl = `mailto:${he.email}?subject=${encodeURIComponent("Portfolio Inquiry from " + w.data.name)}&body=${encodeURIComponent("Sender Email: " + w.data.email + "\n\n" + w.data.message)}`;
+            window.open(mailtoUrl, "_blank");
             t == null || t.capture("contact_form_submitted", {
                 message_length: w.data.message.length
-            }), G.success("Message sent successfully! I'll get back to you soon."), i({
+            }), G.success("Opening your email client to send message!"), i({
                 name: "",
                 email: "",
                 message: ""
             })
         } catch (j) {
-            t == null || t.capture("contact_form_failed"), G.error(j instanceof Error && j.message !== "Delivery failed" ? j.message : "Couldn't send your message. Please email me directly at " + he.email + ".")
+            G.error("Could not open email client. Please email me directly at " + he.email)
         } finally {
             a(!1)
         }
@@ -2884,7 +2861,7 @@ function Et() {
                         children: "the role."
                     })]
                 }),
-                description: "Hiring for a mobile lead, need a Flutter app shipped, or want to gauge fit for a contract? Tell me about the role or project — I reply within a day."
+                description: "Hiring for a mobile developer, need a Flutter app shipped, or want to gauge fit for a role? Tell me about the project — I reply within a day."
             }), c.jsxs("div", {
                 className: "grid lg:grid-cols-12 gap-8 lg:gap-12",
                 children: [c.jsxs("aside", {
@@ -2921,26 +2898,6 @@ function Et() {
                             children: he.email
                         }), c.jsx("span", {
                             className: "kicker mt-3 block text-muted-foreground/60 normal-case tracking-normal",
-                            children: "Open a thread — scope, role, or a quick question."
-                        })]
-                    }), c.jsxs("button", {
-                        type: "button",
-                        onClick: se,
-                        className: "group dossier-card mt-4 block w-full p-6 md:p-7 text-left",
-                        children: [c.jsxs("div", {
-                            className: "flex items-center justify-between",
-                            children: [c.jsx("span", {
-                                className: "kicker text-muted-foreground",
-                                children: "Fastest"
-                            }), c.jsx(De, {
-                                className: "h-4 w-4 text-muted-foreground transition-colors group-hover:text-primary"
-                            })]
-                        }), c.jsx("span", {
-                            className: "mt-3 block font-heading text-xl md:text-2xl tracking-tight transition-colors group-hover:text-primary",
-                            children: "Book a 20-min call"
-                        }), c.jsx("span", {
-                            className: "kicker mt-3 block text-muted-foreground/60 normal-case tracking-normal",
-                            children: "Pick a slot — no back-and-forth."
                         })]
                     }), c.jsxs("div", {
                         className: "mt-8",
