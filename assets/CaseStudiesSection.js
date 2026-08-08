@@ -2,22 +2,22 @@ import {
     z as n,
     j as e,
     A as c
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     L as i
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 import {
     c as d
-} from "./caseStudies-m2tgOKMT.js";
+} from "./caseStudies.js";
 import {
     S as m
-} from "./SectionHeader-DxtSrYkL.js";
+} from "./SectionHeader.js";
 import {
     L as x
-} from "./layers-eW4bPV4A.js";
+} from "./layers.js";
 import {
     A as h
-} from "./arrow-up-right-DTBoS46a.js";
+} from "./arrow-up-right.js";
 
 function p({
     caseStudy: r,

@@ -12,19 +12,19 @@ import {
     x as c,
     y as g,
     m as y
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     L as p
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 import {
     S as $
-} from "./SectionHeader-DxtSrYkL.js";
+} from "./SectionHeader.js";
 import {
     A as k
-} from "./arrow-up-right-DTBoS46a.js";
+} from "./arrow-up-right.js";
 import {
     D as L
-} from "./download-BPD7iSgh.js";
+} from "./download.js";
 /**
  * @license lucide-react v0.462.0 - ISC
  *

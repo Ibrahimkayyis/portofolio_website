@@ -9,18 +9,18 @@ import {
     A as d,
     w as x,
     m as p
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     L as h
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 import {
     S as u
-} from "./SectionHeader-DxtSrYkL.js";
+} from "./SectionHeader.js";
 import {
     E as w,
     A as j
-} from "./EngagementCards-3ow3tW6x.js";
-import "./clock-cYcwgu-i.js";
+} from "./EngagementCards.js";
+import "./clock.js";
 
 function N() {
     const {

@@ -6,13 +6,13 @@ import {
     k as yo,
     s as xo,
     m as wo
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     h as bn,
     g as $r,
     R as Ie,
     r as So
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 /**
  * @license lucide-react v0.462.0 - ISC
  *

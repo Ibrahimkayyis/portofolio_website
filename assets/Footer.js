@@ -8,10 +8,10 @@ import {
     Y as d,
     P as m,
     V as x
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     L as h
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 const p = [{
         label: "Email",
         href: r.email,

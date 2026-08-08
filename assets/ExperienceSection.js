@@ -4,13 +4,13 @@ import {
     j as e,
     l as h,
     N as d
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     r as g
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 import {
     S as u
-} from "./SectionHeader-DxtSrYkL.js";
+} from "./SectionHeader.js";
 /**
  * @license lucide-react v0.462.0 - ISC
  *

@@ -6,23 +6,23 @@ import {
     x as r,
     q as k,
     z as w
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     L as C
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 import {
     Footer as L
-} from "./Footer-CF6X5QOV.js";
+} from "./Footer.js";
 import {
     F as A,
     C as D
-} from "./ProjectsSection-BOmOkMYt.js";
+} from "./ProjectsSection.js";
 import {
     A as H
-} from "./arrow-left-B-YyplZK.js";
+} from "./arrow-left.js";
 import {
     A as u
-} from "./arrow-up-right-DTBoS46a.js";
+} from "./arrow-up-right.js";
 
 const pageUrl = "http://localhost:3000/projects/",
     pageDesc = "Mobile applications built with Flutter, Clean Architecture, Cubit, and Kotlin by Ibrahim Kayyis.",

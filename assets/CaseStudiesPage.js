@@ -3,25 +3,25 @@ import {
     j as e,
     H as p,
     b as l
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     L as h
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 import {
     Footer as x
-} from "./Footer-CF6X5QOV.js";
+} from "./Footer.js";
 import {
     CaseStudyCard as u
-} from "./CaseStudiesSection-c8bWQ6Ag.js";
+} from "./CaseStudiesSection.js";
 import {
     c as n
-} from "./caseStudies-m2tgOKMT.js";
+} from "./caseStudies.js";
 import {
     A as g
-} from "./arrow-left-B-YyplZK.js";
-import "./SectionHeader-DxtSrYkL.js";
-import "./layers-eW4bPV4A.js";
-import "./arrow-up-right-DTBoS46a.js";
+} from "./arrow-left.js";
+import "./SectionHeader.js";
+import "./layers.js";
+import "./arrow-up-right.js";
 const t = "https://ibrahimkayyis.github.io/case-studies/",
     a = "In-depth case studies on shipped mobile applications — architecture, performance, offline-first sync, and machine learning models for MyHalaqoh, LensaKulitku, OurStory, Report, and EventApp.";
 

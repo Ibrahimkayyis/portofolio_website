@@ -1,6 +1,6 @@
 import {
     c as o
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 /**
  * @license lucide-react v0.462.0 - ISC
  *

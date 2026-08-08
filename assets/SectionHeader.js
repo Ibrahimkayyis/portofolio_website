@@ -1,7 +1,7 @@
 import {
     j as e,
     l as r
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 
 function c({
     index: s,

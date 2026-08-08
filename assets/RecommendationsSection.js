@@ -6,17 +6,17 @@ import {
     t as m,
     A as k,
     R as f
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     r as x,
     L as w
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 import {
     S as y
-} from "./SectionHeader-DxtSrYkL.js";
+} from "./SectionHeader.js";
 import {
     A as p
-} from "./arrow-up-right-DTBoS46a.js";
+} from "./arrow-up-right.js";
 const v = 6;
 
 function j(r) {

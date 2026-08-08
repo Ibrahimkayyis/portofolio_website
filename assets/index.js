@@ -1,4 +1,4 @@
-const __vite__mapDeps = (i, m = __vite__mapDeps, d = (m.f || (m.f = ["assets/AboutSection-jEplLNmX.js", "assets/SectionHeader-DxtSrYkL.js", "assets/react-vendor-iqlcZCOr.js", "assets/arrow-up-right-DTBoS46a.js", "assets/shield-check-D8OuZL24.js", "assets/ExperienceSection-B3Gi65Wr.js", "assets/ProjectsSection-BOmOkMYt.js", "assets/download-BPD7iSgh.js", "assets/CaseStudiesSection-c8bWQ6Ag.js", "assets/caseStudies-m2tgOKMT.js", "assets/layers-eW4bPV4A.js", "assets/ArticlesSection-Dr8BXs42.js", "assets/flame-DW67cpTk.js", "assets/SpeakingSection-DBz55oVA.js", "assets/SkillsSection-CKqTaehi.js", "assets/smartphone-DLJLcwgI.js", "assets/RecommendationsSection-C4S8Laj0.js", "assets/FAQSection-y55BUmuy.js", "assets/AvailabilitySection-BDlbWCAf.js", "assets/EngagementCards-3ow3tW6x.js", "assets/clock-cYcwgu-i.js", "assets/ContactSection-C-tyK_Ol.js", "assets/Footer-CF6X5QOV.js", "assets/ArticlePage-CClwPZh1.js", "assets/MarkdownContent-BYFusbC5.js", "assets/RouteSuggestion-CLZVYTnw.js", "assets/arrow-left-B-YyplZK.js", "assets/ArticlesPage-BwxR91me.js", "assets/CVPage-2yl5QBSC.js", "assets/RecommendationsPage-kKQwTA-k.js", "assets/SpeakingPage-Dmwo5Uqr.js", "assets/ProjectsPage-DbJPDB1s.js", "assets/CaseStudiesPage-MifwwhJt.js", "assets/CaseStudyPage-Dd0lUl_g.js", "assets/HirePage-DMabncX2.js", "assets/NotFound-BaK05_xZ.js"]))) => i.map(i => d[i]);
+const __vite__mapDeps = (i, m = __vite__mapDeps, d = (m.f || (m.f = ["assets/AboutSection.js", "assets/SectionHeader.js", "assets/react-vendor.js", "assets/arrow-up-right.js", "assets/shield-check.js", "assets/ExperienceSection.js", "assets/ProjectsSection.js", "assets/download.js", "assets/CaseStudiesSection.js", "assets/caseStudies.js", "assets/layers.js", "assets/ArticlesSection.js", "assets/flame.js", "assets/SpeakingSection.js", "assets/SkillsSection.js", "assets/smartphone.js", "assets/RecommendationsSection.js", "assets/FAQSection.js", "assets/AvailabilitySection.js", "assets/EngagementCards.js", "assets/clock.js", "assets/ContactSection.js", "assets/Footer.js", "assets/ArticlePage.js", "assets/MarkdownContent.js", "assets/RouteSuggestion.js", "assets/arrow-left.js", "assets/ArticlesPage.js", "assets/CVPage.js", "assets/RecommendationsPage.js", "assets/SpeakingPage.js", "assets/ProjectsPage.js", "assets/CaseStudiesPage.js", "assets/CaseStudyPage.js", "assets/HirePage.js", "assets/NotFound.js"]))) => i.map(i => d[i]);
 var du = Object.defineProperty;
 var ws = e => {
     throw TypeError(e)
@@ -36,7 +36,7 @@ import {
     B as hu,
     d as fu,
     e as Le
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 (function() {
     const t = document.createElement("link").relList;
     if (t && t.supports && t.supports("modulepreload")) return;
@@ -10467,7 +10467,7 @@ async function jn(e) {
             const {
                 default: n
             } = await
-            import ("./confetti.module-BVAT6wYb.js");
+            import ("./confetti.module.js");
             return {
                 default: n
             }
@@ -11858,7 +11858,7 @@ function Ky() {
             const {
                 default: B
             } = await
-            import ("./confetti.module-BVAT6wYb.js");
+            import ("./confetti.module.js");
             return {
                 default: B
             }
@@ -13871,51 +13871,51 @@ function Fw() {
     }
 }
 const Hw = c.lazy(() => ce(() =>
-        import ("./AboutSection-jEplLNmX.js"), __vite__mapDeps([0, 1, 2, 3, 4])).then(e => ({
+        import ("./AboutSection.js"), __vite__mapDeps([0, 1, 2, 3, 4])).then(e => ({
         default: e.AboutSection
     }))),
     Uw = c.lazy(() => ce(() =>
-        import ("./ExperienceSection-B3Gi65Wr.js"), __vite__mapDeps([5, 2, 1])).then(e => ({
+        import ("./ExperienceSection.js"), __vite__mapDeps([5, 2, 1])).then(e => ({
         default: e.ExperienceSection
     }))),
     Bw = c.lazy(() => ce(() =>
-        import ("./ProjectsSection-BOmOkMYt.js").then(e => e.P), __vite__mapDeps([6, 2, 1, 3, 7])).then(e => ({
+        import ("./ProjectsSection.js").then(e => e.P), __vite__mapDeps([6, 2, 1, 3, 7])).then(e => ({
         default: e.ProjectsSection
     }))),
     zw = c.lazy(() => ce(() =>
-        import ("./CaseStudiesSection-c8bWQ6Ag.js"), __vite__mapDeps([8, 2, 9, 1, 10, 3])).then(e => ({
+        import ("./CaseStudiesSection.js"), __vite__mapDeps([8, 2, 9, 1, 10, 3])).then(e => ({
         default: e.CaseStudiesSection
     }))),
     qw = c.lazy(() => ce(() =>
-        import ("./ArticlesSection-Dr8BXs42.js"), __vite__mapDeps([11, 2, 1, 12])).then(e => ({
+        import ("./ArticlesSection.js"), __vite__mapDeps([11, 2, 1, 12])).then(e => ({
         default: e.ArticlesSection
     }))),
     Gw = c.lazy(() => ce(() =>
-        import ("./SpeakingSection-DBz55oVA.js"), __vite__mapDeps([13, 2, 1, 3])).then(e => ({
+        import ("./SpeakingSection.js"), __vite__mapDeps([13, 2, 1, 3])).then(e => ({
         default: e.SpeakingSection
     }))),
     Ww = c.lazy(() => ce(() =>
-        import ("./SkillsSection-CKqTaehi.js"), __vite__mapDeps([14, 1, 10, 15, 4, 2])).then(e => ({
+        import ("./SkillsSection.js"), __vite__mapDeps([14, 1, 10, 15, 4, 2])).then(e => ({
         default: e.SkillsSection
     }))),
     Vw = c.lazy(() => ce(() =>
-        import ("./RecommendationsSection-C4S8Laj0.js"), __vite__mapDeps([16, 2, 1, 3])).then(e => ({
+        import ("./RecommendationsSection.js"), __vite__mapDeps([16, 2, 1, 3])).then(e => ({
         default: e.RecommendationsSection
     }))),
     Jw = c.lazy(() => ce(() =>
-        import ("./FAQSection-y55BUmuy.js"), __vite__mapDeps([17, 1, 2])).then(e => ({
+        import ("./FAQSection.js"), __vite__mapDeps([17, 1, 2])).then(e => ({
         default: e.FAQSection
     }))),
     Kw = c.lazy(() => ce(() =>
-        import ("./AvailabilitySection-BDlbWCAf.js"), __vite__mapDeps([18, 2, 1, 19, 20])).then(e => ({
+        import ("./AvailabilitySection.js"), __vite__mapDeps([18, 2, 1, 19, 20])).then(e => ({
         default: e.AvailabilitySection
     }))),
     Yw = c.lazy(() => ce(() =>
-        import ("./ContactSection-C-tyK_Ol.js"), __vite__mapDeps([21, 2, 1, 3, 4])).then(e => ({
+        import ("./ContactSection.js"), __vite__mapDeps([21, 2, 1, 3, 4])).then(e => ({
         default: e.ContactSection
     }))),
     Qw = c.lazy(() => ce(() =>
-        import ("./Footer-CF6X5QOV.js"), __vite__mapDeps([22, 2])).then(e => ({
+        import ("./Footer.js"), __vite__mapDeps([22, 2])).then(e => ({
         default: e.Footer
     }))),
     Xw = () => {
@@ -18042,25 +18042,25 @@ function cv() {
     }, [e])
 }
 const dv = c.lazy(() => ce(() =>
-        import ("./ArticlePage-CClwPZh1.js"), __vite__mapDeps([23, 2, 9, 24, 25, 22, 26, 12, 20]))),
+        import ("./ArticlePage.js"), __vite__mapDeps([23, 2, 9, 24, 25, 22, 26, 12, 20]))),
     uv = c.lazy(() => ce(() =>
-        import ("./ArticlesPage-BwxR91me.js"), __vite__mapDeps([27, 2, 22, 26, 20, 12]))),
+        import ("./ArticlesPage.js"), __vite__mapDeps([27, 2, 22, 26, 20, 12]))),
     hv = c.lazy(() => ce(() =>
-        import ("./CVPage-2yl5QBSC.js"), __vite__mapDeps([28, 22, 2, 7]))),
+        import ("./CVPage.js"), __vite__mapDeps([28, 22, 2, 7]))),
     fv = c.lazy(() => ce(() =>
-        import ("./RecommendationsPage-kKQwTA-k.js"), __vite__mapDeps([29, 2, 22, 16, 1, 3, 26]))),
+        import ("./RecommendationsPage.js"), __vite__mapDeps([29, 2, 22, 16, 1, 3, 26]))),
     pv = c.lazy(() => ce(() =>
-        import ("./SpeakingPage-Dmwo5Uqr.js"), __vite__mapDeps([30, 2, 22, 13, 1, 3, 26]))),
+        import ("./SpeakingPage.js"), __vite__mapDeps([30, 2, 22, 13, 1, 3, 26]))),
     mv = c.lazy(() => ce(() =>
-        import ("./ProjectsPage-DbJPDB1s.js"), __vite__mapDeps([31, 2, 22, 6, 1, 3, 7, 26]))),
+        import ("./ProjectsPage.js"), __vite__mapDeps([31, 2, 22, 6, 1, 3, 7, 26]))),
     gv = c.lazy(() => ce(() =>
-        import ("./CaseStudiesPage-MifwwhJt.js"), __vite__mapDeps([32, 2, 22, 8, 9, 1, 10, 3, 26]))),
+        import ("./CaseStudiesPage.js"), __vite__mapDeps([32, 2, 22, 8, 9, 1, 10, 3, 26]))),
     bv = c.lazy(() => ce(() =>
-        import ("./CaseStudyPage-Dd0lUl_g.js"), __vite__mapDeps([33, 2, 9, 22, 24, 25, 26, 15, 20]))),
+        import ("./CaseStudyPage.js"), __vite__mapDeps([33, 2, 9, 22, 24, 25, 26, 15, 20]))),
     yv = c.lazy(() => ce(() =>
-        import ("./HirePage-DMabncX2.js"), __vite__mapDeps([34, 2, 22, 19, 20, 16, 1, 3, 26]))),
+        import ("./HirePage.js"), __vite__mapDeps([34, 2, 22, 19, 20, 16, 1, 3, 26]))),
     wv = c.lazy(() => ce(() =>
-        import ("./NotFound-BaK05_xZ.js"), __vite__mapDeps([35, 2, 25, 26]))),
+        import ("./NotFound.js"), __vite__mapDeps([35, 2, 25, 26]))),
     vv = new og,
     xv = () => (cv(), null),
     kv = () => {
@@ -18162,7 +18162,7 @@ function Oi() {
         const {
             default: e
         } = await
-        import ("./module-ChzsIv-w.js");
+        import ("./module.js");
         return {
             default: e
         }

@@ -13,36 +13,36 @@ import {
     E as M,
     l as $,
     m as H
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     r as j,
     f as O,
     L as f
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 import {
     g as U,
     c as S,
     a as q,
     C as _
-} from "./caseStudies-m2tgOKMT.js";
+} from "./caseStudies.js";
 import {
     Footer as G
-} from "./Footer-CF6X5QOV.js";
+} from "./Footer.js";
 import {
     M as V
-} from "./MarkdownContent-BYFusbC5.js";
+} from "./MarkdownContent.js";
 import {
     R as z
-} from "./RouteSuggestion-CLZVYTnw.js";
+} from "./RouteSuggestion.js";
 import {
     A as C
-} from "./arrow-left-B-YyplZK.js";
+} from "./arrow-left.js";
 import {
     S as J
-} from "./smartphone-DLJLcwgI.js";
+} from "./smartphone.js";
 import {
     C as Y
-} from "./clock-cYcwgu-i.js";
+} from "./clock.js";
 /**
  * @license lucide-react v0.462.0 - ISC
  *

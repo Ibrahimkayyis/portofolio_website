@@ -1,11 +1,11 @@
 import {
     j as a
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     u as f,
     r as h,
     L as g
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 
 function m(s, n) {
     if (!s.length) return n.length;

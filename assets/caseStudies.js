@@ -1,7 +1,7 @@
 import {
     i as o,
     q as t
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 
 const c = ["my-halaqoh", "lensa-kulitku", "our-story", "report"],
     r = "https://ibrahimkayyis.github.io",

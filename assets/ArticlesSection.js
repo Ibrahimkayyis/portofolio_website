@@ -8,18 +8,18 @@ import {
     A as j,
     S as C,
     m as L
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     i as I,
     r as x,
     L as b
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 import {
     S
-} from "./SectionHeader-DxtSrYkL.js";
+} from "./SectionHeader.js";
 import {
     F as A
-} from "./flame-DW67cpTk.js";
+} from "./flame.js";
 
 function F({
     article: a,

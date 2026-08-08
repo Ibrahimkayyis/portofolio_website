@@ -5,17 +5,17 @@ import {
     l,
     v as c,
     A as h
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     r as g,
     L as f
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 import {
     S as u
-} from "./SectionHeader-DxtSrYkL.js";
+} from "./SectionHeader.js";
 import {
     A as d
-} from "./arrow-up-right-DTBoS46a.js";
+} from "./arrow-up-right.js";
 /**
  * @license lucide-react v0.462.0 - ISC
  *

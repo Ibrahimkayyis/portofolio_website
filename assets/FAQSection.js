@@ -6,11 +6,11 @@ import {
     l as g,
     q as a,
     i as b
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     S as y
-} from "./SectionHeader-DxtSrYkL.js";
-import "./react-vendor-iqlcZCOr.js";
+} from "./SectionHeader.js";
+import "./react-vendor.js";
 /**
  * @license lucide-react v0.462.0 - ISC
  *

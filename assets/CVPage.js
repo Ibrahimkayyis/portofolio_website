@@ -11,16 +11,16 @@ import {
     G as N,
     M as y,
     r as m
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     Footer as v
-} from "./Footer-CF6X5QOV.js";
+} from "./Footer.js";
 import {
     r as c
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 import {
     D as w
-} from "./download-BPD7iSgh.js";
+} from "./download.js";
 const l = c.forwardRef(({
     className: t,
     ...a

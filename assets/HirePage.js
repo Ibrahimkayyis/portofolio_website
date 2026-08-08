@@ -15,26 +15,26 @@ import {
     A as F,
     w as A,
     m as C
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     L as c
-} from "./react-vendor-iqlcZCOr.js";
+} from "./react-vendor.js";
 import {
     Footer as H
-} from "./Footer-CF6X5QOV.js";
+} from "./Footer.js";
 import {
     E as _,
     A as O
-} from "./EngagementCards-3ow3tW6x.js";
+} from "./EngagementCards.js";
 import {
     RecommendationBlock as q
-} from "./RecommendationsSection-C4S8Laj0.js";
+} from "./RecommendationsSection.js";
 import {
     A as I
-} from "./arrow-left-B-YyplZK.js";
-import "./clock-cYcwgu-i.js";
-import "./SectionHeader-DxtSrYkL.js";
-import "./arrow-up-right-DTBoS46a.js";
+} from "./arrow-left.js";
+import "./clock.js";
+import "./SectionHeader.js";
+import "./arrow-up-right.js";
 const s = "https://ibrahimkayyis.github.io/hire/",
     d = "Hire a Senior Flutter Engineer & Fractional Mobile Lead | Ibrahim Kayyis",
     i = "Hire Ibrahim Kayyis — senior Flutter engineer and fractional mobile lead. 5M+ users, 99.9% crash-free, 350+ releases. Remote worldwide or Gulf & Indonesia.",

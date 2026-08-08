@@ -3,10 +3,10 @@ import {
     j as e,
     F as r,
     D as c
-} from "./index-M-52U9mK.js";
+} from "./index.js";
 import {
     C as n
-} from "./clock-cYcwgu-i.js";
+} from "./clock.js";
 /**
  * @license lucide-react v0.462.0 - ISC
  *
