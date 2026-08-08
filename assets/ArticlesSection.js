@@ -128,12 +128,12 @@ function P() {
                 label: "Writing",
                 inView: l,
                 title: e.jsxs(e.Fragment, {
-                    children: ["Field notes on ", e.jsx("span", {
+                    children: ["Technical notes & ", e.jsx("span", {
                         className: "text-primary underline decoration-primary/50 decoration-[3px] underline-offset-[0.16em]",
-                        children: "shipping software."
+                        children: "mobile engineering."
                     })]
                 }),
-                description: "Tutorials and write-ups on mobile engineering, CI/CD, and the automation that keeps releases boring."
+                description: "Articles, architecture guides, and practical insights on Flutter, Clean Architecture, Kotlin, and offline-first mobile systems."
             }), e.jsxs("div", {
                 className: u("flex flex-wrap items-center gap-2 mb-10 reveal-hidden", l && "animate-fade-in"),
                 style: {

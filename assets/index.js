@@ -14077,98 +14077,40 @@ function Zw() {
     }) : null
 }
 const ev = [{
-        slug: "flutter-cached-pdfview-guide",
-        title: "Building a Cached PDF Viewer in Flutter",
-        description: "A hands-on guide to cached, offline-capable, native PDF viewing in Flutter with flutter_cached_pdfview — from the package's creator and maintainer.",
-        date: "2024-01-15",
-        dateModified: "2026-07-07",
+    o = [{
+        slug: "clean-architecture-flutter-cubit",
+        title: "Clean Architecture in Flutter: Building Scalable Apps with Cubit",
+        description: "A practical guide to structuring enterprise Flutter applications into Presentation, Domain, and Data layers using Cubit for state management.",
+        date: "2026-06-10",
         readTime: "7 min read",
-        tags: ["Flutter", "Dart", "PDF", "Mobile"],
-        caseStudySlug: "flutter-cached-pdfview",
+        tags: ["Flutter", "Clean Architecture", "Cubit", "BLoC"],
         difficulty: "Intermediate",
         featured: !0,
         popular: !0
     }, {
-        slug: "github-actions-branch-protection-guardrails",
-        title: "The repo that rejects my own pushes to master",
-        description: "Two small GitHub Actions that stop accidental direct pushes to master and auto-restore build-breaking files — reversible by design, with an explicit escape hatch.",
-        date: "2026-04-14",
+        slug: "offline-first-flutter-hive-firestore",
+        title: "Offline-First Mobile Architecture: Hive & Firebase Sync",
+        description: "How to implement instant local writes with Hive NoSQL and background sync reconciliation with Firebase Cloud Firestore.",
+        date: "2026-05-18",
         readTime: "6 min read",
-        tags: ["GitHub Actions", "DevOps", "CI/CD", "Flutter"],
+        tags: ["Flutter", "Offline-first", "Hive", "Firebase"],
         difficulty: "Intermediate",
         popular: !0
     }, {
-        slug: "automate-pull-request-hygiene",
-        title: "PRs that fill in their own paperwork (and a gate that won't let bad code merge)",
-        seoTitle: "Automating PR Hygiene with GitHub Actions",
-        description: "Separating the chores of code review from the judgment: auto-context on every PR, plus a quality gate that validates translations, runs the analyzer, and cleans up after itself.",
-        date: "2026-04-21",
+        slug: "android-mvvm-material-design-3",
+        title: "Modern Android Development: MVVM Architecture & Material Design 3",
+        description: "Best practices for structuring native Android applications in Kotlin using ViewModel, LiveData/StateFlow, and Material 3 design components.",
+        date: "2026-04-25",
         readTime: "6 min read",
-        tags: ["GitHub Actions", "Developer Experience", "CI/CD", "Code Review"]
-    }, {
-        slug: "sync-jira-with-github-prs",
-        title: "Making Jira and GitHub agree without anyone updating both",
-        description: "A branch-name regex and one REST call mirror Jira status, fix versions, and labels onto every PR — plus a Slow PR flag that surfaces finished work that is not shipping.",
-        date: "2026-04-28",
-        readTime: "7 min read",
-        tags: ["GitHub Actions", "Jira", "CI/CD", "Developer Experience"]
-    }, {
-        slug: "auto-rebase-and-detect-merge-conflicts",
-        title: "Every merge to master quietly breaks other PRs. So I built a radar for it.",
-        description: "A two-workflow radar that refreshes every open PR on each merge to master, treats mergeability as eventually consistent, and routes conflict alerts to the right person.",
-        date: "2026-05-05",
-        readTime: "6 min read",
-        tags: ["GitHub Actions", "Git", "CI/CD", "DevOps"]
-    }, {
-        slug: "bot-that-resolves-merge-conflicts",
-        title: "I let a bot resolve merge conflicts and push the fix. Here's how I made that safe.",
-        seoTitle: "Letting a Bot Resolve Merge Conflicts Safely",
-        description: "How to ship a genuinely dangerous automation safely — by shrinking its blast radius to one provably-safe case, working only in throwaway space, and failing closed on anything unexpected.",
-        date: "2026-05-12",
-        readTime: "8 min read",
-        tags: ["GitHub Actions", "Git", "Automation", "CI/CD"]
-    }, {
-        slug: "automated-stale-branch-cleanup",
-        title: "A repo that cleans up after itself — without deleting the wrong branch",
-        description: "Bulk branch deletion done safely, as a careful classification with a per-run cap, deferral, and a full audit trail — never a blunt age filter.",
-        date: "2026-06-02",
-        readTime: "6 min read",
-        tags: ["GitHub Actions", "Git", "DevOps", "Automation"]
-    }, {
-        slug: "ai-weekly-engineering-reviews",
-        title: "I built an AI that writes weekly engineering summaries. Then I had to decide whether I should.",
-        seoTitle: "Should an AI Write Your Team's Weekly Summaries?",
-        description: "Aggregating git and Jira into per-person weekly summaries with an LLM is a weekend project. Doing it responsibly — private, descriptive, transparent — is the actual work.",
-        date: "2026-06-09",
-        readTime: "8 min read",
-        tags: ["AI in Development", "Engineering Leadership", "Team Management", "Automation"]
-    }, {
-        slug: "managing-large-flutter-codebases",
-        title: "Best Practices for Managing Large Flutter Codebases",
-        description: "Hard-won lessons from scaling [Perusahaan Anda] — a 220K+ line, 60+ module Flutter app serving 5M+ learners — into a codebase a small team can still ship weekly.",
-        date: "2026-07-06",
-        readTime: "9 min read",
-        tags: ["Flutter", "Dart", "Architecture", "Scale"],
-        caseStudySlug: "istoria",
-        difficulty: "Advanced",
-        featured: !0
-    }, {
-        slug: "flutter-build-flavors-guide",
-        title: "App Flavors in Flutter: One Codebase, Every Environment",
-        description: "How to run local, staging, and production from a single Flutter codebase with build flavors — Dart entry points, typed per-flavor config, and the Android and iOS native wiring that makes it real.",
-        date: "2026-07-06",
-        readTime: "9 min read",
-        tags: ["Flutter", "Dart", "Build & Release", "DevOps"],
-        caseStudySlug: "istoria",
+        tags: ["Kotlin", "Android", "MVVM", "Material 3"],
         difficulty: "Intermediate"
     }, {
-        slug: "offline-first-vs-local-first",
-        title: "Offline-First vs Local-First: What's the Difference?",
-        description: "Offline-first vs local-first: one is about working with no network, the other about who owns the canonical data — with examples from a 5M-user Flutter app.",
-        date: "2026-07-07",
-        readTime: "7 min read",
-        tags: ["Offline-first", "Architecture", "Flutter", "PowerSync"],
-        caseStudySlug: "offline-first-sync",
+        slug: "flutter-monorepo-melos-guide",
+        title: "Scaling Modular Flutter Codebases with Melos Monorepo",
+        description: "Lessons learned from managing enterprise Flutter monorepos: package splitting, versioning, shared design tokens, and unified scripts.",
+        date: "2026-04-10",
+        readTime: "8 min read",
+        tags: ["Flutter", "Melos", "Monorepo", "Architecture"],
         difficulty: "Advanced"
     }],
     tv = [{
