@@ -26,20 +26,11 @@ const p = [{
         Icon: c
     }],
     b = [{
-        label: "Articles",
-        to: "/articles/"
-    }, {
         label: "Projects",
         to: "/projects/"
     }, {
         label: "Case Studies",
         to: "/case-studies/"
-    }, {
-        label: "Speaking",
-        to: "/speaking/"
-    }, {
-        label: "Recommendations",
-        to: "/recommendations/"
     }, {
         label: "Hire",
         to: "/hire"

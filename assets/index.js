@@ -14004,12 +14004,7 @@ const Hw = c.lazy(() => ce(() =>
                     fallback: i.jsx("div", {
                         className: "min-h-[200px]"
                     }),
-                    children: [i.jsx(Uw, {}), i.jsx(Bw, {}), i.jsx(Xy, {
-                        title: "Need this kind of engineering on your mobile app?",
-                        subtitle: "5M+ users shipped, 99.9% crash-free, weekly releases. Let's talk about your platform.",
-                        source: "after_projects",
-                        className: "mt-12"
-                    }), i.jsx(zw, {}), i.jsx(Hw, {}), i.jsx(qw, {}), i.jsx(Gw, {}), i.jsx(Ww, {}), i.jsx(Vw, {}), i.jsx(Jw, {}), i.jsx(Kw, {}), i.jsx(Yw, {})]
+                    children: [i.jsx(Uw, {}), i.jsx(Bw, {}), i.jsx(zw, {}), i.jsx(Hw, {}), i.jsx(Ww, {}), i.jsx(Jw, {}), i.jsx(Kw, {}), i.jsx(Yw, {})]
                 })]
             }), i.jsx(c.Suspense, {
                 fallback: null,

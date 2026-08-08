@@ -40,7 +40,7 @@ function N() {
         children: e.jsxs("div", {
             className: "container mx-auto px-6",
             children: [e.jsx(u, {
-                index: "11",
+                index: "08",
                 label: "Availability",
                 inView: a,
                 title: e.jsxs(e.Fragment, {

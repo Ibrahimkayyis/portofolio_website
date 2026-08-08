@@ -2875,7 +2875,7 @@ function Et() {
         children: c.jsxs("div", {
             className: "container mx-auto px-6",
             children: [c.jsx(qe, {
-                index: "12",
+                index: "09",
                 label: "Contact",
                 inView: e,
                 title: c.jsxs(c.Fragment, {

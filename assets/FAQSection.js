@@ -99,7 +99,7 @@ function S() {
         children: e.jsxs("div", {
             className: "container mx-auto px-6",
             children: [e.jsx(y, {
-                index: "10",
+                index: "07",
                 label: "FAQ",
                 inView: n,
                 title: e.jsxs(e.Fragment, {

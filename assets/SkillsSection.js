@@ -181,7 +181,7 @@ function L() {
         children: e.jsxs("div", {
             className: "container mx-auto px-6",
             children: [e.jsx(l, {
-                index: "08",
+                index: "06",
                 label: "Stack",
                 inView: s,
                 title: e.jsxs(e.Fragment, {
