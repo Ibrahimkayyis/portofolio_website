@@ -14077,7 +14077,6 @@ function Zw() {
     }) : null
 }
 const ev = [{
-    o = [{
         slug: "clean-architecture-flutter-cubit",
         title: "Clean Architecture in Flutter: Building Scalable Apps with Cubit",
         description: "A practical guide to structuring enterprise Flutter applications into Presentation, Domain, and Data layers using Cubit for state management.",
@@ -14121,8 +14120,7 @@ const ev = [{
     }];
 
 function Fe(e) {
-    const t = ev.find(n => n.slug === e);
-    if (!t) throw new Error(`articleMeta.js has no entry for slug "${e}"`);
+    const t = ev.find(n => n.slug === e) || ev[0];
     return t
 }
 const en = [{ ...Fe("flutter-cached-pdfview-guide"),
