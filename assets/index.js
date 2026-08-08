@@ -10152,37 +10152,29 @@ const Ve = {
         ]
     }],
     $v = [{
-        category: "Architecture",
+        category: "Mobile & Languages",
+        icon: "Smartphone",
+        items: ["Flutter", "Dart", "Kotlin", "Android Native", "Material Design 3"]
+    }, {
+        category: "Architecture & Design",
         icon: "Layers",
-        items: ["Clean Architecture", "MVVM", "SOLID", "Modular Design", "50+ Feature Modules", "Dependency Injection", "Design Systems"]
+        items: ["Clean Architecture", "MVVM", "SOLID Principles", "Modular Monorepo (Melos)", "Dependency Injection (GetIt/Injectable)"]
     }, {
         category: "State Management",
         icon: "Smartphone",
-        items: ["BLoC", "Cubit", "RxDart", "Reactive Programming", "Either<Failure, T>"]
+        items: ["BLoC", "Cubit", "ViewModel", "LiveData / StateFlow", "Dartz (Either<Failure, T>)", "Freezed"]
     }, {
-        category: "Data & Backend",
+        category: "Data & Backend Integration",
         icon: "Database",
-        items: ["PowerSync", "Drift", "SQLite", "Offline-first", "GraphQL", "REST", "Firebase"]
+        items: ["Firebase Firestore", "Hive NoSQL", "SQLite / Sqflite", "REST API (Dio & Retrofit)", "DataStore", "Offline-First Sync"]
     }, {
-        category: "CI/CD & Release",
+        category: "Dev Tooling & Code Generation",
         icon: "GitBranch",
-        items: ["GitHub Actions", "Codemagic", "Fastlane", "Trunk-based", "Feature Flags", "GrowthBook"]
+        items: ["Melos Monorepo", "AutoRoute (v10)", "Slang i18n", "Build Runner", "Envied", "Git / GitHub"]
     }, {
         category: "Testing & Quality",
         icon: "ShieldCheck",
-        items: ["Unit Tests", "Widget Tests", "Maestro", "Patrol", "Code Review", "Static Analysis"]
-    }, {
-        category: "Performance",
-        icon: "Gauge",
-        items: ["Cold Start Optimization", "Memory Tuning", "Rendering", "Crash-free Stability", "Sentry"]
-    }, {
-        category: "Leadership",
-        icon: "Users",
-        items: ["Architecture Ownership", "Technical Strategy", "RFCs", "Hiring & Bar-raising", "Mentoring", "Release Governance"]
-    }, {
-        category: "Monetization & Analytics",
-        icon: "LineChart",
-        items: ["RevenueCat", "Stripe", "AdMob", "PostHog", "Adjust", "A/B Testing"]
+        items: ["Unit Testing", "Widget Testing", "Sentry Error Tracking", "Firebase FCM", "Mobile Scanner / CameraX"]
     }],
     fy = [{
         title: "MyHalaqoh",

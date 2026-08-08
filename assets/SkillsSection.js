@@ -190,7 +190,7 @@ function L() {
                         children: "the work."
                     })]
                 }),
-                description: "The mobile, architecture, and delivery stack I use to ship and run production apps."
+                description: "The mobile languages, Clean Architecture patterns, and state management tools I use to build scalable production apps."
             }), e.jsx("div", {
                 className: "grid gap-5 sm:grid-cols-2",
                 children: o.map((r, t) => e.jsx(j, {
