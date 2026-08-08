@@ -8,8 +8,7 @@ import {
     q as t,
     G as x,
     L as h,
-    Y as u,
-    P as b
+    M as MailIcon
 } from "./index.js";
 import {
     S as g
@@ -23,12 +22,7 @@ import {
 import {
     S as j
 } from "./shield-check.js";
-/**
- * @license lucide-react v0.462.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
+
 const k = i("Flag", [
     ["path", {
         d: "M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z",
@@ -42,12 +36,7 @@ const k = i("Flag", [
         key: "1cm3nv"
     }]
 ]);
-/**
- * @license lucide-react v0.462.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
+
 const v = i("Layers3", [
     ["path", {
         d: "m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z",
@@ -62,28 +51,7 @@ const v = i("Layers3", [
         key: "1iwflc"
     }]
 ]);
-/**
- * @license lucide-react v0.462.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const N = i("MessagesSquare", [
-    ["path", {
-        d: "M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z",
-        key: "p1xzt8"
-    }],
-    ["path", {
-        d: "M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1",
-        key: "1cx29u"
-    }]
-]);
-/**
- * @license lucide-react v0.462.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
+
 const w = i("WifiOff", [
         ["path", {
             d: "M12 20h.01",
@@ -115,21 +83,21 @@ const w = i("WifiOff", [
         }]
     ]),
     M = [{
-        icon: w,
-        label: "Offline-first",
-        blurb: "Reads served from local storage — no learner stares at a spinner."
+        icon: v,
+        label: "Clean Architecture",
+        blurb: "Clear layer separation across Presentation, Domain, and Data for maintainable codebases."
     }, {
         icon: j,
-        label: "Failures as values",
-        blurb: "Errors returned as data, never a crash on an error path."
+        label: "State Management",
+        blurb: "Predictable, reactive state flows using BLoC / Cubit in Flutter and MVVM in Kotlin."
+    }, {
+        icon: w,
+        label: "Offline-First & Local Data",
+        blurb: "Seamless local storage & sync capabilities leveraging Hive, SQLite, and Firestore."
     }, {
         icon: k,
-        label: "Deploy ≠ release",
-        blurb: "Feature flags separate shipping a build from exposing it."
-    }, {
-        icon: v,
-        label: "Decisions that compound",
-        blurb: "Architecture where good choices compound instead of decay."
+        label: "Type-Safe & Scalable",
+        blurb: "Robust API integration via Dio & Retrofit, GetIt dependency injection, and Slang i18n."
     }],
     L = [{
         href: t.github,
@@ -140,17 +108,9 @@ const w = i("WifiOff", [
         label: "LinkedIn",
         Icon: h
     }, {
-        href: t.youtube,
-        label: "YouTube",
-        Icon: u
-    }, {
-        href: t.stackoverflow,
-        label: "Stack Overflow",
-        Icon: N
-    }, {
-        href: t.pubdev,
-        label: "pub.dev",
-        Icon: b
+        href: t.email,
+        label: "Email",
+        Icon: MailIcon
     }],
     F = [{
         label: "Location",
@@ -186,12 +146,12 @@ function A() {
                 label: "About",
                 inView: d,
                 title: e.jsxs(e.Fragment, {
-                    children: ["From first commit to", " ", e.jsx("span", {
+                    children: ["Building clean & ", e.jsx("span", {
                         className: "text-primary underline decoration-primary/50 decoration-[3px] underline-offset-[0.16em]",
-                        children: "store release."
+                        children: "maintainable apps."
                     })]
                 }),
-                description: "Flutter & mobile architecture — owning the path from a feature idea to a stable, shipped app."
+                description: "Flutter & Android developer focusing on Clean Architecture, state management, and reliable mobile user experiences."
             }), e.jsx("blockquote", {
                 className: `relative max-w-4xl border-l-2 border-primary/60 pl-6 md:pl-8 mb-14 md:mb-20 ${l()}`,
                 style: {

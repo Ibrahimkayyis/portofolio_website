@@ -10106,7 +10106,11 @@ const Ve = {
         email: "mailto:kaykid369@gmail.com",
         calendly: "https://calendly.com/ibrahimkayyis/meet"
     },
-    Iv = ["I build mobile systems that hold at scale. 7 years shipping production iOS and Android to 5M+ users — and the throughline is always the same: architecture that doesn't rot under growth, releases that ship on schedule, and teams that get sharper every sprint.", "Today I lead a 4-engineer mobile squad at [Perusahaan Anda]. I own the architecture, the release pipeline, and the engineering culture. We cut our release cycle from four weeks to one, held a 99.9% crash-free rate across 350+ releases, and built a platform where four engineers out-ship teams twice their size.", "What I care about: making the right thing the default. Offline-first reads so no learner stares at a spinner. Failures as values so the app never crashes on an error path. Feature flags so deploy and release are separate decisions. The technology is the easy part — the hard part is building systems and teams where good decisions compound instead of decay."],
+    Iv = [
+        "I am a Mobile Developer specializing in Flutter, Dart, and Native Android (Kotlin). I focus on architecting clean, maintainable systems using Clean Architecture and Cubit (BLoC) state management so that every feature is scalable, robust, and easy to maintain.",
+        "During my 5-month internship at PT Neural Technologies Indonesia, I contributed to an internal enterprise Flutter application inside a Melos-managed monorepo. Through the Bangkit Academy mobile development cohort (led by Google, GoTo, and Traveloka), I deepened my native Android expertise and collaborated on AI-integrated mobile solutions like LensaKulitku.",
+        "Whether building Qur'an memorization tracking platforms like MyHalaqoh or enterprise operational portals like REPORT, my goal remains constant: enforcing solid architectural boundaries, integrating robust REST APIs with Dio, and delivering intuitive, crash-free user experiences."
+    ],
     La = [{
         value: "3.85",
         label: "GPA / 4.00"
