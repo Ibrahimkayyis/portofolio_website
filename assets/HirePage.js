@@ -203,10 +203,10 @@ function G() {
                         })]
                     }), e.jsx("h1", {
                         className: "font-heading text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight leading-[1.05] mb-6 text-balance",
-                        children: "Flutter Developer & Mobile Engineer — Open to Internship & Entry-Level Roles"
+                        children: "Flutter Developer & Mobile Engineer — Open to Mobile Development Roles"
                     }), e.jsx("p", {
                         className: "text-xl text-muted-foreground text-pretty mb-4",
-                        children: "Information Systems student specializing in Flutter & Dart, with hands-on internship experience in Clean Architecture and BLoC. Open to internship and entry-level Flutter / Mobile Developer roles."
+                        children: "Mobile Developer specializing in Flutter & Dart, with hands-on internship experience in Clean Architecture and BLoC. Open to Flutter & Mobile Developer roles."
                     }), e.jsx("p", {
                         className: "font-mono text-xs text-muted-foreground mb-8",
                         children: L.slice(0, 4).map(t => `${t.value} ${t.label.toLowerCase()}`).join(" · ")

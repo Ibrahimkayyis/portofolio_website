@@ -10061,26 +10061,19 @@ const Ve = {
         location: "Surabaya, Indonesia",
         email: "kaykid369@gmail.com",
         avatarUrl: "/avatar.png",
-        tagline: "Information Systems student specializing in Flutter & Dart — building production apps with Clean Architecture, BLoC state management, and REST API integration. Open to internship and entry-level Flutter roles."
+        tagline: "Mobile Developer specializing in Flutter & Dart — building production apps with Clean Architecture, BLoC state management, and REST API integration. Open to Flutter & Mobile Developer roles."
     },
     uy = {
         status: "open",
-        label: "Open to internship & entry-level roles",
-        summary: "Actively seeking internship or entry-level Flutter / Mobile Developer roles — remote or on-site in Indonesia.",
+        label: "Open to Flutter & Mobile Developer roles",
+        summary: "Actively seeking Flutter & Mobile Developer roles — remote or on-site in Indonesia.",
         engagements: [{
-            type: "Internship",
-            icon: "GraduationCap",
-            summary: "Flutter Mobile Developer Intern",
-            forWho: "For startups and companies needing a Flutter developer who can hit the ground running.",
-            outcome: "A motivated intern who writes clean, maintainable Flutter code with Clean Architecture and BLoC — ready to contribute to a real production codebase from day one.",
-            description: "I have hands-on internship experience building real enterprise Flutter apps. I am comfortable with Dio, Cubit, Hive, Firestore, and working inside monorepo setups."
-        }, {
-            type: "Entry-Level Full-time",
+            type: "Full-Time / Role",
             icon: "Briefcase",
-            summary: "Junior Flutter / Mobile Developer",
-            forWho: "For teams looking for a junior Flutter developer who takes ownership and grows fast.",
-            outcome: "A junior developer who follows Clean Architecture, contributes to team discussions, and ships features reliably — with a strong foundation in both Flutter and native Android.",
-            description: "Strong foundation in Flutter (Clean Architecture, BLoC/Cubit, REST API, Firebase) and native Android (Kotlin, MVVM). I pick up new patterns quickly and I am not afraid of reading a large codebase."
+            summary: "Flutter & Mobile Developer",
+            forWho: "For startups and engineering teams looking for a mobile developer who writes clean, maintainable code.",
+            outcome: "A dedicated mobile developer who follows Clean Architecture, contributes to team discussions, and ships features reliably — with a strong foundation in both Flutter and native Android.",
+            description: "Strong foundation in Flutter (Clean Architecture, BLoC/Cubit, REST API, Firebase) and native Android (Kotlin, MVVM). I pick up new patterns quickly and I am comfortable with large codebases."
         }, {
             type: "Contract / Freelance",
             icon: "FileSignature",
@@ -10361,21 +10354,22 @@ Beyond his technical skills, Ibrahim is also a great teammate who supports other
         venue: "Swypex · Smart Village",
         location: "Giza, Indonesia",
         date: "2025-12-27",
-        audience: "~50 mobile engineers",
-        organizer: "Swypex",
-        organizerUrl: "https://swypex.com",
-        free: !0,
-        summary: "How to design Flutter apps that keep working with no network — local-first data, sync strategies, conflict resolution, and event sourcing to rebuild state on reconnect.",
-        topics: ["Local-first apps", "Offline-first", "Synchronization", "Event Sourcing", "Conflict resolution"],
+        event: "Flutter Night",
+        date: "Dec 2025",
+        location: "Surabaya",
+        type: "Keynote",
+        description: "How to design Flutter apps that keep working offline with Hive local storage and background Firestore sync.",
+        slidesUrl: "https://github.com/Ibrahimkayyis",
+        videoUrl: "https://github.com/Ibrahimkayyis",
         image: "/speaking/flutter-night-swypex.webp",
-        imageAlt: "Ibrahim Kayyis presenting 'Building Unstoppable Offline-First Apps' to a full room at Flutter Night @ Swypex, Smart Village."
+        imageAlt: "Ibrahim Kayyis presenting at Flutter Night"
     }],
     bi = [{
         q: "Who is Ibrahim Kayyis?",
-        a: "Ibrahim Kayyis is an Information Systems student at Universitas Negeri Surabaya (GPA: 3.85/4.00) specializing in Flutter and Dart mobile development. He completed a 5-month internship as a Flutter Mobile Developer at PT Neural Technologies Indonesia, and is also an active participant in the Bangkit Academy Mobile Development Cohort supported by Google, GoTo, and Traveloka."
+        a: "Ibrahim Kayyis is a Mobile Developer with a background in Information Systems from Universitas Negeri Surabaya (GPA: 3.85/4.00) specializing in Flutter and Dart mobile development. He completed a 5-month internship as a Flutter Mobile Developer at PT Neural Technologies Indonesia and graduated from the Bangkit Academy Mobile Development Cohort led by Google, GoTo, and Traveloka."
     }, {
         q: "Is Ibrahim Kayyis available for hire?",
-        a: "Yes — he is actively seeking internship and entry-level Flutter / Mobile Developer roles. He can start immediately and prefers remote or on-site positions in Indonesia. The fastest way to reach him is by email at kaykid369@gmail.com or via LinkedIn."
+        a: "Yes — he is actively seeking Flutter / Mobile Developer roles. He can start immediately and prefers remote or on-site positions in Indonesia. The fastest way to reach him is by email at kaykid369@gmail.com or via LinkedIn."
     }, {
         q: "What is Ibrahim Kayyis's background?",
         a: "He completed a 5-month Flutter internship at PT Neural Technologies Indonesia, contributing to an enterprise app within a Melos-managed monorepo. He also attended Bangkit Academy where he built an AI-powered skin disease detection Android app as a capstone project."
