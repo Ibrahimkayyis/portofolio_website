@@ -234,7 +234,7 @@ override onMapReady(googleMap: GoogleMap) {
         date: "2026-07-01",
         readTime: "6 min read",
         tags: ["Flutter", "Dart", "Clean Architecture", "BLoC / Cubit", "Retrofit & Dio", "Hive & SQLite", "Sentry", "Firebase FCM", "slang i18n"],
-        heroImage: "/project-images/report.png",
+        heroImage: "/project-images/report_screenshot.png",
         role: "Lead Flutter Developer",
         timeline: "2025",
         platforms: ["Android", "iOS", "Web"],

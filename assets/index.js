@@ -10197,7 +10197,7 @@ const Ve = {
         title: "REPORT",
         category: "featured",
         description: "Regional e-Portal for Operation & Request Tracking — an incident and infrastructure reporting mobile application.",
-        image: "/project-images/report.png",
+        image: "/project-images/report_screenshot.png",
         tags: ["Flutter", "Dart", "Clean Arch", "REST API"],
         github: "https://github.com/Ibrahimkayyis/Report"
     }],
