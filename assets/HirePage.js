@@ -1,0 +1,328 @@
+import {
+    u as v,
+    F as n,
+    I as x,
+    J as k,
+    j as e,
+    H as S,
+    b as E,
+    r as L,
+    B as o,
+    C as g,
+    q as m,
+    M as u,
+    t as b,
+    A as F,
+    w as A,
+    m as C
+} from "./index.js";
+import {
+    L as c
+} from "./react-vendor.js";
+import {
+    Footer as H
+} from "./Footer.js";
+import {
+    E as _,
+    A as O
+} from "./EngagementCards.js";
+import {
+    RecommendationBlock as q
+} from "./RecommendationsSection.js";
+import {
+    A as I
+} from "./arrow-left.js";
+import "./clock.js";
+import "./SectionHeader.js";
+import "./arrow-up-right.js";
+const s = "https://ibrahimkayyis.github.io/hire/",
+    d = "Hire a Senior Flutter Engineer & Fractional Mobile Lead | Ibrahim Kayyis",
+    i = "Hire Ibrahim Kayyis — senior Flutter engineer and fractional mobile lead. 5M+ users, 99.9% crash-free, 350+ releases. Remote worldwide or Gulf & Indonesia.",
+    f = b.filter(a => /manager|lead|cto|founder|head/i.test(a.title)).slice(0, 2),
+    M = f.reduce((a, h, r, l) => h.date > l[a].date ? r : a, 0);
+
+function G() {
+    const {
+        theme: a,
+        toggleTheme: h
+    } = v(), r = C(), l = t => {
+        r == null || r.capture("calendly_popup_opened", {
+            source: t
+        }), A(m.calendly)
+    }, j = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://ibrahimkayyis.github.io/hire/#webpage",
+        url: s,
+        name: d,
+        description: i,
+        inLanguage: "en",
+        isPartOf: {
+            "@id": "https://ibrahimkayyis.github.io/#website"
+        },
+        about: {
+            "@id": "https://ibrahimkayyis.github.io/#person"
+        }
+    }, y = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://ibrahimkayyis.github.io/hire/#service",
+        name: "Senior Flutter development and mobile engineering leadership",
+        serviceType: "Mobile app development and engineering leadership (Flutter)",
+        description: i,
+        url: s,
+        provider: {
+            "@id": "https://ibrahimkayyis.github.io/#person"
+        },
+        areaServed: n.workModes.slice(0, 2).join("; "),
+        hasOfferCatalog: {
+            "@type": "OfferCatalog",
+            name: "Engagement types",
+            itemListElement: n.engagements.map(t => ({
+                "@type": "Offer",
+                itemOffered: {
+                    "@type": "Service",
+                    name: `${t.type} — ${t.summary}`,
+                    description: t.description
+                }
+            }))
+        }
+    }, N = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [{
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://ibrahimkayyis.github.io/"
+        }, {
+            "@type": "ListItem",
+            position: 2,
+            name: "Hire",
+            item: s
+        }]
+    }, w = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        inLanguage: "en",
+        mainEntity: x.filter(t => !k.includes(t)).map(t => ({
+            "@type": "Question",
+            name: t.q,
+            acceptedAnswer: {
+                "@type": "Answer",
+                text: t.a
+            }
+        }))
+    };
+    return e.jsxs("div", {
+        className: "min-h-screen bg-background",
+        children: [e.jsxs(S, {
+            children: [e.jsx("title", {
+                children: d
+            }), e.jsx("meta", {
+                name: "description",
+                content: i
+            }), e.jsx("link", {
+                rel: "canonical",
+                href: s
+            }), e.jsx("meta", {
+                property: "og:type",
+                content: "website"
+            }), e.jsx("meta", {
+                property: "og:url",
+                content: s
+            }), e.jsx("meta", {
+                property: "og:title",
+                content: d
+            }), e.jsx("meta", {
+                property: "og:description",
+                content: i
+            }), e.jsx("meta", {
+                property: "og:image",
+                content: "https://ibrahimkayyis.github.io/hub-og/hire.png"
+            }), e.jsx("meta", {
+                property: "og:site_name",
+                content: "Ibrahim Kayyis"
+            }), e.jsx("meta", {
+                name: "twitter:card",
+                content: "summary_large_image"
+            }), e.jsx("meta", {
+                name: "twitter:url",
+                content: s
+            }), e.jsx("meta", {
+                name: "twitter:title",
+                content: d
+            }), e.jsx("meta", {
+                name: "twitter:description",
+                content: i
+            }), e.jsx("meta", {
+                name: "twitter:image",
+                content: "https://ibrahimkayyis.github.io/hub-og/hire.png"
+            }), e.jsx("script", {
+                type: "application/ld+json",
+                children: JSON.stringify(j)
+            }), e.jsx("script", {
+                type: "application/ld+json",
+                children: JSON.stringify(y)
+            }), e.jsx("script", {
+                type: "application/ld+json",
+                children: JSON.stringify(N)
+            }), e.jsx("script", {
+                type: "application/ld+json",
+                children: JSON.stringify(w)
+            })]
+        }), e.jsx(E, {
+            theme: a,
+            toggleTheme: h
+        }), e.jsx("main", {
+            id: "main",
+            tabIndex: -1,
+            className: "container mx-auto px-6 pt-32 pb-20",
+            children: e.jsxs("div", {
+                className: "max-w-6xl mx-auto",
+                children: [e.jsxs(c, {
+                    to: "/",
+                    className: "inline-flex items-center kicker text-muted-foreground hover:text-primary transition-colors mb-10",
+                    children: [e.jsx(I, {
+                        className: "mr-2 h-3.5 w-3.5"
+                    }), "Ibrahim Kayyis"]
+                }), e.jsxs("header", {
+                    className: "mb-14 border-b border-border pb-10 max-w-3xl",
+                    children: [e.jsxs("p", {
+                        className: "mb-5 inline-flex items-center gap-2.5 border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-emerald-600 dark:text-emerald-400",
+                        children: [e.jsxs("span", {
+                            className: "relative flex h-2 w-2",
+                            children: [e.jsx("span", {
+                                className: "absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"
+                            }), e.jsx("span", {
+                                className: "relative inline-flex h-2 w-2 rounded-full bg-emerald-500"
+                            })]
+                        }), e.jsx("span", {
+                            className: "kicker normal-case tracking-normal font-medium",
+                            children: n.label
+                        })]
+                    }), e.jsx("h1", {
+                        className: "font-heading text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight leading-[1.05] mb-6 text-balance",
+                        children: "Flutter Developer & Mobile Engineer — Open to Mobile Development Roles"
+                    }), e.jsx("p", {
+                        className: "text-xl text-muted-foreground text-pretty mb-4",
+                        children: "Mobile Developer specializing in Flutter & Dart, with hands-on internship experience in Clean Architecture and BLoC. Open to Flutter & Mobile Developer roles."
+                    }), e.jsx("p", {
+                        className: "font-mono text-xs text-muted-foreground mb-8",
+                        children: L.slice(0, 4).map(t => `${t.value} ${t.label.toLowerCase()}`).join(" · ")
+                    }), e.jsxs("div", {
+                        className: "flex flex-col sm:flex-row sm:items-center gap-3",
+                        children: [e.jsx(o, {
+                            variant: "heroOutline",
+                            size: "lg",
+                            asChild: !0,
+                            children: e.jsxs("a", {
+                                href: m.email,
+                                children: [e.jsx(u, {
+                                    className: "mr-1 h-4 w-4"
+                                }), "Email me directly"]
+                            })
+                        })]
+                    })]
+                }), e.jsxs("section", {
+                    "aria-labelledby": "engagements-heading",
+                    className: "mb-16 max-w-3xl",
+                    children: [e.jsx("h2", {
+                        id: "engagements-heading",
+                        className: "sr-only",
+                        children: "Engagement types — full-time, fractional leadership, contract, or technical advisory"
+                    }), e.jsx(_, {
+                        as: "h2"
+                    }), e.jsx(O, {
+                        delay: "0.45s"
+                    })]
+                }), e.jsxs("section", {
+                    "aria-labelledby": "proof-heading",
+                    className: "mb-16 max-w-3xl",
+                    children: [e.jsx("h2", {
+                        id: "proof-heading",
+                        className: "font-heading text-2xl md:text-3xl tracking-tight mb-6",
+                        children: "Proof, not promises"
+                    }), e.jsxs("p", {
+                        className: "text-muted-foreground text-pretty mb-6",
+                        children: "I have built real projects you can explore: an offline-first Flutter app for Qur'an memorization management, an AI-powered skin disease detection Android app, a geolocation-based social app, and more."
+                    }), e.jsxs("div", {
+                        className: "flex flex-wrap gap-3 mt-4",
+                        children: [e.jsx(o, {
+                            variant: "outline",
+                            size: "sm",
+                            asChild: !0,
+                            children: e.jsx(c, {
+                                to: "/case-studies",
+                                children: "View Case Studies"
+                            })
+                        }), e.jsx(o, {
+                            variant: "outline",
+                            size: "sm",
+                            asChild: !0,
+                            children: e.jsx("a", {
+                                href: m.github,
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                children: "Browse GitHub"
+                            })
+                        })]
+                    })]
+                }), e.jsxs("section", {
+                    "aria-labelledby": "hire-faq-heading",
+                    className: "mb-16 max-w-3xl",
+                    children: [e.jsx("h2", {
+                        id: "hire-faq-heading",
+                        className: "font-heading text-2xl md:text-3xl tracking-tight mb-6",
+                        children: "Questions before hiring"
+                    }), e.jsx("div", {
+                        className: "space-y-8",
+                        children: x.map(t => e.jsxs("div", {
+                            children: [e.jsx("h3", {
+                                className: "font-medium mb-2",
+                                children: t.q
+                            }), e.jsx("p", {
+                                className: "text-sm leading-relaxed text-muted-foreground text-pretty",
+                                children: t.a
+                            })]
+                        }, t.q))
+                    })]
+                }), e.jsxs("section", {
+                    className: "border border-border bg-card p-8 md:p-10 max-w-3xl",
+                    children: [e.jsx("h2", {
+                        className: "font-heading text-2xl md:text-3xl tracking-tight mb-3",
+                        children: "Start the conversation"
+                    }), e.jsxs("p", {
+                        className: "text-muted-foreground text-pretty mb-6",
+                        children: [n.responseTime, ". ", n.startDate, ". The easiest way to start is a short email — tell me about the role or the project, and I will reply within 24 hours with a clear yes or next steps."]
+                    }), e.jsxs("div", {
+                        className: "flex flex-col sm:flex-row sm:items-center gap-3",
+                        children: [e.jsx(o, {
+                            variant: "hero",
+                            size: "lg",
+                            asChild: !0,
+                            children: e.jsxs("a", {
+                                href: m.email,
+                                children: [e.jsx(u, {
+                                    className: "mr-1 h-4 w-4"
+                                }), "Email me directly"]
+                            })
+                        }), e.jsxs("a", {
+                            href: m.cv,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            className: "link-underline inline-flex items-center gap-1.5 font-mono text-xs text-muted-foreground transition-colors hover:text-primary sm:ml-2",
+                            children: ["Download CV", e.jsx(F, {
+                                className: "h-3.5 w-3.5"
+                            })]
+                        })]
+                    })]
+                })]
+            })
+        }), e.jsx(H, {})]
+    })
+}
+export {
+    G as
+    default
+};
