@@ -10176,7 +10176,7 @@ const Ve = {
         image: "/project-images/my_halaqoh.png",
         tags: ["Flutter", "Dart", "Clean Arch", "Cubit", "Firebase", "Hive"],
         github: "https://github.com/Ibrahimkayyis/my_halaqoh",
-        caseStudySlug: "my_halaqoh"
+        caseStudySlug: "my-halaqoh"
     }, {
         title: "LensaKulitku",
         category: "featured",
@@ -10184,7 +10184,7 @@ const Ve = {
         image: "/project-images/lensakulitku.png",
         tags: ["Kotlin", "Android", "MVVM", "Machine Learning", "REST API"],
         github: "https://github.com/Ibrahimkayyis/LensaKulitku",
-        caseStudySlug: "lensakulitku"
+        caseStudySlug: "lensa-kulitku"
     }, {
         title: "OurStory",
         category: "featured",
@@ -10192,14 +10192,15 @@ const Ve = {
         image: "/project-images/ourstory.png",
         tags: ["Kotlin", "Android", "MVVM", "Google Maps", "CameraX"],
         github: "https://github.com/Ibrahimkayyis/OurStory",
-        caseStudySlug: "ourstory"
+        caseStudySlug: "our-story"
     }, {
         title: "REPORT",
         category: "featured",
         description: "Regional e-Portal for Operation & Request Tracking — an incident and infrastructure reporting mobile application.",
         image: "/project-images/report_screenshot.png",
         tags: ["Flutter", "Dart", "Clean Arch", "REST API"],
-        github: "https://github.com/Ibrahimkayyis/Report"
+        github: "https://github.com/Ibrahimkayyis/Report",
+        caseStudySlug: "report"
     }],
     Lv = [],
     py = [{
