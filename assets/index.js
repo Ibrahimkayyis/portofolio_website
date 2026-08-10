@@ -10592,14 +10592,14 @@ const Ma = [{
     href: "case-studies",
     label: "Case Studies"
 }, {
-    href: "articles",
-    label: "Articles"
+    href: "about",
+    label: "About"
 }, {
-    href: "recommendations",
-    label: "Praise"
+    href: "skills",
+    label: "Stack"
 }, {
     href: "work-with-me",
-    label: "Hire Me"
+    label: "Availability"
 }, {
     href: "contact",
     label: "Contact"
@@ -10627,7 +10627,7 @@ function yy({
     theme: e,
     toggleTheme: t
 }) {
-    const n = cy(["experience", "projects", "case-studies", "articles", "recommendations", "work-with-me", "contact"]),
+    const n = cy(["experience", "projects", "case-studies", "about", "skills", "work-with-me", "contact"]),
         r = Ro(),
         a = Gi(),
         o = Fn(),
