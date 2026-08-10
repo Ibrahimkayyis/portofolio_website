@@ -12566,17 +12566,14 @@ function ew() {
                         className: "truncate text-sm text-muted-foreground",
                         children: "Got a project or role in mind?"
                     })]
-                }), i.jsxs("button", {
-                    type: "button",
-                    onClick: o,
-                    onPointerEnter: a,
-                    onFocus: a,
+                }), i.jsxs("a", {
+                    href: pe.email,
                     tabIndex: n ? 0 : -1,
-                    "aria-label": "Book a 20-minute call",
+                    "aria-label": "Email me directly",
                     className: Q("group inline-flex min-h-[44px] w-full shrink-0 cursor-pointer items-center justify-center gap-2 sm:w-auto", "bg-primary px-5 py-2.5 font-medium text-primary-foreground", "transition-transform duration-200 hover:-translate-y-0.5", "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background", n && "animate-pulse-glow [animation-duration:2s]"),
-                    children: [i.jsx(Xn, {
+                    children: [i.jsx(Do, {
                         className: "h-4 w-4"
-                    }), "Book a call"]
+                    }), "Email me directly"]
                 })]
             })
         })
