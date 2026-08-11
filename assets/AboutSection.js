@@ -287,7 +287,12 @@ function A() {
                                 Icon: n
                             }) => e.jsx("a", {
                                 href: a,
-                                target: "_blank",
+                                onClick: () => {
+                                    if (a.startsWith("mailto") && navigator.clipboard) {
+                                        navigator.clipboard.writeText("kaykid369@gmail.com").catch(() => {});
+                                    }
+                                },
+                                target: a.startsWith("mailto") ? void 0 : "_blank",
                                 rel: "noopener noreferrer",
                                 "aria-label": s,
                                 title: s,

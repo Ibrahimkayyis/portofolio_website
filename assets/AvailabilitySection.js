@@ -8,7 +8,8 @@ import {
     M as c,
     A as d,
     w as x,
-    m as p
+    m as p,
+    T as G
 } from "./index.js";
 import {
     L as h
@@ -66,6 +67,12 @@ function N() {
                     className: "group",
                     children: e.jsxs("a", {
                         href: l.email,
+                        onClick: () => {
+                            if (navigator.clipboard) {
+                                navigator.clipboard.writeText("kaykid369@gmail.com").catch(() => {});
+                                G.success("Email copied to clipboard: kaykid369@gmail.com");
+                            }
+                        },
                         children: [e.jsx(c, {
                             className: "mr-1 h-4 w-4"
                         }), "Email me directly"]

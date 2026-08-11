@@ -63,6 +63,11 @@ function g() {
                         Icon: l
                     }) => e.jsxs("a", {
                         href: s,
+                        onClick: () => {
+                            if (s.startsWith("mailto") && navigator.clipboard) {
+                                navigator.clipboard.writeText("kaykid369@gmail.com").catch(() => {});
+                            }
+                        },
                         target: s.startsWith("mailto") ? void 0 : "_blank",
                         rel: "noopener noreferrer",
                         className: "kicker text-muted-foreground hover:text-primary transition-colors flex items-center gap-2",

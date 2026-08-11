@@ -14,7 +14,8 @@ import {
     t as b,
     A as F,
     w as A,
-    m as C
+    m as C,
+    T as Toast
 } from "./index.js";
 import {
     L as c
@@ -218,6 +219,12 @@ function G() {
                             asChild: !0,
                             children: e.jsxs("a", {
                                 href: m.email,
+                                onClick: () => {
+                                    if (navigator.clipboard) {
+                                        navigator.clipboard.writeText("kaykid369@gmail.com").catch(() => {});
+                                        Toast.success("Email copied to clipboard: kaykid369@gmail.com");
+                                    }
+                                },
                                 children: [e.jsx(u, {
                                     className: "mr-1 h-4 w-4"
                                 }), "Email me directly"]
@@ -303,6 +310,12 @@ function G() {
                             asChild: !0,
                             children: e.jsxs("a", {
                                 href: m.email,
+                                onClick: () => {
+                                    if (navigator.clipboard) {
+                                        navigator.clipboard.writeText("kaykid369@gmail.com").catch(() => {});
+                                        Toast.success("Email copied to clipboard: kaykid369@gmail.com");
+                                    }
+                                },
                                 children: [e.jsx(u, {
                                     className: "mr-1 h-4 w-4"
                                 }), "Email me directly"]

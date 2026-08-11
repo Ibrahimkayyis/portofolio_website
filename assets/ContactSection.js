@@ -2831,10 +2831,13 @@ function Et() {
         a(!0);
         try {
             const mailtoUrl = `mailto:${he.email}?subject=${encodeURIComponent("Portfolio Inquiry from " + w.data.name)}&body=${encodeURIComponent("Sender Email: " + w.data.email + "\n\n" + w.data.message)}`;
-            window.open(mailtoUrl, "_blank");
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(`${he.email}`).catch(() => {});
+            }
+            window.location.href = mailtoUrl;
             t == null || t.capture("contact_form_submitted", {
                 message_length: w.data.message.length
-            }), G.success("Opening your email client to send message!"), i({
+            }), G.success(`Opening your email client! (${he.email} copied to clipboard)`), i({
                 name: "",
                 email: "",
                 message: ""
@@ -2884,12 +2887,18 @@ function Et() {
                         })]
                     }), c.jsxs("a", {
                         href: z.email,
-                        className: "group dossier-card block p-6 md:p-7",
+                        onClick: (e) => {
+                            if (navigator.clipboard) {
+                                navigator.clipboard.writeText(he.email).catch(() => {});
+                                G.success(`Email copied to clipboard: ${he.email}`);
+                            }
+                        },
+                        className: "group dossier-card block p-6 md:p-7 cursor-pointer",
                         children: [c.jsxs("div", {
                             className: "flex items-center justify-between",
                             children: [c.jsx("span", {
                                 className: "kicker text-muted-foreground",
-                                children: "Preferred"
+                                children: "Preferred — Click to copy email"
                             }), c.jsx(ze, {
                                 className: "h-4 w-4 text-muted-foreground transition-colors group-hover:text-primary"
                             })]
@@ -2898,6 +2907,7 @@ function Et() {
                             children: he.email
                         }), c.jsx("span", {
                             className: "kicker mt-3 block text-muted-foreground/60 normal-case tracking-normal",
+                            children: "Click to copy email address & open mail client"
                         })]
                     }), c.jsxs("div", {
                         className: "mt-8",

@@ -10,7 +10,8 @@ import {
     L as f,
     G as N,
     M as y,
-    r as m
+    r as m,
+    T as G
 } from "./index.js";
 import {
     Footer as v
@@ -339,6 +340,12 @@ const n = "https://ibrahimkayyis.github.io",
                                     })
                                 }), e.jsx("a", {
                                     href: r.email,
+                                    onClick: () => {
+                                        if (navigator.clipboard) {
+                                            navigator.clipboard.writeText("kaykid369@gmail.com").catch(() => {});
+                                            G.success("Email copied to clipboard: kaykid369@gmail.com");
+                                        }
+                                    },
                                     children: e.jsxs(i, {
                                         variant: "outline",
                                         size: "sm",
