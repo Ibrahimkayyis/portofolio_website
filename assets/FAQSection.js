@@ -31,29 +31,11 @@ const w = x("Plus", [
         re: /[\w.+-]+@[\w.-]+\.\w{2,}/,
         href: r => `mailto:${r}`
     }, {
-        re: /calendly\.com\/bnsaed\/meet/,
-        href: () => a.calendly
-    }, {
         re: /github\.com\/Ibrahimkayyis/,
         href: () => a.github
     }, {
         re: /linkedin\.com\/in\/ibrahimkayyis/,
         href: () => a.linkedin
-    }, {
-        re: /youtube\.com\/@Ibrahimkayyis/,
-        href: () => a.youtube
-    }, {
-        re: /flutter_cached_pdfview/,
-        href: () => "https://pub.dev/packages/flutter_cached_pdfview"
-    }, {
-        re: /\bpub\.dev\b/,
-        href: () => a.pubdev
-    }, {
-        re: /Stack Overflow/,
-        href: () => a.stackoverflow
-    }, {
-        re: /\b[Perusahaan Anda]\b/,
-        href: () => b.companyUrl
     }, {
         re: /\brobots\.txt\b/,
         href: () => "/robots.txt"

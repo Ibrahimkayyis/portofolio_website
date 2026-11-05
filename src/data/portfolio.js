@@ -25,8 +25,8 @@ export const portfolioData = {
     twitterUsername: "Ibrahimkayyis",
     youtube: "https://www.youtube.com/@Ibrahimkayyis",
     youtubeUsername: "Ibrahimkayyis",
-    stackoverflow: "https://stackoverflow.com/users/1234567/ibrahim-kayyis",
-    pubdev: "https://pub.dev/publishers/ibrahimkayyis.dev/packages"
+    stackoverflow: "",
+    pubdev: ""
   },
   
   // Professional details

@@ -10093,11 +10093,11 @@ const Ve = {
         linkedin: "https://www.linkedin.com/in/ibrahimkayyis/",
         linkedinRecommendations: "https://www.linkedin.com/in/ibrahimkayyis/details/recommendations/",
         youtube: "https://www.youtube.com/@Ibrahimkayyis",
-        stackoverflow: "https://stackoverflow.com/users/1234567/ibrahim-kayyis",
-        pubdev: "https://pub.dev/publishers/ibrahimkayyis.dev/packages",
+        stackoverflow: "",
+        pubdev: "",
         cv: "/CV/Ibrahim_Kayyis_cv_flutter.pdf",
         email: "mailto:kaykid369@gmail.com",
-        calendly: "https://calendly.com/ibrahimkayyis/meet"
+        calendly: ""
     },
     Iv = [
         "I am a Mobile Developer specializing in Flutter, Dart, and Native Android (Kotlin). I focus on architecting clean, maintainable systems using Clean Architecture and Cubit (BLoC) state management so that every feature is scalable, robust, and easy to maintain.",
@@ -10216,155 +10216,8 @@ const Ve = {
         name: "Firebase",
         users: "Firestore & Cloud Sync"
     }],
-    gi = [{
-        name: "Saber Son",
-        title: "Flutter Developer · YouTuber",
-        relationship: "Reported directly to Ibrahim",
-        date: "2026-06-03",
-        initials: "SS",
-        image: "/recommendations/saber-son.jpg",
-        linkedin: "https://www.linkedin.com/in/saber-son-b100b4177/",
-        company: "[Perusahaan Anda]",
-        quote: "One of the things I admire most about Ibrahim is how supportive he is. Whenever I face a challenge, he never hesitates to put aside what he's doing and help me figure it out. What sets him apart is that he doesn't just solve the problem and move on — he takes the time to explain the solution, the reasoning behind it, and how to approach similar situations in the future. Thanks to his guidance, I've become much more confident and independent when tackling technical challenges."
-    }, {
-        name: "AlHassan Balousha",
-        title: "Senior Software Engineer · 9+ yrs scaling apps",
-        relationship: "Worked with Ibrahim on the same team",
-        date: "2026-02-16",
-        initials: "AB",
-        image: "/recommendations/alhassan-balousha.jpg",
-        linkedin: "https://www.linkedin.com/in/alhassan-balousha-9b7bb8114/",
-        company: "[Perusahaan Anda]",
-        quote: `Ibrahim is a highly accomplished Software Engineer and Tech Lead with strong executive-level technical leadership.
-
-He brings a strategic vision to building large-scale mobile applications, with deep expertise in designing scalable architectures capable of serving millions of users with stability and high performance. He combines strong engineering depth with disciplined execution, ensuring long-term product sustainability and technical excellence.
-
-What sets him apart: influential technical leadership and sound architectural decision-making; proven ability to build scalable, high-performance systems; effective team leadership and strong engineering culture; high productivity without compromising code quality or performance; and exceptional ability to solve complex problems under pressure.
-
-Ibrahim is a strategic technical asset to any organization seeking strong leadership and long-term product impact.`
-    }, {
-        name: "Fady Mondy",
-        title: "Engineering Manager at ID8 Media · Creator of TomatoPHP",
-        relationship: "Worked with Ibrahim on the same team",
-        date: "2026-01-24",
-        initials: "FM",
-        image: "/recommendations/fady-mondy.jpg",
-        linkedin: "https://www.linkedin.com/in/fadymondy/",
-        company: "[Perusahaan Anda]",
-        quote: "Ibrahim played a pivotal role in the success of the [Perusahaan Anda] mobile platform. His leadership of the mobile team was defined by technical excellence and a relentless focus on user experience. He successfully navigated complex integrations and maintained a high velocity of feature releases without compromising on code quality. He is a proactive leader who anticipates challenges before they arise, making him an invaluable asset to any engineering department."
-    }, {
-        name: "Mohammed Helaiwa",
-        title: "Full Stack Engineer at [Perusahaan Anda]",
-        relationship: "Worked with Ibrahim on the same team",
-        date: "2026-01-17",
-        initials: "MH",
-        image: "/recommendations/mohammed-helaiwa.jpg",
-        linkedin: "https://www.linkedin.com/in/me-helaiwa/",
-        company: "[Perusahaan Anda]",
-        quote: `I've had the pleasure of working with Ibrahim Kayyis, and I can confidently say he is one of the most reliable and skilled software engineers I've collaborated with. Ibrahim combines deep technical expertise in Flutter with a strong understanding of building scalable, high-quality applications, especially in the EdTech domain.
-
-What truly sets Ibrahim apart is his ability to think beyond just code. He approaches problems with a product mindset, balances performance with maintainability, and consistently delivers clean, well-architected solutions. As a Lead Software Engineer, he demonstrates excellent leadership, mentoring teammates, setting high engineering standards, and driving projects forward with clarity and ownership.
-
-Ibrahim is proactive, detail-oriented, and always eager to improve both the product and the team around him. Any organization would be fortunate to have him on board, and I highly recommend him for any role requiring strong technical leadership, Flutter expertise, and a passion for building impactful software.`
-    }, {
-        name: "Maher Al-Ghannam",
-        title: "Senior QA Engineer · ISTQB-CTFL",
-        relationship: "Worked with Ibrahim on different teams",
-        date: "2026-01-17",
-        initials: "MA",
-        image: "/recommendations/maher-al-ghannam.jpg",
-        linkedin: "https://www.linkedin.com/in/maher-alghannam/",
-        company: "[Perusahaan Anda]",
-        quote: "I highly recommend Ibrahim as a Flutter Developer Team Lead. He has strong expertise in Flutter development and consistently delivers high-quality, well-structured mobile applications. Beyond his technical skills, he is a supportive and effective leader who encourages collaboration, guides the team through challenges, and ensures projects are delivered on time with excellent quality. Working with him has been a great experience."
-    }, {
-        name: "Omar Sulieman",
-        title: "Growth & Performance Marketer",
-        relationship: "Worked with Ibrahim on different teams",
-        date: "2026-01-15",
-        initials: "OS",
-        image: "/recommendations/omar-sulieman.jpg",
-        linkedin: "https://www.linkedin.com/in/omar-sulieman-3b7861217/",
-        company: "[Perusahaan Anda]",
-        quote: `I've had the pleasure of working with Ibrahim, and he is genuinely one of the strongest software engineers I've collaborated with.
-
-He has deep hands-on expertise in Flutter, with a solid understanding of building scalable, high-performance mobile applications. What really sets him apart is his ability to think beyond implementation — he understands architecture, performance trade-offs, and long-term maintainability, which is critical for growing products.
-
-In the EdTech space, Ibrahim shows strong product awareness and a clear understanding of how technology should support learning outcomes, not just features. He's reliable, detail-oriented, and consistently delivers clean, well-structured code.
-
-On top of his technical skills, he's professional, easy to work with, and communicates clearly across technical and non-technical teams. Any team looking for a senior Flutter engineer or a strong technical lead would be lucky to have him.
-
-Highly recommended.`
-    }, {
-        name: "Ibrahim Shehata",
-        title: "Lead Software Engineer · Mobile & AI",
-        relationship: "Worked with Ibrahim on the same team",
-        date: "2025-11-16",
-        initials: "AS",
-        image: "/recommendations/abdelrahman-shehata.jpg",
-        linkedin: "https://www.linkedin.com/in/abdelrahman-shehata-9a20b41b1/",
-        company: "[Perusahaan Anda]",
-        quote: "As a Lead Software Engineer, one of his main strengths is problem solving in daily bugs. Highly recommended for lead tech companies, and you can rely on him for the highly advanced technologies."
-    }, {
-        name: "Haitham Essam",
-        title: "Senior Flutter Developer",
-        relationship: "Reported directly to Ibrahim",
-        date: "2025-10-06",
-        initials: "HE",
-        image: "/recommendations/haitham-essam.jpg",
-        linkedin: "https://www.linkedin.com/in/haitham-essam-b69b15332/",
-        company: "[Perusahaan Anda]",
-        quote: `I had the pleasure of working with Ibrahim Kayyis at [Perusahaan Anda]. From day one, Ibrahim impressed everyone with his professionalism, creativity, and problem-solving mindset. He was always the one who could turn a complex challenge into a smooth, well-structured solution — and did it all with a positive attitude that made working together genuinely enjoyable.
-
-Beyond his technical skills, Ibrahim is also a great teammate who supports others and spreads positive energy in the workplace. I'm truly glad to have had the chance to work with him, and I highly recommend him for any future opportunity.`
-    }, {
-        name: "Islam Khalil",
-        title: "Software Engineer · Flutter Developer",
-        relationship: "Ibrahim was senior but didn't manage directly",
-        date: "2024-03-27",
-        initials: "IK",
-        image: "/recommendations/islam-khalil.jpg",
-        linkedin: "https://www.linkedin.com/in/islam-khalil-919278b2/",
-        company: "[Perusahaan Anda]",
-        quote: "I highly recommend Ibrahim for his exceptional creativity, passion for assisting others, and remarkable proficiency in providing quick programming solutions, specifically in Dart and both Android and iOS app development. His expertise has been invaluable, and I have greatly benefited from his guidance."
-    }, {
-        name: "Abdullah Ehab",
-        title: "Senior Flutter Developer at Sigma EMEA",
-        relationship: "Worked with Ibrahim on the same team",
-        date: "2022-05-30",
-        initials: "AE",
-        image: "/recommendations/abdullah-ehab.jpg",
-        linkedin: "https://www.linkedin.com/in/abdullah-ehab/",
-        company: "Happy Trip",
-        quote: "Ibrahim is an added value to any development team. He is a good team player, very dedicated, high ownership, motivated and focused on the target. Also a quick learner and fast troubleshooter."
-    }, {
-        name: "Mohamed Reda",
-        title: "AI Engineer in Healthcare",
-        relationship: "Worked with Ibrahim on the same team",
-        date: "2020-11-05",
-        initials: "MR",
-        image: "/recommendations/mohamed-reda.jpg",
-        linkedin: "https://www.linkedin.com/in/mohamed-r-870271bb/",
-        company: "FekraSoft Co",
-        quote: "Ibrahim is one of the fastest learners I've worked with, and I'm absolutely confident that he would be a great fit for any company."
-    }],
-    Mv = [{
-        title: "Building Unstoppable Offline-First Apps",
-        event: "Flutter Night @ Swypex",
-        eventUrl: "https://luma.com/kka8yaw7",
-        role: "Speaker",
-        venue: "Swypex · Smart Village",
-        location: "Giza, Indonesia",
-        date: "2025-12-27",
-        event: "Flutter Night",
-        date: "Dec 2025",
-        location: "Surabaya",
-        type: "Keynote",
-        description: "How to design Flutter apps that keep working offline with Hive local storage and background Firestore sync.",
-        slidesUrl: "https://github.com/Ibrahimkayyis",
-        videoUrl: "https://github.com/Ibrahimkayyis",
-        image: "/speaking/flutter-night-swypex.webp",
-        imageAlt: "Ibrahim Kayyis presenting at Flutter Night"
-    }],
+    gi = [],
+    Mv = [],
     bi = [{
         q: "Who is Ibrahim Kayyis?",
         a: "Ibrahim Kayyis is a Mobile Developer with a background in Information Systems from Universitas Negeri Surabaya (GPA: 3.85/4.00) specializing in Flutter and Dart mobile development. He completed a 5-month internship as a Flutter Mobile Developer at PT Neural Technologies Indonesia and graduated from the Bangkit Academy Mobile Development Cohort led by Google, GoTo, and Traveloka."
@@ -14969,7 +14822,7 @@ jobs:
 
             // Post comment
             const errors = process.env.ERROR_DETAILS;
-            const body = \`## ❌ Dart Analysis Failed\\n\\nPlease fix the analysis issues before merging.\\n\\n<details>\\n<summary>Errors found</summary>\\n\\n\\\`\\\`\\\`\\n\${errors}\\n\\\`\\\`\\\`\\n\\n</details>\\n\\n@\${context.payload.pull_request.user.login} \\n <img src="https://your-cdn.example.com/dart-analysis-failed.png" width="66px"/>\`;
+            const body = \`## ❌ Dart Analysis Failed\\n\\nPlease fix the analysis issues before merging.\\n\\n<details>\\n<summary>Errors found</summary>\\n\\n\\\`\\\`\\\`\\n\${errors}\\n\\\`\\\`\\\`\\n\\n</details>\\n\\n@\${context.payload.pull_request.user.login} \\n <img src="https://your-cdn.domain.com/dart-analysis-failed.png" width="66px"/>\`;
 
             await github.rest.issues.createComment({
               owner,
@@ -17179,7 +17032,7 @@ jobs:
 
 Most Flutter advice is written for the app you start with: one \`lib/\` folder, a handful of screens, a \`main.dart\` you can read top to bottom. That advice quietly stops working somewhere around the point where no single person has read the whole codebase anymore.
 
-I lead mobile on **[[Perusahaan Anda]](/case-studies/istoria)**, a story-based English-learning app on iOS and Android. Over a few years it has grown into roughly **220,000 lines of Dart across ~1,300 files**, **60+ feature modules**, and nearly **30,000 commits** — built and maintained by a small team, shipping weekly, at a 99.9% crash-free rate to **5M+ learners**. At that size, the enemy isn't any single hard problem. It's *entropy*: the slow drift where every change gets a little riskier, every merge a little scarier, and onboarding a new engineer takes a little longer than it did last quarter.
+I lead mobile on **production mobile applications**, a story-based English-learning app on iOS and Android. Over a few years it has grown into roughly **220,000 lines of Dart across ~1,300 files**, **60+ feature modules**, and nearly **30,000 commits** — built and maintained by a small team, shipping weekly, at a 99.9% crash-free rate to **active users**. At that size, the enemy isn't any single hard problem. It's *entropy*: the slow drift where every change gets a little riskier, every merge a little scarier, and onboarding a new engineer takes a little longer than it did last quarter.
 
 Managing a large Flutter codebase is mostly about fighting that entropy with structure. The practices below are the ones that actually held up under load: **feature-first modularization with a hard \`core\`/\`features\` boundary; one predictable data-flow layering in every module; disciplined dependency injection; code generation to delete boilerplate; conventions enforced by tooling instead of reviewers; owning the dependencies you can't afford to have break; treating offline-first as an architecture rather than a feature; and automating the repository itself so the boring, error-prone chores stop landing on people.** None of them are exotic. The discipline is in applying them *consistently* across 60 modules, not just the three you touched this week.
 
@@ -17318,7 +17171,7 @@ The difference between that and \`"something went wrong"\` is the difference bet
 
 A large app leans on a lot of packages, and the pub ecosystem is uneven — some critical dependencies are lightly maintained, or stall on exactly the platform bug that's blocking your release. When a dependency you rely on goes quiet, you have three options: wait, rip it out, or take control.
 
-For the ones that matter, take control: **fork the package, fix or patch it, and point your \`pubspec\` at your fork.** I maintain several forks of packages [Perusahaan Anda] depends on for exactly this reason — a shimmer effect, a showcase overlay, a layout helper — where upstream couldn't move as fast as our release cycle needed. You give up "just run \`pub upgrade\`," but you gain the ability to ship on your own schedule instead of waiting on a maintainer who has a day job. At scale, not being blocked is worth a lot.
+For the ones that matter, take control: **fork the package, fix or patch it, and point your \`pubspec\` at your fork.** I maintain several forks of packages Production App depends on for exactly this reason — a shimmer effect, a showcase overlay, a layout helper — where upstream couldn't move as fast as our release cycle needed. You give up "just run \`pub upgrade\`," but you gain the ability to ship on your own schedule instead of waiting on a maintainer who has a day job. At scale, not being blocked is worth a lot.
 
 ## 7. Treat offline-first as an architecture, not a feature
 
@@ -17334,11 +17187,11 @@ So automate them. Small, sharp CI jobs that guard \`master\`, keep pull requests
 
 ## The payoff
 
-None of this is about being fancy. Every practice here trades a little up-front discipline for a codebase that stays *shippable* as it grows. On [Perusahaan Anda], that discipline is what let a small team take the release cycle from four weeks down to one, hold a 99.9% crash-free rate, and keep shipping new features into a 60-module app without the whole thing turning into a house of cards.
+None of this is about being fancy. Every practice here trades a little up-front discipline for a codebase that stays *shippable* as it grows. On Production App, that discipline is what let a small team take the release cycle from four weeks down to one, hold a 99.9% crash-free rate, and keep shipping new features into a 60-module app without the whole thing turning into a house of cards.
 
 Large Flutter codebases don't fail because Flutter can't scale. They fail because structure decays faster than features get added. Pick a shape, enforce it with machines instead of willpower, and keep the blast radius of any single change small. Do that consistently, and 220,000 lines can still feel like a codebase you understand.
 
-*Want the longer version of how these decisions played out in production? Read the [[Perusahaan Anda] case study](/case-studies/istoria).*
+*Want the longer version of how these decisions played out in production? Read the [Production App case study](/case-studies/istoria).*
 `
 }, { ...Fe("flutter-build-flavors-guide"),
     content: `
@@ -17356,12 +17209,12 @@ The naive way to handle this is a constant at the top of a file:
 
 \`\`\`dart
 // Don't do this.
-const apiBaseUrl = "https://api.example.com/"; // TODO: switch back to staging
+const apiBaseUrl = "https://api.domain.com/"; // TODO: switch back to staging
 \`\`\`
 
 That one commented-out line is how a debug build with a staging URL ends up in the App Store. The whole point of **flavors** is to delete that class of mistake: you pick an environment when you *build*, the tooling bakes the right configuration in, and there is no runtime toggle a human can leave in the wrong position.
 
-I lead mobile on **[[Perusahaan Anda]](/case-studies/istoria)**, a story-based English-learning app shipping to 5M+ learners on iOS and Android. We run three flavors — local, staging, and production — across a 60-module codebase, and the setup has caught more "wrong environment" mistakes than I can count. This guide is the generic version of what we do: the patterns, with invented examples, so you can lift them into any Flutter app.
+I lead mobile on **production mobile applications**, a story-based English-learning app shipping to active users on iOS and Android. We run three flavors — local, staging, and production — across a 60-module codebase, and the setup has caught more "wrong environment" mistakes than I can count. This guide is the generic version of what we do: the patterns, with invented examples, so you can lift them into any Flutter app.
 
 ## What a flavor actually is
 
@@ -17423,7 +17276,7 @@ The flavor picks *which* configuration, but the configuration itself shouldn't b
 \`\`\`json
 // staging.config.json
 {
-  "apiBaseUrl": "https://staging.example.com/",
+  "apiBaseUrl": "https://staging.domain.com/",
   "analyticsKey": "staging-a1b2c3",
   "enableDebugBanner": true,
   "featureNewOnboarding": true
@@ -17532,7 +17385,7 @@ Once flavors are wired properly, a whole category of incident simply stops happe
 
 That's the real value of build flavors. They cost a day to set up and they buy you a permanent guarantee that "which environment is this?" is answered by the build system, not by whoever last edited a constant. On a codebase shipping weekly to millions of users, that guarantee is worth far more than the day.
 
-*For the bigger picture on how [Perusahaan Anda] stays shippable at scale, see the [[Perusahaan Anda] case study](/case-studies/istoria) and the companion article on [managing large Flutter codebases](/articles/managing-large-flutter-codebases).*
+*For the bigger picture on how Production App stays shippable at scale, see the [Production App case study](/case-studies/istoria) and the companion article on [managing large Flutter codebases](/articles/managing-large-flutter-codebases).*
 `
 }, { ...Fe("offline-first-vs-local-first"),
     content: `
@@ -17601,7 +17454,7 @@ Pair that with an offline write queue — persist the request locally, return an
 
 **To move toward local-first**, you change *what's authoritative*. Instead of treating the local database as a disposable cache, you make it the primary store and use a sync engine that treats the device as a peer. Tools like **PowerSync** and ElectricSQL do exactly this: the SQLite database on the device is the thing your code reads and writes, and changes stream bidirectionally to the backend. For true multi-writer collaboration, you reach for CRDT libraries (Automerge, Yjs) so edits merge without a referee.
 
-At [[Perusahaan Anda]](/case-studies/offline-first-sync) the app is squarely **offline-first** for the catalog — the story content is server-authoritative, and the device holds a cache — while the learner's *own* progress leans local-first: your streaks, completed chapters, and stage progress live on the device in a local database, and PowerSync reconciles them in the background. That split is deliberate, and it's also the norm: pick the model per data type, not for the whole app.
+At offline-first mobile applications the app is squarely **offline-first** for the catalog — the story content is server-authoritative, and the device holds a cache — while the learner's *own* progress leans local-first: your streaks, completed chapters, and stage progress live on the device in a local database, and PowerSync reconciles them in the background. That split is deliberate, and it's also the norm: pick the model per data type, not for the whole app.
 
 ## Which one do you actually need?
 
@@ -17627,26 +17480,19 @@ const Xd = "Ibrahim Kayyis",
         "@type": "Person",
         "@id": `${bn}/#person`,
         name: Xd,
-        alternateName: ["Ibrahimkayyis", "Ibrahim Kayyis", "عبدالرحمن سعيد", "عبد الرحمن سعيد", "بن سعيد"],
+        alternateName: ["Ibrahimkayyis", "Ibrahim Kayyis"],
         url: `${bn}/`,
         image: nv,
-        jobTitle: "Lead Mobile Engineer",
-        description: "Senior Mobile Engineer with 7 years shipping production Flutter apps for iOS and Android to 5M+ users — Flutter, Dart, BLoC/Cubit, Clean Architecture, and release engineering.",
-        disambiguatingDescription: "مهندس تطبيقات موبايل أول متخصص في تطوير تطبيقات Flutter لنظامي iOS و Android.",
-        email: "your.email@example.com",
-        worksFor: {
-            "@type": "Organization",
-            "@id": `${bn}/#istoria`,
-            name: "[Perusahaan Anda]",
-            url: "https://example.com/en"
-        },
+        jobTitle: "Mobile Developer (Flutter)",
+        description: "Mobile Developer specializing in Flutter, Dart, and Kotlin with hands-on experience at PT Neural Technologies Indonesia and Bangkit Academy.",
+        email: "kaykid369@gmail.com",
         address: {
             "@type": "PostalAddress",
-            addressLocality: "Indonesia",
+            addressLocality: "Surabaya",
             addressCountry: "ID"
         },
         knowsLanguage: ["English", "Indonesian"],
-        sameAs: ["https://github.com/Ibrahimkayyis", "https://www.linkedin.com/in/ibrahimkayyis/", "https://www.youtube.com/@Ibrahimkayyis", "https://stackoverflow.com/users/1234567/ibrahim-kayyis", "https://pub.dev/publishers/ibrahimkayyis.dev/packages"]
+        sameAs: ["https://github.com/Ibrahimkayyis", "https://www.linkedin.com/in/ibrahimkayyis/"]
     },
     av = {
         "@type": "Organization",
@@ -17659,7 +17505,7 @@ const Xd = "Ibrahim Kayyis",
             width: 512,
             height: 512
         },
-        sameAs: ["https://github.com/Ibrahimkayyis", "https://www.linkedin.com/in/ibrahimkayyis/", "https://www.youtube.com/@Ibrahimkayyis", "https://stackoverflow.com/users/1234567/ibrahim-kayyis", "https://pub.dev/publishers/ibrahimkayyis.dev/packages"]
+        sameAs: ["https://github.com/Ibrahimkayyis", "https://www.linkedin.com/in/ibrahimkayyis/"]
     },
     _i = {
         Flutter: "https://www.wikidata.org/wiki/Q39072787",

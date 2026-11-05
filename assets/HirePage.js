@@ -37,8 +37,8 @@ import "./clock.js";
 import "./SectionHeader.js";
 import "./arrow-up-right.js";
 const s = "https://ibrahimkayyis.github.io/hire/",
-    d = "Hire a Senior Flutter Engineer & Fractional Mobile Lead | Ibrahim Kayyis",
-    i = "Hire Ibrahim Kayyis — senior Flutter engineer and fractional mobile lead. 5M+ users, 99.9% crash-free, 350+ releases. Remote worldwide or Gulf & Indonesia.",
+    d = "Hire a Mobile Developer (Flutter & Android) | Ibrahim Kayyis",
+    i = "Hire Ibrahim Kayyis — Mobile Developer specializing in Flutter, Dart, and Kotlin. Clean Architecture, BLoC/Cubit, REST API integration. Open to junior, entry-level, and internship roles.",
     f = b.filter(a => /manager|lead|cto|founder|head/i.test(a.title)).slice(0, 2),
     M = f.reduce((a, h, r, l) => h.date > l[a].date ? r : a, 0);
 
@@ -68,8 +68,8 @@ function G() {
         "@context": "https://schema.org",
         "@type": "Service",
         "@id": "https://ibrahimkayyis.github.io/hire/#service",
-        name: "Senior Flutter development and mobile engineering leadership",
-        serviceType: "Mobile app development and engineering leadership (Flutter)",
+        name: "Mobile app development (Flutter & Android)",
+        serviceType: "Mobile app development (Flutter & Android)",
         description: i,
         url: s,
         provider: {

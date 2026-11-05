@@ -100,7 +100,7 @@ const n = "https://ibrahimkayyis.github.io",
             "@id": `${n}/#person`,
             name: o.name,
             url: `${n}/`,
-            description: "Senior Mobile Engineer with 7 years shipping production iOS and Android apps to 5M+ users using Flutter, Dart, Clean Architecture",
+            description: "Mobile Developer specializing in Flutter, Dart, and Kotlin with experience at PT Neural Technologies Indonesia and Bangkit Academy",
             image: `${n}/avatar-512.webp`,
             jobTitle: o.currentTitle,
             worksFor: {
@@ -118,11 +118,11 @@ const n = "https://ibrahimkayyis.github.io",
                 contactType: "General",
                 email: o.email
             },
-            sameAs: [r.github, r.linkedin, r.youtube, r.stackoverflow, r.pubdev],
+            sameAs: [r.github, r.linkedin],
             hasDocument: {
                 "@type": "MediaObject",
                 name: "Ibrahim Kayyis - CV/Resume",
-                description: "Complete CV and resume of Ibrahim Kayyis, Senior Mobile Engineer",
+                description: "Complete CV and resume of Ibrahim Kayyis, Mobile Developer",
                 url: s,
                 encodingFormat: "application/pdf"
             }
@@ -145,10 +145,10 @@ const n = "https://ibrahimkayyis.github.io",
             className: "min-h-screen bg-background",
             children: [e.jsxs(g, {
                 children: [e.jsx("title", {
-                    children: "CV — Ibrahim Kayyis | Senior Mobile Engineer"
+                    children: "CV — Ibrahim Kayyis | Mobile Developer (Flutter)"
                 }), e.jsx("meta", {
                     name: "description",
-                    content: "The CV / resume of Ibrahim Kayyis — Senior Mobile Engineer, 7+ years shipping Flutter apps to 5M+ users. Download as PDF or read the markdown version."
+                    content: "The CV / resume of Ibrahim Kayyis — Mobile Developer (Flutter & Android) with hands-on internship experience at PT Neural Technologies Indonesia and Bangkit Academy."
                 }), e.jsx("meta", {
                     name: "keywords",
                     content: "CV, resume, Ibrahim Kayyis, mobile engineer, Flutter, Dart, iOS, Android, software engineer"
