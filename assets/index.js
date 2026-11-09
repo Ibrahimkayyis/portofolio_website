@@ -10090,8 +10090,8 @@ const Ve = {
     hy = 7,
     pe = {
         github: "https://github.com/Ibrahimkayyis",
-        linkedin: "https://www.linkedin.com/in/ibrahimkayyis/",
-        linkedinRecommendations: "https://www.linkedin.com/in/ibrahimkayyis/details/recommendations/",
+        linkedin: "https://www.linkedin.com/in/ibrahim-kayyis-43b362311/",
+        linkedinRecommendations: "https://www.linkedin.com/in/ibrahim-kayyis-43b362311/details/recommendations/",
         youtube: "https://www.youtube.com/@Ibrahimkayyis",
         stackoverflow: "",
         pubdev: "",
@@ -10101,23 +10101,36 @@ const Ve = {
     },
     Iv = [
         "I am a Mobile Developer specializing in Flutter, Dart, and Native Android (Kotlin). I focus on architecting clean, maintainable systems using Clean Architecture and Cubit (BLoC) state management so that every feature is scalable, robust, and easy to maintain.",
-        "During my 5-month internship at PT Neural Technologies Indonesia, I contributed to an internal enterprise Flutter application inside a Melos-managed monorepo. Through the Bangkit Academy mobile development cohort (led by Google, GoTo, and Traveloka), I deepened my native Android expertise and collaborated on AI-integrated mobile solutions like LensaKulitku.",
+        "As a freelance developer, I built and launched MyHalaqoh — a Flutter mobile app on the Apple App Store and Android serving 228 active students and 21 teachers for Pondok Pesantren Hidayatullah Luqman Al Hakim Surabaya. During my 5-month internship at PT Neural Technologies Indonesia, I contributed to an internal enterprise Flutter application in a Melos monorepo. Through Bangkit Academy (Google, GoTo, Traveloka), I deepened my native Android expertise.",
         "Whether building Qur'an memorization tracking platforms like MyHalaqoh or enterprise operational portals like REPORT, my goal remains constant: enforcing solid architectural boundaries, integrating robust REST APIs with Dio, and delivering intuitive, crash-free user experiences."
     ],
     La = [{
         value: "3.85",
         label: "GPA / 4.00"
     }, {
-        value: "9+",
-        label: "Certifications earned"
+        value: "228+",
+        label: "Active app users"
     }, {
         value: "5 Mo",
         label: "Flutter internship"
     }, {
-        value: "2",
-        label: "Platforms mastered"
+        value: "9+",
+        label: "Certifications earned"
     }],
     Dv = [{
+        role: "Freelance Mobile Developer",
+        company: "Pondok Pesantren Hidayatullah Luqman Al Hakim Surabaya",
+        companyUrl: "https://myhalaqoh.com/",
+        context: "School & Pesantren Management",
+        location: "Surabaya, Indonesia",
+        period: "2026",
+        stack: ["Flutter", "Dart", "Clean Architecture", "Cubit", "Firebase Firestore", "Hive", "Next.js", "TypeScript", "Tailwind CSS"],
+        highlights: [
+            "Built and launched MyHalaqoh, a Flutter app for Quran memorization (tahfidz) tracking and halaqoh attendance, published on the Apple App Store and released for Android (APK) to 228 active students and 21 teachers.",
+            "Implemented barcode attendance scanning, PDF reports, push notifications, and offline-first sync (Hive, Firebase Firestore) using Clean Architecture and Cubit.",
+            "Built a Next.js 16 and TypeScript admin web panel with Firebase and Tailwind CSS to manage students, teachers, halaqoh groups, attendance, and memorization progress, including PDF reports and Vitest tests."
+        ]
+    }, {
         role: "Mobile Developer Intern (Flutter)",
         company: "PT Neural Technologies Indonesia",
         companyUrl: "",
@@ -10172,10 +10185,11 @@ const Ve = {
     fy = [{
         title: "MyHalaqoh",
         category: "featured",
-        description: "Digital backbone for Qur'an memorization tracking & halaqoh attendance management in pesantren. Built with Flutter, Clean Architecture, Cubit, Hive, and Firebase.",
+        description: "Digital backbone for Qur'an memorization tracking & halaqoh attendance management in pesantren. Built with Flutter, Clean Architecture, Cubit, Hive, and Firebase. Published on the Apple App Store and Android, serving 228 active students and 21 teachers.",
         image: "/project-images/my_halaqoh.png",
         tags: ["Flutter", "Dart", "Clean Arch", "Cubit", "Firebase", "Hive"],
         github: "https://github.com/Ibrahimkayyis/my_halaqoh",
+        demo: "https://myhalaqoh.com/",
         caseStudySlug: "my-halaqoh"
     }, {
         title: "LensaKulitku",
@@ -10548,7 +10562,7 @@ function yy({
                     asChild: !0,
                     className: "hidden xl:inline-flex",
                     children: i.jsx("a", {
-                        href: "https://www.linkedin.com/in/ibrahimkayyis/",
+                        href: "https://www.linkedin.com/in/ibrahim-kayyis-43b362311/",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         "aria-label": "LinkedIn profile",
@@ -13297,7 +13311,7 @@ function Pw({
                     })]
                 }), i.jsxs(xe, {
                     value: "linkedin",
-                    onSelect: () => h("https://www.linkedin.com/in/ibrahimkayyis/"),
+                    onSelect: () => h("https://www.linkedin.com/in/ibrahim-kayyis-43b362311/"),
                     children: [i.jsx(Io, {
                         className: "mr-2 text-muted-foreground"
                     }), i.jsx("span", {
@@ -17492,7 +17506,7 @@ const Xd = "Ibrahim Kayyis",
             addressCountry: "ID"
         },
         knowsLanguage: ["English", "Indonesian"],
-        sameAs: ["https://github.com/Ibrahimkayyis", "https://www.linkedin.com/in/ibrahimkayyis/"]
+        sameAs: ["https://github.com/Ibrahimkayyis", "https://www.linkedin.com/in/ibrahim-kayyis-43b362311/"]
     },
     av = {
         "@type": "Organization",
@@ -17505,7 +17519,7 @@ const Xd = "Ibrahim Kayyis",
             width: 512,
             height: 512
         },
-        sameAs: ["https://github.com/Ibrahimkayyis", "https://www.linkedin.com/in/ibrahimkayyis/"]
+        sameAs: ["https://github.com/Ibrahimkayyis", "https://www.linkedin.com/in/ibrahim-kayyis-43b362311/"]
     },
     _i = {
         Flutter: "https://www.wikidata.org/wiki/Q39072787",

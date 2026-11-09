@@ -31,7 +31,7 @@ const c = ["my-halaqoh", "lensa-kulitku", "our-story", "report"],
     l = [{
         slug: "my-halaqoh",
         title: "MyHalaqoh — Quran Memorization & Pesantren Management",
-        subtitle: "Digital backbone for Qur'an memorization tracking & attendance management in pesantren",
+        subtitle: "Digital backbone for Qur'an memorization tracking & attendance management in pesantren (serving 228 students & 21 teachers)",
         description: "Designed & engineered MyHalaqoh, an offline-first Flutter mobile application enabling role-based management (Admin, Teachers, Parents) for Qur'an memorization progress, multi-session attendance with barcode scanning, and automated push notifications.",
         date: "2026-06-15",
         readTime: "6 min read",
@@ -41,21 +41,24 @@ const c = ["my-halaqoh", "lensa-kulitku", "our-story", "report"],
         timeline: "2024 — Present",
         platforms: ["Android", "iOS"],
         links: [{
+            label: "Official Website",
+            url: "https://myhalaqoh.com/"
+        }, {
             label: "View Repository on GitHub",
             url: "https://github.com/Ibrahimkayyis/my_halaqoh"
         }],
         metrics: [{
-            value: "114",
-            label: "Surahs Tracked"
+            value: "228",
+            label: "Active Students"
+        }, {
+            value: "21",
+            label: "Teachers"
         }, {
             value: "100%",
             label: "Offline Sync"
         }, {
-            value: "4",
-            label: "User Roles"
-        }, {
-            value: "5",
-            label: "Daily Sessions"
+            value: "2",
+            label: "Platforms (iOS/Android)"
         }],
         problem: `Many pesantren (Islamic boarding schools) in Indonesia still rely on paper-based systems for daily operations — recording Qur'an memorization progress on handwritten cards, tracking attendance in physical logbooks, and communicating student progress to parents through informal channels. This manual approach is error-prone, hard to aggregate, and offers no real-time visibility.`,
         constraints: `Key architectural constraints:

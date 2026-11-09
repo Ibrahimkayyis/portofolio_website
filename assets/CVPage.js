@@ -286,6 +286,21 @@ const n = "https://ibrahimkayyis.github.io",
                                 children: [e.jsxs("div", {
                                     children: [e.jsx("h3", {
                                         className: "font-semibold",
+                                        children: "Freelance Mobile Developer"
+                                    }), e.jsx("p", {
+                                        className: "text-sm text-muted-foreground",
+                                        children: "Pondok Pesantren Hidayatullah Luqman Al Hakim Surabaya · 2026"
+                                    }), e.jsxs("ul", {
+                                        className: "mt-2 text-sm space-y-1 list-disc list-inside",
+                                        children: [
+                                            e.jsx("li", { children: "Built and launched MyHalaqoh, a Flutter app for Quran memorization (tahfidz) tracking and halaqoh attendance, published on the Apple App Store and released for Android (APK) to 228 active students and 21 teachers." }),
+                                            e.jsx("li", { children: "Implemented barcode attendance scanning, PDF reports, push notifications, and offline-first sync (Hive, Firebase Firestore) using Clean Architecture and Cubit." }),
+                                            e.jsx("li", { children: "Built a Next.js 16 and TypeScript admin web panel with Firebase and Tailwind CSS to manage students, teachers, halaqoh groups, attendance, and memorization progress, including PDF reports and Vitest tests." })
+                                        ]
+                                    })]
+                                }), e.jsxs("div", {
+                                    children: [e.jsx("h3", {
+                                        className: "font-semibold",
                                         children: "Mobile Developer Intern (Flutter)"
                                     }), e.jsx("p", {
                                         className: "text-sm text-muted-foreground",

@@ -20,8 +20,8 @@ export const portfolioData = {
   socials: {
     github: "https://github.com/Ibrahimkayyis",
     githubUsername: "Ibrahimkayyis",
-    linkedin: "https://www.linkedin.com/in/ibrahimkayyis",
-    linkedinUsername: "ibrahimkayyis",
+    linkedin: "https://www.linkedin.com/in/ibrahim-kayyis-43b362311",
+    linkedinUsername: "ibrahim-kayyis-43b362311",
     twitterUsername: "Ibrahimkayyis",
     youtube: "https://www.youtube.com/@Ibrahimkayyis",
     youtubeUsername: "Ibrahimkayyis",

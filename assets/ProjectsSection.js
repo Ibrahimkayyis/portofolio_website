@@ -48,7 +48,7 @@ function m(r) {
 }
 
 function n(r) {
-    return r.includes("pub.dev") ? "pub.dev" : r.includes("play.google") ? "Google Play" : r.includes("istoria") ? "Visit Site" : "Live Demo"
+    return r.includes("myhalaqoh") ? "Official Website" : r.includes("pub.dev") ? "pub.dev" : r.includes("play.google") ? "Google Play" : "Live Demo"
 }
 
 function N({
@@ -112,8 +112,8 @@ function N({
                 }, h))
             }), e.jsxs("div", {
                 className: "flex flex-wrap items-center gap-2",
-                children: [o && e.jsxs("a", {
-                    href: o,
+                children: [r.demo && e.jsxs("a", {
+                    href: r.demo,
                     target: "_blank",
                     rel: "noopener noreferrer",
                     onClick: () => a == null ? void 0 : a.capture("project_link_clicked", {
@@ -121,12 +121,22 @@ function N({
                         link_type: "demo",
                         demo_label: n(r.demo)
                     }),
+                    className: "inline-flex items-center gap-1.5 px-3 py-1.5 border border-primary/50 bg-primary/10 kicker text-primary transition-colors hover:border-primary hover:bg-primary/20 hover:text-primary text-xs font-medium",
+                    children: [e.jsx(k, {
+                        className: "h-3 w-3"
+                    }), n(r.demo)]
+                }), r.github && e.jsxs("a", {
+                    href: r.github,
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    onClick: () => a == null ? void 0 : a.capture("project_link_clicked", {
+                        project_title: r.title,
+                        link_type: "github"
+                    }),
                     className: "inline-flex items-center gap-1.5 px-3 py-1.5 border border-border bg-background kicker text-foreground transition-colors hover:border-primary hover:text-primary text-xs",
-                    children: [r.demo && n(r.demo) !== "Live Demo" ? e.jsx(k, {
+                    children: [e.jsx(C, {
                         className: "h-3 w-3"
-                    }) : e.jsx(b, {
-                        className: "h-3 w-3"
-                    }), r.demo ? n(r.demo) : "View project"]
+                    }), "GitHub"]
                 }), r.caseStudySlug && e.jsxs(p, {
                     to: `/case-studies/${r.caseStudySlug}/`,
                     "aria-label": `Read case study: ${r.title}`,

@@ -110,7 +110,7 @@ function v() {
         isInView: t
     } = x({
         margin: "-100px"
-    }), [n, l] = g.useState(!1), i = 2, r = d.slice(0, i), c = d.slice(i);
+    }), [n, l] = g.useState(!1), i = 3, r = d.slice(0, i), c = d.slice(i);
     return e.jsx("section", {
         id: "experience",
         className: "py-14 md:py-20 bg-muted/20",
@@ -128,7 +128,7 @@ function v() {
                         children: "mobile development."
                     })]
                 }),
-                description: "Real-world internship experience at PT Neural Technologies Indonesia and Google-backed Bangkit Academy cohort."
+                description: "Production mobile apps, enterprise internship at PT Neural Technologies Indonesia, and Google-backed Bangkit Academy cohort."
             }), e.jsxs("div", {
                 className: "border-b border-border",
                 children: [r.map((a, o) => e.jsx(m, {
