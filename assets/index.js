@@ -12178,7 +12178,7 @@ function Md(e = {}) {
 function Yy(e) {
     return e >= 1e6 ? `${(e/1e6).toFixed(0)}M+` : e >= 1e3 ? `${(e/1e3).toFixed(0)}K+` : `${e}+`
 }
-const Fd = fy.filter(e => e.category === "open-source"),
+const Fd = [],
     Si = Fd.reduce((e, t) => e + (t.downloads ?? 0), 0),
     Ei = Fd.reduce((e, t) => e + (t.likes ?? 0), 0);
 

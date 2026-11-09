@@ -85,7 +85,7 @@ function N({
                 children: String(d).padStart(2, "0")
             }), e.jsx("span", {
                 className: "absolute top-3 right-3 kicker text-[0.5rem] text-primary bg-background/80 backdrop-blur-sm px-1.5 py-0.5 border border-primary/30",
-                children: r.category === "open-source" ? "Open Source" : "Commercial"
+                children: r.category === "commercial" ? "Commercial" : "Featured"
             })]
         }), e.jsxs("div", {
             className: "flex flex-1 flex-col p-5 md:p-6",
@@ -173,7 +173,7 @@ function v({
                 children: String(t + 1).padStart(2, "0")
             }), e.jsx("span", {
                 className: "kicker text-[0.62rem] text-muted-foreground",
-                children: r.category === "open-source" ? "Open Source" : "Commercial"
+                children: r.category === "commercial" ? "Commercial" : "Featured"
             })]
         }), e.jsxs("a", {
             href: a,
@@ -274,7 +274,7 @@ function I() {
                 inView: t,
                 titleClassName: "text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.02]",
                 title: e.jsxs(e.Fragment, {
-                    children: ["Featured & open-source ", e.jsx("span", {
+                    children: ["Featured ", e.jsx("span", {
                         className: "italic text-primary",
                         children: "projects."
                     })]
@@ -310,7 +310,7 @@ function I() {
                         className: "h-4 w-4 transition-transform group-hover:translate-x-1"
                     })]
                 })
-            }), e.jsxs("p", {
+            }), g && g.length > 0 && e.jsxs("p", {
                 className: "mt-12 text-sm text-muted-foreground",
                 children: [e.jsx("span", {
                     className: "kicker text-foreground",
